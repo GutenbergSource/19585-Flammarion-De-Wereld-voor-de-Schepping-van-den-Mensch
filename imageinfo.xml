@@ -1,0 +1,690 @@
+<images xmlns="http://www.gutenberg.ph/2006/schemas/imageinfo">
+<image path="images/book.png" filesize="364" filedate="2009-07-22 18:13:49" width="16px" height="16px">
+</image>
+<image path="images/card.png" filesize="249" filedate="2010-02-11 22:03:56" width="16px" height="11px">
+</image>
+<image path="images/cover.jpg" filesize="108197" filedate="2005-11-09 20:19:24" width="495px" height="720px">
+</image>
+<image path="images/external.png" filesize="172" filedate="2009-07-22 16:17:10" width="12px" height="12px">
+</image>
+<image path="images/fig001.jpg" filesize="21332" filedate="2006-09-23 07:23:04" width="252px" height="302px">
+</image>
+<image path="images/fig002.jpg" filesize="119575" filedate="2006-09-23 07:26:10" width="537px" height="720px">
+</image>
+<image path="images/fig003.jpg" filesize="124080" filedate="2006-09-23 07:28:17" width="466px" height="720px">
+</image>
+<image path="images/fig004.jpg" filesize="110314" filedate="2006-09-23 07:30:49" width="608px" height="564px">
+</image>
+<image path="images/fig005.jpg" filesize="123877" filedate="2006-09-23 07:07:22" width="466px" height="720px">
+</image>
+<image path="images/fig006.jpg" filesize="113259" filedate="2006-09-23 07:33:19" width="462px" height="720px">
+</image>
+<image path="images/fig007.jpg" filesize="80583" filedate="2006-09-23 07:36:08" width="676px" height="479px">
+</image>
+<image path="images/fig008-1.jpg" filesize="15328" filedate="2006-09-23 07:38:36" width="149px" height="296px">
+</image>
+<image path="images/fig008-2.jpg" filesize="15506" filedate="2006-09-23 07:40:16" width="155px" height="299px">
+</image>
+<image path="images/fig008-3.jpg" filesize="16972" filedate="2006-09-23 07:41:39" width="167px" height="300px">
+</image>
+<image path="images/fig008-4.jpg" filesize="15708" filedate="2006-09-23 07:44:18" width="160px" height="299px">
+</image>
+<image path="images/fig009.jpg" filesize="97293" filedate="2006-09-23 07:46:43" width="466px" height="720px">
+</image>
+<image path="images/fig010.jpg" filesize="68473" filedate="2006-09-23 07:49:10" width="582px" height="405px">
+</image>
+<image path="images/fig011.jpg" filesize="116079" filedate="2006-09-23 07:51:10" width="508px" height="720px">
+</image>
+<image path="images/fig012.jpg" filesize="95047" filedate="2006-09-23 07:53:07" width="464px" height="720px">
+</image>
+<image path="images/fig013.jpg" filesize="88379" filedate="2006-09-23 07:54:58" width="573px" height="463px">
+</image>
+<image path="images/fig014.jpg" filesize="131165" filedate="2006-09-23 07:58:41" width="578px" height="457px">
+</image>
+<image path="images/fig015.jpg" filesize="32746" filedate="2006-09-23 08:01:38" width="386px" height="241px">
+</image>
+<image path="images/fig016.jpg" filesize="93835" filedate="2006-09-23 09:11:02" width="463px" height="720px">
+</image>
+<image path="images/fig017.jpg" filesize="65663" filedate="2006-09-23 09:13:05" width="576px" height="357px">
+</image>
+<image path="images/fig018.jpg" filesize="94666" filedate="2006-09-23 09:18:34" width="636px" height="476px">
+</image>
+<image path="images/fig019.jpg" filesize="106850" filedate="2006-09-23 09:16:27" width="482px" height="720px">
+</image>
+<image path="images/fig020.jpg" filesize="133480" filedate="2006-09-23 09:22:05" width="466px" height="720px">
+</image>
+<image path="images/fig021.jpg" filesize="55501" filedate="2006-09-23 09:24:44" width="453px" height="720px">
+</image>
+<image path="images/fig022.jpg" filesize="97452" filedate="2006-09-23 10:15:59" width="465px" height="720px">
+</image>
+<image path="images/fig023.jpg" filesize="21117" filedate="2006-09-23 10:17:47" width="361px" height="170px">
+</image>
+<image path="images/fig024.jpg" filesize="10676" filedate="2006-09-23 10:19:18" width="166px" height="164px">
+</image>
+<image path="images/fig025.jpg" filesize="35491" filedate="2006-09-23 10:21:22" width="567px" height="178px">
+</image>
+<image path="images/fig026.jpg" filesize="30904" filedate="2006-09-23 10:23:08" width="546px" height="308px">
+</image>
+<image path="images/fig027.jpg" filesize="86916" filedate="2006-09-23 10:25:37" width="575px" height="529px">
+</image>
+<image path="images/fig028.jpg" filesize="117237" filedate="2006-09-23 10:27:27" width="577px" height="459px">
+</image>
+<image path="images/fig029.jpg" filesize="15339" filedate="2006-09-23 10:29:15" width="272px" height="268px">
+</image>
+<image path="images/fig030.jpg" filesize="15676" filedate="2006-09-23 10:32:03" width="270px" height="262px">
+</image>
+<image path="images/fig031.jpg" filesize="15516" filedate="2006-09-23 10:34:19" width="361px" height="236px">
+</image>
+<image path="images/fig032.jpg" filesize="72717" filedate="2006-09-23 10:36:36" width="578px" height="388px">
+</image>
+<image path="images/fig033.jpg" filesize="136008" filedate="2006-09-23 10:40:57" width="466px" height="720px">
+</image>
+<image path="images/fig034.jpg" filesize="33521" filedate="2006-09-23 10:43:30" width="348px" height="344px">
+</image>
+<image path="images/fig035.jpg" filesize="15449" filedate="2006-09-23 10:44:54" width="385px" height="150px">
+</image>
+<image path="images/fig036.jpg" filesize="60327" filedate="2006-09-23 10:47:18" width="481px" height="458px">
+</image>
+<image path="images/fig037.jpg" filesize="53512" filedate="2006-09-23 10:48:45" width="461px" height="464px">
+</image>
+<image path="images/fig038.jpg" filesize="51456" filedate="2006-09-23 10:50:18" width="458px" height="464px">
+</image>
+<image path="images/fig039.jpg" filesize="77058" filedate="2006-09-23 10:52:03" width="468px" height="460px">
+</image>
+<image path="images/fig040.jpg" filesize="83740" filedate="2006-09-23 10:53:29" width="526px" height="376px">
+</image>
+<image path="images/fig041.jpg" filesize="48804" filedate="2006-09-23 10:55:38" width="410px" height="664px">
+</image>
+<image path="images/fig042.jpg" filesize="68503" filedate="2006-09-23 10:57:39" width="401px" height="576px">
+</image>
+<image path="images/fig043.jpg" filesize="26791" filedate="2006-09-23 10:59:27" width="306px" height="239px">
+</image>
+<image path="images/fig044.jpg" filesize="64032" filedate="2006-09-23 11:01:21" width="549px" height="435px">
+</image>
+<image path="images/fig045.jpg" filesize="14175" filedate="2006-09-23 11:03:23" width="556px" height="172px">
+</image>
+<image path="images/fig046.jpg" filesize="56481" filedate="2006-09-23 11:05:35" width="395px" height="606px">
+</image>
+<image path="images/fig047.jpg" filesize="46787" filedate="2006-09-23 11:07:50" width="372px" height="595px">
+</image>
+<image path="images/fig048.jpg" filesize="62559" filedate="2006-09-23 11:10:51" width="571px" height="566px">
+</image>
+<image path="images/fig049.jpg" filesize="129118" filedate="2006-09-23 11:12:16" width="550px" height="637px">
+</image>
+<image path="images/fig050.jpg" filesize="45970" filedate="2006-09-23 11:14:17" width="410px" height="523px">
+</image>
+<image path="images/fig051.jpg" filesize="8286" filedate="2006-09-23 11:16:34" width="461px" height="116px">
+</image>
+<image path="images/fig052.jpg" filesize="91023" filedate="2006-09-23 11:17:58" width="580px" height="461px">
+</image>
+<image path="images/fig053.jpg" filesize="19196" filedate="2006-09-23 11:19:34" width="571px" height="101px">
+</image>
+<image path="images/fig054.jpg" filesize="10568" filedate="2006-09-23 11:21:05" width="575px" height="73px">
+</image>
+<image path="images/fig055.jpg" filesize="131578" filedate="2006-09-23 11:22:53" width="581px" height="547px">
+</image>
+<image path="images/fig056.jpg" filesize="87656" filedate="2006-09-23 11:25:11" width="577px" height="497px">
+</image>
+<image path="images/fig057.jpg" filesize="133427" filedate="2006-09-23 11:26:59" width="575px" height="578px">
+</image>
+<image path="images/fig058.jpg" filesize="45490" filedate="2006-09-23 11:28:26" width="506px" height="367px">
+</image>
+<image path="images/fig059.jpg" filesize="85531" filedate="2006-09-23 11:31:57" width="574px" height="429px">
+</image>
+<image path="images/fig060.jpg" filesize="46773" filedate="2006-09-23 11:36:49" width="577px" height="576px">
+</image>
+<image path="images/fig061.jpg" filesize="133677" filedate="2006-09-23 11:39:21" width="468px" height="720px">
+</image>
+<image path="images/fig062.jpg" filesize="116449" filedate="2006-09-23 11:42:31" width="467px" height="720px">
+</image>
+<image path="images/fig063.jpg" filesize="122366" filedate="2006-09-23 11:45:24" width="464px" height="720px">
+</image>
+<image path="images/fig064.jpg" filesize="134555" filedate="2006-09-23 11:47:01" width="469px" height="720px">
+</image>
+<image path="images/fig065.jpg" filesize="31746" filedate="2006-09-23 11:49:14" width="339px" height="263px">
+</image>
+<image path="images/fig066.jpg" filesize="100418" filedate="2006-09-23 11:51:27" width="524px" height="603px">
+</image>
+<image path="images/fig067.jpg" filesize="123525" filedate="2006-09-23 11:54:42" width="576px" height="667px">
+</image>
+<image path="images/fig068.jpg" filesize="20915" filedate="2006-09-23 11:56:48" width="527px" height="281px">
+</image>
+<image path="images/fig069.jpg" filesize="27392" filedate="2006-09-23 11:58:32" width="585px" height="296px">
+</image>
+<image path="images/fig070.jpg" filesize="57303" filedate="2006-09-23 12:01:15" width="426px" height="630px">
+</image>
+<image path="images/fig071.jpg" filesize="68637" filedate="2006-09-23 12:02:54" width="454px" height="651px">
+</image>
+<image path="images/fig072.jpg" filesize="67381" filedate="2006-09-23 12:04:28" width="423px" height="427px">
+</image>
+<image path="images/fig073.jpg" filesize="38704" filedate="2006-09-23 12:06:06" width="573px" height="272px">
+</image>
+<image path="images/fig074.jpg" filesize="46809" filedate="2006-09-23 12:08:49" width="386px" height="367px">
+</image>
+<image path="images/fig075.jpg" filesize="21487" filedate="2006-09-23 12:10:03" width="440px" height="173px">
+</image>
+<image path="images/fig076.jpg" filesize="38268" filedate="2006-09-23 12:11:18" width="427px" height="242px">
+</image>
+<image path="images/fig077.jpg" filesize="14962" filedate="2006-09-23 12:14:04" width="185px" height="266px">
+</image>
+<image path="images/fig078.jpg" filesize="30464" filedate="2006-09-23 12:15:35" width="574px" height="223px">
+</image>
+<image path="images/fig079.jpg" filesize="36060" filedate="2006-09-23 12:18:02" width="504px" height="720px">
+</image>
+<image path="images/fig080.jpg" filesize="107546" filedate="2006-09-23 12:20:18" width="466px" height="720px">
+</image>
+<image path="images/fig081.jpg" filesize="44348" filedate="2006-09-23 12:22:19" width="518px" height="362px">
+</image>
+<image path="images/fig082.jpg" filesize="115566" filedate="2006-09-23 12:24:36" width="585px" height="672px">
+</image>
+<image path="images/fig083.jpg" filesize="62248" filedate="2006-09-23 17:21:32" width="571px" height="332px">
+</image>
+<image path="images/fig084.jpg" filesize="134330" filedate="2006-09-23 17:23:32" width="539px" height="571px">
+</image>
+<image path="images/fig085.jpg" filesize="65016" filedate="2006-09-23 17:28:38" width="441px" height="720px">
+</image>
+<image path="images/fig085h.jpg" filesize="271803" filedate="2006-09-23 17:27:58" width="1024px" height="1671px">
+</image>
+<image path="images/fig086.jpg" filesize="28736" filedate="2006-09-23 17:30:53" width="577px" height="256px">
+</image>
+<image path="images/fig087.jpg" filesize="35455" filedate="2006-09-24 11:08:47" width="578px" height="320px">
+</image>
+<image path="images/fig088.jpg" filesize="117361" filedate="2006-09-24 11:10:44" width="573px" height="518px">
+</image>
+<image path="images/fig089.jpg" filesize="20420" filedate="2006-09-24 11:14:20" width="556px" height="121px">
+</image>
+<image path="images/fig090.jpg" filesize="23559" filedate="2006-09-24 11:16:35" width="578px" height="139px">
+</image>
+<image path="images/fig091.jpg" filesize="34108" filedate="2006-09-24 11:19:37" width="581px" height="273px">
+</image>
+<image path="images/fig092.jpg" filesize="35072" filedate="2006-09-24 11:23:07" width="569px" height="187px">
+</image>
+<image path="images/fig093.jpg" filesize="34211" filedate="2006-09-24 11:25:34" width="578px" height="209px">
+</image>
+<image path="images/fig094.jpg" filesize="53163" filedate="2006-09-24 16:07:49" width="574px" height="266px">
+</image>
+<image path="images/fig095.jpg" filesize="48800" filedate="2006-09-24 16:09:40" width="578px" height="280px">
+</image>
+<image path="images/fig096.jpg" filesize="47372" filedate="2006-09-24 16:11:25" width="581px" height="251px">
+</image>
+<image path="images/fig097.jpg" filesize="61910" filedate="2006-09-24 16:13:04" width="573px" height="268px">
+</image>
+<image path="images/fig098.jpg" filesize="66739" filedate="2006-09-24 16:16:32" width="573px" height="320px">
+</image>
+<image path="images/fig099.jpg" filesize="93142" filedate="2006-09-24 18:48:56" width="507px" height="720px">
+</image>
+<image path="images/fig099h.jpg" filesize="332177" filedate="2006-09-24 18:49:34" width="1024px" height="1454px">
+</image>
+<image path="images/fig100.jpg" filesize="88304" filedate="2006-09-24 18:52:01" width="577px" height="461px">
+</image>
+<image path="images/fig101.jpg" filesize="87810" filedate="2006-09-24 18:57:40" width="580px" height="468px">
+</image>
+<image path="images/fig102.jpg" filesize="84303" filedate="2006-09-24 19:14:31" width="475px" height="514px">
+</image>
+<image path="images/fig103.jpg" filesize="57534" filedate="2006-09-24 19:16:36" width="578px" height="492px">
+</image>
+<image path="images/fig104.jpg" filesize="72339" filedate="2006-09-24 19:19:25" width="577px" height="419px">
+</image>
+<image path="images/fig105.jpg" filesize="102555" filedate="2006-09-24 19:22:50" width="463px" height="720px">
+</image>
+<image path="images/fig106.jpg" filesize="100957" filedate="2006-09-24 19:25:00" width="462px" height="720px">
+</image>
+<image path="images/fig107.jpg" filesize="89676" filedate="2006-09-24 19:26:40" width="579px" height="530px">
+</image>
+<image path="images/fig108.jpg" filesize="110031" filedate="2006-09-24 19:28:57" width="577px" height="573px">
+</image>
+<image path="images/fig109.jpg" filesize="112550" filedate="2006-09-24 19:30:43" width="513px" height="720px">
+</image>
+<image path="images/fig110.jpg" filesize="97799" filedate="2006-09-24 19:33:03" width="578px" height="520px">
+</image>
+<image path="images/fig111.jpg" filesize="97670" filedate="2006-09-24 19:34:39" width="578px" height="520px">
+</image>
+<image path="images/fig112.jpg" filesize="87293" filedate="2006-09-24 19:36:30" width="577px" height="520px">
+</image>
+<image path="images/fig113.jpg" filesize="65692" filedate="2006-09-24 19:37:59" width="578px" height="326px">
+</image>
+<image path="images/fig114.jpg" filesize="51770" filedate="2006-09-24 19:40:05" width="428px" height="493px">
+</image>
+<image path="images/fig115.jpg" filesize="109941" filedate="2006-09-24 19:42:15" width="575px" height="525px">
+</image>
+<image path="images/fig116.jpg" filesize="105421" filedate="2006-09-24 19:44:19" width="461px" height="720px">
+</image>
+<image path="images/fig117.jpg" filesize="91992" filedate="2006-09-24 19:45:40" width="468px" height="576px">
+</image>
+<image path="images/fig118.jpg" filesize="112219" filedate="2006-09-24 19:47:58" width="462px" height="720px">
+</image>
+<image path="images/fig119.jpg" filesize="118661" filedate="2006-09-24 19:51:11" width="465px" height="720px">
+</image>
+<image path="images/fig120.jpg" filesize="34823" filedate="2006-09-24 19:52:36" width="582px" height="182px">
+</image>
+<image path="images/fig121.jpg" filesize="84534" filedate="2006-09-24 19:54:12" width="576px" height="426px">
+</image>
+<image path="images/fig122.jpg" filesize="97782" filedate="2006-09-24 19:56:38" width="578px" height="464px">
+</image>
+<image path="images/fig123-124.jpg" filesize="58503" filedate="2006-09-24 19:59:18" width="569px" height="514px">
+</image>
+<image path="images/fig125.jpg" filesize="113586" filedate="2006-09-24 20:01:15" width="462px" height="720px">
+</image>
+<image path="images/fig126.jpg" filesize="17788" filedate="2006-09-24 20:03:23" width="541px" height="97px">
+</image>
+<image path="images/fig127.jpg" filesize="43711" filedate="2006-09-24 20:07:19" width="554px" height="235px">
+</image>
+<image path="images/fig128.jpg" filesize="21793" filedate="2006-09-24 20:11:00" width="317px" height="276px">
+</image>
+<image path="images/fig129.jpg" filesize="41733" filedate="2006-09-24 20:12:42" width="208px" height="568px">
+</image>
+<image path="images/fig130.jpg" filesize="23346" filedate="2006-09-24 20:14:26" width="205px" height="348px">
+</image>
+<image path="images/fig131.jpg" filesize="31112" filedate="2006-09-24 20:15:45" width="446px" height="376px">
+</image>
+<image path="images/fig132.jpg" filesize="11627" filedate="2006-09-25 19:39:13" width="416px" height="119px">
+</image>
+<image path="images/fig133.jpg" filesize="17184" filedate="2006-09-25 19:40:45" width="433px" height="143px">
+</image>
+<image path="images/fig134.jpg" filesize="16613" filedate="2006-09-25 19:42:13" width="354px" height="171px">
+</image>
+<image path="images/fig135.jpg" filesize="14074" filedate="2006-09-25 19:58:49" width="347px" height="208px">
+</image>
+<image path="images/fig136.jpg" filesize="37666" filedate="2006-09-25 20:01:40" width="435px" height="294px">
+</image>
+<image path="images/fig137.jpg" filesize="61710" filedate="2006-09-25 20:04:37" width="586px" height="417px">
+</image>
+<image path="images/fig138.jpg" filesize="99695" filedate="2006-09-25 20:46:45" width="583px" height="479px">
+</image>
+<image path="images/fig139.jpg" filesize="25440" filedate="2006-09-27 17:48:53" width="197px" height="350px">
+</image>
+<image path="images/fig140.jpg" filesize="22506" filedate="2006-09-27 17:50:49" width="295px" height="325px">
+</image>
+<image path="images/fig141.jpg" filesize="25355" filedate="2006-09-27 17:52:23" width="266px" height="407px">
+</image>
+<image path="images/fig142.jpg" filesize="45434" filedate="2006-09-27 17:54:23" width="467px" height="554px">
+</image>
+<image path="images/fig143.jpg" filesize="95549" filedate="2006-09-27 17:56:15" width="578px" height="434px">
+</image>
+<image path="images/fig144.jpg" filesize="81109" filedate="2006-09-27 17:58:02" width="296px" height="720px">
+</image>
+<image path="images/fig145.jpg" filesize="82960" filedate="2006-09-27 18:00:31" width="584px" height="412px">
+</image>
+<image path="images/fig146.jpg" filesize="72687" filedate="2006-09-27 18:02:57" width="579px" height="319px">
+</image>
+<image path="images/fig147.jpg" filesize="87026" filedate="2006-09-27 18:05:27" width="422px" height="573px">
+</image>
+<image path="images/fig148.jpg" filesize="54205" filedate="2006-09-27 18:07:15" width="585px" height="325px">
+</image>
+<image path="images/fig149.jpg" filesize="121395" filedate="2006-09-27 18:09:44" width="467px" height="720px">
+</image>
+<image path="images/fig150.jpg" filesize="7791" filedate="2006-09-27 18:12:00" width="176px" height="133px">
+</image>
+<image path="images/fig151.jpg" filesize="12210" filedate="2006-09-27 18:12:55" width="237px" height="208px">
+</image>
+<image path="images/fig152.jpg" filesize="7295" filedate="2006-09-27 18:13:48" width="186px" height="133px">
+</image>
+<image path="images/fig153.jpg" filesize="21291" filedate="2006-09-27 18:15:53" width="346px" height="263px">
+</image>
+<image path="images/fig154.jpg" filesize="8234" filedate="2006-09-27 18:18:16" width="188px" height="164px">
+</image>
+<image path="images/fig155.jpg" filesize="7385" filedate="2006-09-27 18:19:12" width="193px" height="171px">
+</image>
+<image path="images/fig156.jpg" filesize="33675" filedate="2006-09-27 18:20:39" width="354px" height="379px">
+</image>
+<image path="images/fig157.jpg" filesize="127374" filedate="2006-09-27 18:22:58" width="656px" height="645px">
+</image>
+<image path="images/fig158.jpg" filesize="60113" filedate="2006-09-27 18:24:23" width="331px" height="493px">
+</image>
+<image path="images/fig159.jpg" filesize="45981" filedate="2006-09-27 18:26:17" width="294px" height="665px">
+</image>
+<image path="images/fig160.jpg" filesize="39431" filedate="2006-09-27 18:27:16" width="260px" height="645px">
+</image>
+<image path="images/fig161.jpg" filesize="47507" filedate="2006-09-27 18:28:46" width="468px" height="300px">
+</image>
+<image path="images/fig162.jpg" filesize="125357" filedate="2006-09-27 18:30:56" width="463px" height="720px">
+</image>
+<image path="images/fig163.jpg" filesize="39307" filedate="2006-09-27 18:32:54" width="236px" height="458px">
+</image>
+<image path="images/fig164.jpg" filesize="35360" filedate="2006-09-27 18:34:40" width="260px" height="436px">
+</image>
+<image path="images/fig165.jpg" filesize="51950" filedate="2006-09-27 18:36:43" width="365px" height="395px">
+</image>
+<image path="images/fig166.jpg" filesize="20575" filedate="2006-09-27 18:38:25" width="144px" height="495px">
+</image>
+<image path="images/fig167.jpg" filesize="36305" filedate="2006-09-27 18:40:26" width="271px" height="370px">
+</image>
+<image path="images/fig168.jpg" filesize="38283" filedate="2006-09-27 18:42:00" width="271px" height="361px">
+</image>
+<image path="images/fig169.jpg" filesize="62901" filedate="2006-09-27 18:43:37" width="581px" height="298px">
+</image>
+<image path="images/fig170.jpg" filesize="27305" filedate="2006-09-27 18:45:05" width="389px" height="327px">
+</image>
+<image path="images/fig171.jpg" filesize="24375" filedate="2006-09-28 18:06:15" width="324px" height="398px">
+</image>
+<image path="images/fig172.jpg" filesize="106855" filedate="2006-09-28 18:08:32" width="464px" height="720px">
+</image>
+<image path="images/fig173.jpg" filesize="116380" filedate="2006-09-28 18:11:24" width="578px" height="520px">
+</image>
+<image path="images/fig174.jpg" filesize="7966" filedate="2006-09-28 18:13:17" width="156px" height="138px">
+</image>
+<image path="images/fig175.jpg" filesize="7969" filedate="2006-09-28 18:14:39" width="179px" height="132px">
+</image>
+<image path="images/fig176.jpg" filesize="21019" filedate="2006-09-28 18:15:38" width="240px" height="233px">
+</image>
+<image path="images/fig177.jpg" filesize="11375" filedate="2006-09-28 18:16:28" width="123px" height="340px">
+</image>
+<image path="images/fig178.jpg" filesize="9951" filedate="2006-09-28 18:17:57" width="186px" height="219px">
+</image>
+<image path="images/fig179.jpg" filesize="12758" filedate="2006-09-28 18:21:41" width="438px" height="114px">
+</image>
+<image path="images/fig180.jpg" filesize="31802" filedate="2006-09-28 18:24:15" width="403px" height="412px">
+</image>
+<image path="images/fig181.jpg" filesize="36911" filedate="2006-09-28 18:25:52" width="420px" height="402px">
+</image>
+<image path="images/fig182.jpg" filesize="95391" filedate="2006-09-28 18:27:58" width="571px" height="461px">
+</image>
+<image path="images/fig183.jpg" filesize="48245" filedate="2006-09-28 18:30:45" width="466px" height="449px">
+</image>
+<image path="images/fig184.jpg" filesize="20842" filedate="2006-09-28 18:33:07" width="469px" height="175px">
+</image>
+<image path="images/fig185.jpg" filesize="60373" filedate="2006-09-28 18:49:36" width="267px" height="641px">
+</image>
+<image path="images/fig186.jpg" filesize="34163" filedate="2006-09-28 18:51:14" width="408px" height="266px">
+</image>
+<image path="images/fig187.jpg" filesize="31892" filedate="2006-09-28 18:53:00" width="250px" height="333px">
+</image>
+<image path="images/fig188.jpg" filesize="148193" filedate="2006-09-28 18:54:59" width="509px" height="720px">
+</image>
+<image path="images/fig189.jpg" filesize="38612" filedate="2006-09-28 18:57:12" width="336px" height="406px">
+</image>
+<image path="images/fig190.jpg" filesize="72181" filedate="2006-09-28 18:59:32" width="578px" height="412px">
+</image>
+<image path="images/fig191.jpg" filesize="121956" filedate="2006-09-28 19:04:38" width="461px" height="720px">
+</image>
+<image path="images/fig192.jpg" filesize="60423" filedate="2006-09-28 19:07:30" width="518px" height="412px">
+</image>
+<image path="images/fig193.jpg" filesize="73999" filedate="2006-09-28 19:10:11" width="515px" height="643px">
+</image>
+<image path="images/fig194.jpg" filesize="27001" filedate="2006-09-28 19:13:36" width="256px" height="468px">
+</image>
+<image path="images/fig195-196.jpg" filesize="110439" filedate="2006-09-28 19:16:00" width="577px" height="607px">
+</image>
+<image path="images/fig197.jpg" filesize="101769" filedate="2006-09-28 19:18:49" width="573px" height="512px">
+</image>
+<image path="images/fig198.jpg" filesize="105217" filedate="2006-09-28 19:22:06" width="496px" height="720px">
+</image>
+<image path="images/fig199.jpg" filesize="27987" filedate="2006-09-28 19:25:42" width="378px" height="268px">
+</image>
+<image path="images/fig200.jpg" filesize="38250" filedate="2006-09-28 19:27:36" width="426px" height="306px">
+</image>
+<image path="images/fig201.jpg" filesize="107945" filedate="2006-09-28 19:29:34" width="576px" height="543px">
+</image>
+<image path="images/fig202.jpg" filesize="18570" filedate="2006-09-28 19:31:55" width="145px" height="427px">
+</image>
+<image path="images/fig203.jpg" filesize="21413" filedate="2006-09-28 19:32:47" width="197px" height="416px">
+</image>
+<image path="images/fig204.jpg" filesize="61182" filedate="2006-09-28 19:34:29" width="452px" height="490px">
+</image>
+<image path="images/fig205.jpg" filesize="133217" filedate="2006-09-28 19:36:32" width="472px" height="720px">
+</image>
+<image path="images/fig206.jpg" filesize="51509" filedate="2006-09-28 19:38:35" width="580px" height="396px">
+</image>
+<image path="images/fig207.jpg" filesize="45812" filedate="2006-09-28 19:41:41" width="578px" height="481px">
+</image>
+<image path="images/fig208.jpg" filesize="38848" filedate="2006-09-28 19:44:02" width="305px" height="418px">
+</image>
+<image path="images/fig209.jpg" filesize="107509" filedate="2006-09-28 19:45:43" width="461px" height="720px">
+</image>
+<image path="images/fig210.jpg" filesize="5196" filedate="2006-09-28 19:47:03" width="264px" height="83px">
+</image>
+<image path="images/fig211.jpg" filesize="75381" filedate="2006-10-01 09:00:08" width="583px" height="383px">
+</image>
+<image path="images/fig212.jpg" filesize="91986" filedate="2006-10-01 09:03:38" width="579px" height="537px">
+</image>
+<image path="images/fig213.jpg" filesize="126270" filedate="2006-10-01 09:07:05" width="580px" height="515px">
+</image>
+<image path="images/fig214.jpg" filesize="15540" filedate="2006-10-01 09:09:13" width="427px" height="149px">
+</image>
+<image path="images/fig215.jpg" filesize="21707" filedate="2006-10-01 09:20:36" width="663px" height="147px">
+</image>
+<image path="images/fig216.jpg" filesize="7519" filedate="2006-10-01 09:23:25" width="87px" height="285px">
+</image>
+<image path="images/fig217.jpg" filesize="5926" filedate="2006-10-01 09:25:35" width="84px" height="214px">
+</image>
+<image path="images/fig218.jpg" filesize="95701" filedate="2006-10-01 09:27:40" width="627px" height="403px">
+</image>
+<image path="images/fig219.jpg" filesize="18139" filedate="2006-10-01 09:29:59" width="663px" height="181px">
+</image>
+<image path="images/fig220.jpg" filesize="52571" filedate="2006-10-01 09:32:44" width="577px" height="538px">
+</image>
+<image path="images/fig221.jpg" filesize="17339" filedate="2006-10-01 09:34:22" width="189px" height="333px">
+</image>
+<image path="images/fig222.jpg" filesize="49867" filedate="2006-10-01 09:36:29" width="579px" height="340px">
+</image>
+<image path="images/fig223.jpg" filesize="39815" filedate="2006-10-01 09:46:18" width="667px" height="231px">
+</image>
+<image path="images/fig224.jpg" filesize="50333" filedate="2006-10-01 16:14:47" width="582px" height="483px">
+</image>
+<image path="images/fig225.jpg" filesize="122541" filedate="2006-10-01 16:17:21" width="459px" height="720px">
+</image>
+<image path="images/fig226.jpg" filesize="25402" filedate="2006-10-01 16:19:36" width="578px" height="433px">
+</image>
+<image path="images/fig227.jpg" filesize="39855" filedate="2006-10-01 16:22:13" width="404px" height="463px">
+</image>
+<image path="images/fig228.jpg" filesize="134126" filedate="2006-10-01 16:24:14" width="523px" height="720px">
+</image>
+<image path="images/fig229.jpg" filesize="65628" filedate="2006-10-01 16:27:18" width="432px" height="720px">
+</image>
+<image path="images/fig230.jpg" filesize="19458" filedate="2006-10-01 16:29:12" width="151px" height="372px">
+</image>
+<image path="images/fig231.jpg" filesize="109736" filedate="2006-10-01 16:31:44" width="435px" height="689px">
+</image>
+<image path="images/fig232.jpg" filesize="41469" filedate="2006-10-01 16:33:42" width="584px" height="471px">
+</image>
+<image path="images/fig233.jpg" filesize="24709" filedate="2006-10-01 16:35:40" width="405px" height="180px">
+</image>
+<image path="images/fig234.jpg" filesize="33970" filedate="2006-10-01 16:38:12" width="349px" height="349px">
+</image>
+<image path="images/fig235.jpg" filesize="50181" filedate="2006-10-01 16:39:49" width="586px" height="418px">
+</image>
+<image path="images/fig236.jpg" filesize="7330" filedate="2006-10-01 16:41:14" width="128px" height="181px">
+</image>
+<image path="images/fig237.jpg" filesize="20856" filedate="2006-10-01 16:43:07" width="437px" height="145px">
+</image>
+<image path="images/fig238.jpg" filesize="86397" filedate="2006-10-01 16:45:52" width="543px" height="485px">
+</image>
+<image path="images/fig239.jpg" filesize="27462" filedate="2006-10-01 16:47:28" width="276px" height="423px">
+</image>
+<image path="images/fig240.jpg" filesize="16472" filedate="2006-10-01 16:49:10" width="163px" height="520px">
+</image>
+<image path="images/fig241.jpg" filesize="51475" filedate="2006-10-01 16:51:12" width="577px" height="298px">
+</image>
+<image path="images/fig242.jpg" filesize="37431" filedate="2006-10-01 20:25:37" width="396px" height="262px">
+</image>
+<image path="images/fig243.jpg" filesize="59396" filedate="2006-10-01 20:27:34" width="586px" height="375px">
+</image>
+<image path="images/fig244.jpg" filesize="59052" filedate="2006-10-01 20:29:43" width="302px" height="550px">
+</image>
+<image path="images/fig245.jpg" filesize="46845" filedate="2006-10-01 20:31:14" width="573px" height="266px">
+</image>
+<image path="images/fig246.jpg" filesize="60019" filedate="2006-10-01 20:33:13" width="577px" height="374px">
+</image>
+<image path="images/fig247.jpg" filesize="108962" filedate="2006-10-01 20:36:39" width="526px" height="720px">
+</image>
+<image path="images/fig248.jpg" filesize="119693" filedate="2006-10-01 20:39:11" width="459px" height="720px">
+</image>
+<image path="images/fig249.jpg" filesize="78144" filedate="2006-10-01 20:41:15" width="582px" height="399px">
+</image>
+<image path="images/fig250.jpg" filesize="154670" filedate="2006-10-01 20:43:10" width="562px" height="720px">
+</image>
+<image path="images/fig251.jpg" filesize="82219" filedate="2006-10-01 20:44:34" width="463px" height="430px">
+</image>
+<image path="images/fig252.jpg" filesize="10457" filedate="2006-10-01 20:46:08" width="208px" height="157px">
+</image>
+<image path="images/fig253.jpg" filesize="43910" filedate="2006-10-01 20:48:04" width="504px" height="351px">
+</image>
+<image path="images/fig254.jpg" filesize="114193" filedate="2006-10-01 20:50:02" width="460px" height="720px">
+</image>
+<image path="images/fig255.jpg" filesize="16438" filedate="2006-10-02 19:29:17" width="192px" height="201px">
+</image>
+<image path="images/fig256.jpg" filesize="8546" filedate="2006-10-02 19:30:38" width="136px" height="190px">
+</image>
+<image path="images/fig257.jpg" filesize="10455" filedate="2006-10-02 19:32:55" width="179px" height="230px">
+</image>
+<image path="images/fig258.jpg" filesize="13858" filedate="2006-10-02 19:35:07" width="353px" height="139px">
+</image>
+<image path="images/fig259.jpg" filesize="25480" filedate="2006-10-02 19:37:52" width="243px" height="399px">
+</image>
+<image path="images/fig260.jpg" filesize="20390" filedate="2006-10-02 19:39:54" width="264px" height="285px">
+</image>
+<image path="images/fig261.jpg" filesize="38588" filedate="2006-10-02 19:42:28" width="403px" height="327px">
+</image>
+<image path="images/fig262.jpg" filesize="38798" filedate="2006-10-02 19:44:04" width="409px" height="312px">
+</image>
+<image path="images/fig263.jpg" filesize="16950" filedate="2006-10-02 19:47:29" width="96px" height="529px">
+</image>
+<image path="images/fig264.jpg" filesize="17370" filedate="2006-10-02 19:48:27" width="86px" height="524px">
+</image>
+<image path="images/fig265.jpg" filesize="22744" filedate="2006-10-04 18:31:42" width="191px" height="397px">
+</image>
+<image path="images/fig266.jpg" filesize="19965" filedate="2006-10-04 18:31:20" width="207px" height="328px">
+</image>
+<image path="images/fig267.jpg" filesize="37393" filedate="2006-10-04 18:33:02" width="313px" height="372px">
+</image>
+<image path="images/fig268.jpg" filesize="93177" filedate="2006-10-04 18:34:52" width="459px" height="720px">
+</image>
+<image path="images/fig269.jpg" filesize="33195" filedate="2006-10-04 18:36:42" width="660px" height="214px">
+</image>
+<image path="images/fig270.jpg" filesize="55598" filedate="2006-10-04 18:39:37" width="541px" height="720px">
+</image>
+<image path="images/fig271.jpg" filesize="45305" filedate="2006-10-04 18:41:33" width="481px" height="508px">
+</image>
+<image path="images/fig272.jpg" filesize="29095" filedate="2006-10-04 18:43:11" width="404px" height="298px">
+</image>
+<image path="images/fig273.jpg" filesize="148094" filedate="2006-10-04 18:44:42" width="525px" height="720px">
+</image>
+<image path="images/fig274.jpg" filesize="86679" filedate="2006-10-04 18:47:02" width="585px" height="424px">
+</image>
+<image path="images/fig275.jpg" filesize="88961" filedate="2006-10-04 18:50:38" width="503px" height="720px">
+</image>
+<image path="images/fig275h.jpg" filesize="305313" filedate="2006-10-04 18:50:19" width="1024px" height="1465px">
+</image>
+<image path="images/fig276.jpg" filesize="44226" filedate="2006-10-04 18:52:01" width="383px" height="304px">
+</image>
+<image path="images/fig277.jpg" filesize="15448" filedate="2006-10-04 18:53:19" width="352px" height="141px">
+</image>
+<image path="images/fig278.jpg" filesize="103791" filedate="2006-10-04 18:55:28" width="488px" height="630px">
+</image>
+<image path="images/fig279.jpg" filesize="67021" filedate="2006-10-04 18:57:06" width="566px" height="319px">
+</image>
+<image path="images/fig280.jpg" filesize="94007" filedate="2006-10-04 18:58:49" width="577px" height="461px">
+</image>
+<image path="images/fig281.jpg" filesize="43735" filedate="2006-10-04 19:00:22" width="531px" height="325px">
+</image>
+<image path="images/fig282.jpg" filesize="54737" filedate="2006-10-04 19:02:05" width="520px" height="344px">
+</image>
+<image path="images/fig283.jpg" filesize="88418" filedate="2006-10-04 19:04:30" width="668px" height="584px">
+</image>
+<image path="images/fig284.jpg" filesize="32405" filedate="2006-10-05 06:50:59" width="587px" height="326px">
+</image>
+<image path="images/fig285.jpg" filesize="36192" filedate="2006-10-05 06:52:46" width="579px" height="350px">
+</image>
+<image path="images/fig286.jpg" filesize="134321" filedate="2006-10-05 06:54:21" width="581px" height="526px">
+</image>
+<image path="images/fig287.jpg" filesize="64366" filedate="2006-10-05 06:56:33" width="582px" height="354px">
+</image>
+<image path="images/fig288.jpg" filesize="118859" filedate="2006-10-05 06:59:17" width="464px" height="720px">
+</image>
+<image path="images/fig289.jpg" filesize="147337" filedate="2006-10-05 07:01:47" width="461px" height="720px">
+</image>
+<image path="images/fig290.jpg" filesize="83383" filedate="2006-10-05 07:04:02" width="578px" height="630px">
+</image>
+<image path="images/fig291.jpg" filesize="81467" filedate="2006-10-05 07:06:33" width="406px" height="639px">
+</image>
+<image path="images/fig292.jpg" filesize="96765" filedate="2006-10-05 07:08:11" width="581px" height="464px">
+</image>
+<image path="images/fig293.jpg" filesize="25070" filedate="2006-10-05 07:11:46" width="302px" height="319px">
+</image>
+<image path="images/fig294.jpg" filesize="86095" filedate="2006-10-05 07:13:52" width="592px" height="441px">
+</image>
+<image path="images/fig295.jpg" filesize="56095" filedate="2006-10-05 07:16:13" width="460px" height="486px">
+</image>
+<image path="images/fig296.jpg" filesize="74941" filedate="2006-10-05 07:18:12" width="569px" height="414px">
+</image>
+<image path="images/fig297.jpg" filesize="85465" filedate="2006-10-05 07:21:37" width="677px" height="417px">
+</image>
+<image path="images/fig298.jpg" filesize="125623" filedate="2006-10-05 14:19:03" width="589px" height="578px">
+</image>
+<image path="images/fig299.jpg" filesize="118553" filedate="2006-10-05 14:21:24" width="585px" height="524px">
+</image>
+<image path="images/fig300.jpg" filesize="126430" filedate="2006-10-05 14:24:12" width="461px" height="720px">
+</image>
+<image path="images/fig301.jpg" filesize="39346" filedate="2006-10-05 14:26:54" width="632px" height="377px">
+</image>
+<image path="images/fig302.jpg" filesize="106008" filedate="2006-10-05 14:29:31" width="579px" height="511px">
+</image>
+<image path="images/fig303.jpg" filesize="33043" filedate="2006-10-05 14:32:29" width="553px" height="404px">
+</image>
+<image path="images/fig304.jpg" filesize="64512" filedate="2006-10-05 14:34:24" width="584px" height="353px">
+</image>
+<image path="images/fig305.jpg" filesize="95561" filedate="2006-10-05 14:36:53" width="574px" height="486px">
+</image>
+<image path="images/fig306.jpg" filesize="43554" filedate="2006-10-05 14:38:59" width="533px" height="574px">
+</image>
+<image path="images/fig307.jpg" filesize="100233" filedate="2006-10-05 14:41:05" width="579px" height="484px">
+</image>
+<image path="images/fig308.jpg" filesize="113509" filedate="2006-10-05 14:42:59" width="460px" height="720px">
+</image>
+<image path="images/fig309.jpg" filesize="24028" filedate="2006-10-05 14:44:35" width="422px" height="145px">
+</image>
+<image path="images/fig310.jpg" filesize="23639" filedate="2006-10-05 14:46:00" width="432px" height="156px">
+</image>
+<image path="images/fig311.jpg" filesize="58296" filedate="2006-10-05 14:47:38" width="545px" height="327px">
+</image>
+<image path="images/fig312.jpg" filesize="50232" filedate="2006-10-05 14:49:37" width="571px" height="287px">
+</image>
+<image path="images/fig313.jpg" filesize="70442" filedate="2006-10-05 14:51:35" width="585px" height="388px">
+</image>
+<image path="images/fig314.jpg" filesize="53393" filedate="2006-10-05 14:54:27" width="587px" height="389px">
+</image>
+<image path="images/fig315.jpg" filesize="57751" filedate="2006-10-05 14:55:54" width="405px" height="428px">
+</image>
+<image path="images/fig316.jpg" filesize="170307" filedate="2006-10-05 14:58:15" width="669px" height="684px">
+</image>
+<image path="images/fig317.jpg" filesize="111053" filedate="2006-10-05 14:59:46" width="588px" height="584px">
+</image>
+<image path="images/fig318.jpg" filesize="152688" filedate="2006-10-05 15:01:41" width="581px" height="636px">
+</image>
+<image path="images/fig319.jpg" filesize="22214" filedate="2006-10-05 15:03:54" width="252px" height="305px">
+</image>
+<image path="images/fig320.jpg" filesize="37243" filedate="2006-10-05 15:05:12" width="250px" height="392px">
+</image>
+<image path="images/fig321.jpg" filesize="71349" filedate="2006-10-05 15:07:11" width="468px" height="545px">
+</image>
+<image path="images/fig322.jpg" filesize="43762" filedate="2006-10-05 15:08:43" width="248px" height="549px">
+</image>
+<image path="images/fig323.jpg" filesize="74603" filedate="2006-10-05 15:11:53" width="523px" height="720px">
+</image>
+<image path="images/fig324.jpg" filesize="105163" filedate="2006-10-05 15:13:34" width="574px" height="520px">
+</image>
+<image path="images/fig325.jpg" filesize="124482" filedate="2006-10-05 15:15:13" width="581px" height="551px">
+</image>
+<image path="images/fig326.jpg" filesize="156763" filedate="2006-10-05 15:16:45" width="574px" height="603px">
+</image>
+<image path="images/fig327.jpg" filesize="106123" filedate="2006-10-05 15:18:33" width="588px" height="531px">
+</image>
+<image path="images/fig328.jpg" filesize="72558" filedate="2006-10-05 15:21:00" width="669px" height="409px">
+</image>
+<image path="images/fig329.jpg" filesize="112961" filedate="2006-10-05 15:23:06" width="670px" height="643px">
+</image>
+<image path="images/fig330.jpg" filesize="54368" filedate="2006-10-05 15:25:24" width="666px" height="459px">
+</image>
+<image path="images/fig331.jpg" filesize="84211" filedate="2006-10-05 15:28:02" width="663px" height="507px">
+</image>
+<image path="images/fig332.jpg" filesize="92614" filedate="2006-10-05 15:30:26" width="461px" height="720px">
+</image>
+<image path="images/plate1.jpg" filesize="125829" filedate="2006-09-23 07:20:17" width="506px" height="720px">
+</image>
+<image path="images/plate2.jpg" filesize="157979" filedate="2006-09-23 15:57:11" width="520px" height="720px">
+</image>
+<image path="images/plate3.jpg" filesize="131531" filedate="2006-09-30 11:36:10" width="720px" height="511px">
+</image>
+<image path="images/plate4.jpg" filesize="119569" filedate="2006-09-30 11:55:05" width="514px" height="720px">
+</image>
+</images>
