@@ -1,12 +1,52 @@
-<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN">
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN" [
+
+    <!ENTITY alpha        CDATA "&#x03B1;"  --       1 -->
+    <!ENTITY apos         CDATA "&#x2019;"  --     170 -->
+    <!ENTITY bdquo        CDATA "&#x201E;"  --      97 -->
+    <!ENTITY beta         CDATA "&#x03B2;"  --       1 -->
+    <!ENTITY deg          CDATA "&#x00B0;"  --      73 -->
+    <!ENTITY frac1-125    CDATA "1/125"     --       1 -->
+    <!ENTITY frac1-143    CDATA "1/143"     --       1 -->
+    <!ENTITY frac1-20     CDATA "1/20"      --       3 -->
+    <!ENTITY frac1-242    CDATA "1/242"     --       1 -->
+    <!ENTITY frac1-300    CDATA "1/300"     --       1 -->
+    <!ENTITY frac1-40     CDATA "1/40"      --       2 -->
+    <!ENTITY frac1-52     CDATA "1/52"      --       1 -->
+    <!ENTITY frac1-55     CDATA "1/55"      --       1 -->
+    <!ENTITY frac1-633    CDATA "1/633"     --       1 -->
+    <!ENTITY frac1-70     CDATA "1/70"      --       1 -->
+    <!ENTITY frac1-700    CDATA "1/700"     --       1 -->
+    <!ENTITY frac10-1000  CDATA "10/1000"   --       1 -->
+    <!ENTITY frac12       CDATA "&#x00BD;"  --      12 -->
+    <!ENTITY frac13       CDATA "&#x2153;"  --       4 -->
+    <!ENTITY frac14       CDATA "&#x00BC;"  --       1 -->
+    <!ENTITY frac16       CDATA "&#x2159;"  --       1 -->
+    <!ENTITY frac2-1000   CDATA "2/1000"    --       1 -->
+    <!ENTITY frac5-1000   CDATA "5/1000"    --       1 -->
+    <!ENTITY frac6-10     CDATA "6/10"      --       1 -->
+    <!ENTITY frac6-1000   CDATA "6/1000"    --       1 -->
+    <!ENTITY frac67       CDATA "6/7"       --       1 -->
+    <!ENTITY frac9-10     CDATA "9/10"      --       1 -->
+    <!ENTITY ijlig        CDATA "&#x0133;"  --       5 -->
+    <!ENTITY lsquo        CDATA "&#x2018;"  --       1 -->
+    <!ENTITY mdash        CDATA "&#x2014;"  --      98 -->
+    <!ENTITY nbsp         CDATA "&#x00A0;"  --      56 -->
+    <!ENTITY ndash        CDATA "&#x2013;"  --      16 -->
+    <!ENTITY ordm         CDATA "&#x00BA;"  --      20 -->
+    <!ENTITY prime        CDATA "&#x2032;"  --       4 -->
+    <!ENTITY rdquo        CDATA "&#x201D;"  --      59 -->
+    <!ENTITY rsquo        CDATA "&#x2019;"  --       1 -->
+    <!ENTITY times        CDATA "&#x00D7;"  --       2 -->
+
+]>
 <TEI.2 lang=nl-1900>
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>De Wereld vóór de Schepping van den Mensch</title>
+<title nfc=3>De Wereld vóór de Schepping van den Mensch</title>
 <author key="Flammarión, Camille" ref="https://viaf.org/viaf/12308308/">Camille Flammarión (1842&ndash;1925)</author>
-<respStmt><resp>Translation</resp> <name key="Goudsmit, Boudewijn Casper" ref="https://viaf.org/viaf/106871033/">Boudewijn Casper Goudsmit (1849&ndash;1915)</name></respStmt>
-<respStmt><resp>Transcription</resp> <name>Jeroen Hellingman</name></respStmt>
+<respStmt><resp>Translator</resp> <name key="Goudsmit, Boudewijn Casper" ref="https://viaf.org/viaf/106871033/">Boudewijn Casper Goudsmit (1849&ndash;1915)</name></respStmt>
+<respStmt><resp>Transcription</resp> <name key="Hellingman, Jeroen">Jeroen Hellingman</name></respStmt>
 </titleStmt>
 <publicationStmt>
 <publisher>Project Gutenberg</publisher>
@@ -42,13 +82,13 @@
 </encodingDesc>
 <profileDesc>
     <langUsage lang=nl>
-        <language id=grc>Grieks.</language>
-        <language id=grc-latn>Grieks (Transcriptie).</language>
-        <language id=en>Engels.</language>
-        <language id=fr>Frans.</language>
-        <language id=la>Latijn.</language>
-        <language id=nl>Nederlands.</language>
-        <language id=nl-1900>Nederlands (Spelling De Vries-Te Winkel).</language>
+        <language id=grc>Grieks</language>
+        <language id=grc-latn>Grieks (Transcriptie)</language>
+        <language id=en>Engels</language>
+        <language id=fr>Frans</language>
+        <language id=la>Latijn</language>
+        <language id=nl>Nederlands</language>
+        <language id=nl-1900>Nederlands (Spelling De Vries-Te Winkel)</language>
     </langUsage>
     <textClass>
         <keywords>
@@ -68,7 +108,7 @@
 </list>
 </revisionDesc>
 </teiHeader>
-<text rend="stylesheet(style/classic.css)">
+<text rend="stylesheet(style/classic.css, style/garamond.css)">
 <front id=frontmatter>
 <div1 id=cover type=Cover>
 
@@ -141,7 +181,7 @@
 
 <p rend="align(center)">TWEEDE BOEK.
 
-<p rend="align(center)"><hi rend=ex><ref target=bk2>Het azoïsche tijdperk</ref>.</hi>
+<p rend="align(center)"><hi rend=ex><ref target=bk2>Het azoïsche t&ijlig;dperk</ref>.</hi>
 
 <p rend="align(center)">HOOFDSTUK I.
 
@@ -158,7 +198,7 @@
 
 <p rend="align(center)">DERDE BOEK.
 
-<p rend="align(center)"><hi rend=ex><ref target=bk3>Het primaire tijdperk</ref>.</hi>
+<p rend="align(center)"><hi rend=ex><ref target=bk3>Het primaire t&ijlig;dperk</ref>.</hi>
 
 <p rend="align(center)">HOOFDSTUK I.
 
@@ -182,7 +222,7 @@
 
 <pb n=VI><p rend="align(center)">VIERDE BOEK.
 
-<p rend="align(center)"><hi rend=ex><ref target=bk4>Het secundaire tijdperk</ref>.</hi>
+<p rend="align(center)"><hi rend=ex><ref target=bk4>Het secundaire t&ijlig;dperk</ref>.</hi>
 
 
 <p rend="align(center)">HOOFDSTUK I.
@@ -200,7 +240,7 @@
 
 <p rend="align(center)">VIJFDE BOEK.
 
-<p rend="align(center)"><hi rend=ex><ref target=bk5>Het tertiaire tijdperk</ref>.</hi>
+<p rend="align(center)"><hi rend=ex><ref target=bk5>Het tertiaire t&ijlig;dperk</ref>.</hi>
 
 <p rend="align(center)">HOOFDSTUK I.
 
@@ -217,7 +257,7 @@
 
 <p rend="align(center)">ZESDE BOEK.
 
-<p rend="align(center)"><hi rend=ex><ref target=bk6>Het quaternaire tijdperk</ref>.</hi>
+<p rend="align(center)"><hi rend=ex><ref target=bk6>Het quaternaire t&ijlig;dperk</ref>.</hi>
 
 <p rend="align(center)">HOOFDSTUK I.
 
@@ -365,18 +405,18 @@
 
 <p>De verschillende geologische lagen der aarde, die wij in onzen tijd kunnen omslaan als de bladen van een boek, toonen ons duidelijk de opvolging der begraven versteende soorten. Die soorten zijn elkander opgevolgd, terwijl zij zich stap voor stap ontwikkelden als de takken van eenzelfden boom. Zij zijn uit dezelfde bron voortgekomen en behooren tot eene zelfde orde van zaken.
 
-<p>Maar laat ons niet vooruitloopen op de tooneelen, die zich voor onze oogen zullen ontrollen. Nu wij eenen voorloopigen blik geslagen hebben in die grootsche vraagstukken, moeten wij dadelijk in het hart der vraag binnendringen. In <hi>de Wonderen des Hemels</hi><note n=1>De Wonderen des Hemels. Flammarion&apos;s <foreign lang=fr>Astronomie populaire</foreign>, voor Nederland bewerkt. Zutphen, W.J. Thieme en Cie.</note> hebben wij over het ontstaan der werelden in het algemeen gehandeld, terwijl wij daar, zoowel als in het <hi>Rijk der Sterren</hi><note n=2>Het Rijk der Sterren, Flammarion&apos;s <foreign lang=fr>Etoiles et Curiosités du Ciel</foreign>, voor Nederland bewerkt. Zutphen, W.J. Thieme en Cie.</note> over de verschillende typen van werelden uitvoerig gesproken hebben. Wij achten het dus overbodig, hierop terug te komen. Wij zullen dan ook dadelijk ons onderzoek aanvangen met de beschouwing der aarde, van het oogenblik af, dat zij hare moeder, de zonnenevelvlek had verlaten.
+<p>Maar laat ons niet vooruitloopen op de tooneelen, die zich voor onze oogen zullen ontrollen. Nu wij eenen voorloopigen blik geslagen hebben in die grootsche vraagstukken, moeten wij dadelijk in het hart der vraag binnendringen. In <hi>de Wonderen des Hemels</hi><note n=1>De Wonderen des Hemels. Flammarion&apos;s <foreign lang=fr>Astronomie populaire</foreign>, voor Nederland bewerkt. Zutphen, W. J. Thieme en Cie.</note> hebben wij over het ontstaan der werelden in het algemeen gehandeld, terwijl wij daar, zoowel als in het <hi>Rijk der Sterren</hi><note n=2>Het Rijk der Sterren, Flammarion&apos;s <foreign lang=fr>Etoiles et Curiosités du Ciel</foreign>, voor Nederland bewerkt. Zutphen, W. J. Thieme en Cie.</note> over de verschillende typen van werelden uitvoerig gesproken hebben. Wij achten het dus overbodig, hierop terug te komen. Wij zullen dan ook dadelijk ons onderzoek aanvangen met de beschouwing der aarde, van het oogenblik af, dat zij hare moeder, de zonnenevelvlek had verlaten.
 
 
 
 
-</front>
 <pb n=22 id=pb22>
+</front>
 <body>
 <div0 type=Book id=bk1 n=1>
 <head type=label rend="image(images/fig010.jpg)">Eerste boek.</head>
 
-<head>De geboorte der Aarde.</head>
+<head><hi rend=ex>De geboorte der Aarde.</hi></head>
 
 
 <p>De zonnenevelvlek verspreidde aan den donkeren oneindigen hemel een flauw licht, en terwijl zij zich gestadig naar haar middelpunt verdichtte, gaf de aardsche nevelvlek, uit haar voortgekomen, een even flauw licht, terwijl zij in den tijd van een jaar om de zon heenwentelde. Onze planeet was toen geheel gasvormig, zij had toen nog geene vaste kern of geene vloeistoflaag; zij bestond toen als het ware alleen uit eenen dampkring, die veel lichter was dan de lucht, die wij inademen. Hare oorspronkelijke temperatuur was even hoog als die van den zonnegordel, waaruit zij was voortgekomen. Die temperatuur nam nog toe door hare eigen verdichting. Gehoor gevend aan de wetten der zwaartekracht, verdichtten de moleculen zich nog sterker naar het middelpunt toe. Hare bolvormige gedaante werd hoe langer hoe duidelijker zichtbaar. Eindelijk werd de nevelvlek zon en verspreidde zij een schitterend licht.
@@ -387,7 +427,7 @@
 
 <p>Bij die koude straalde de aarde hare warmte langzamerhand geheel uit; noch de voortgaande verdichting, noch de scheikundige verbindingen, noch de val van kosmische stof, die op haar neerkwam van de zonnenevelvlek en van de verschillende deelen der ruimte, waren voldoende <pb n=24 id=pb24>om te herstellen, wat zij door die uitstraling verloor. De aarde werd van gasvormig vloeibaar, wel nog gloeiend, maar nog steeds minder lichtgevend. In stede van wit en schitterend werd zij eerst goudgeel, daarna oranjekleurig, rossig en donkerrood. Een dikke, zware, in beroering zijnde dampkring omgaf haar. Eindelijk doofde zij uit. Als zon had zij uitgediend, maar om zich te koesteren aan den morgenstond van het leven.
 
-<p>In deze periode ontstond de maan, dochter der aardsche nevelvlek, evenals de aarde was voortgekomen uit den moederschoot der zon. De maan behoort bij de aarde, zooals de aarde bij de zon behoort. Zij draait om ons heen in 27&frac13; dag, zooals wij om de zon draaien in 365&frac14; dag; als een trouwe wachter vergezelt zij ons op onze reis om de zon; zij wentelt om ons heen in dezelfde richting als waarin wij ons bewegen, <abbr expan="dat is">d.i.</abbr> van het westen naar het oosten en bijna in het vlak der aardbaan (de helling bedraagt 5&deg;); hare geboorteakte draagt zij bij hare beweging met zich, en haar aardsche oorsprong treedt in al hare karaktertrekken voor den dag; zij is tachtigmaal lichter en vijftigmaal kleiner dan de aarde, zoodat hare dichtheid 6/10 van die der aarde is.
+<p>In deze periode ontstond de maan, dochter der aardsche nevelvlek, evenals de aarde was voortgekomen uit den moederschoot der zon. De maan behoort bij de aarde, zooals de aarde bij de zon behoort. Zij draait om ons heen in 27&frac13; dag, zooals wij om de zon draaien in 365&frac14; dag; als een trouwe wachter vergezelt zij ons op onze reis om de zon; zij wentelt om ons heen in dezelfde richting als waarin wij ons bewegen, <abbr expan="dat is">d.i.</abbr> van het westen naar het oosten en bijna in het vlak der aardbaan (de helling bedraagt 5&deg;); hare geboorteakte draagt zij bij hare beweging met zich, en haar aardsche oorsprong treedt in al hare karaktertrekken voor den dag; zij is tachtigmaal lichter en vijftigmaal kleiner dan de aarde, zoodat hare dichtheid &frac6-10; van die der aarde is.
 
 <p>Zij heeft zich van de zonnenevelvlek losgemaakt op een tijdstip, waarop de beweging der aarde om hare as veel sneller was dan thans het geval is; de maan toch is zóó dicht bij ons, en hare aantrekking is zóó aanzienlijk, dat zij aanzienlijke vloeden teweegbrengt; deze vloeden werkten de beweging der aarde om hare as tegen, zooals zij dit thans nog doen, maar toen in veel sterkere mate.
 
@@ -453,7 +493,7 @@
 
 <p>Door de spleten en de scheuren, die in deze periode gevormd zijn, hebben zich metalen, onder den invloed der inwendige warmte gesmolten, in dikkere of dunnere lagen eenen weg gebaand. Men vindt daarin ijzer, goud, zilver, koper, tin en edelgesteenten, zooals granaat en robijn. Waarschijnlijk bevinden zich onder het graniet in het inwendige der aarde onmetelijke hoeveelheden ijzer en zeer dichte metalen.
 
-<p>De onderste lagen, die onmiddellijk op het graniet rusten, zijn blauw, en die welke zich later op de eerste afzetten, zijn groen (leisteen). Die lagen hebben zich natuurlijk horizontaal op den bodem der wateren afgezet. Als men hellende lagen vindt, dan moeten zij òf door onderaardsche krachten opgeheven zijn, òf wel zij zijn door haar eigen gewicht neergestort, toen zich door afkoeling en samentrekking ledige ruimten in het inwendige der aarde gevormd hadden. Zoo dikwijls men bij het doen boren van eene rij hellende lagen op het graniet komt, is men even zeker, de oppervlakte van dat laatste gesteente in dezelfde richting hellend te vinden, als men uit het feit, dat alle meubels eener kamer hellen, het besluit mag trekken, dat de vloer in dezelfde richting helt. Ja zelfs, de lagen, die men boven het graniet van eenen berg vindt, duiden het tijdperk zijner opheffing aan. Indien men bij voorbeeld alleen blauwe lagen vindt zonder het groene leisteen, dan is dit een bewijs, dat de opheffing van het graniet heeft plaats gevonden onmiddellijk na de eerste bezinking en vóór de tweede. Indien zich leisteenlagen boven de blauwe lagen bevinden, dan heeft de opheffing later plaats gehad. Het onderzoek der Alpen en der Pyrenëen bewijst, dat die bergen verscheidene rijzingen en dalingen hebben ondergaan. Somtijds zijn het <pb n=37 id=pb37>niet de vorige lagen, die met het graniet in aanraking zijn, maar bezinksels van veel latere dagteekening. Indien een granieteiland zich uit de oorspronkelijke zee heeft opgeheven vóór de vorming der lagen, waarover wij gesproken hebben, en het daarna weder gezonken is (die afwisselende bewegingen zijn in den Griekschen Archipel en in Italië niet zeldzaam), dan is het granieteiland alleen bedekt met bezinksels van lateren tijd.
+<p>De onderste lagen, die onmiddellijk op het graniet rusten, zijn blauw, en die welke zich later op de eerste afzetten, zijn groen (leisteen). Die lagen hebben zich natuurlijk horizontaal op den bodem der wateren afgezet. Als men hellende lagen vindt, dan moeten zij òf door onderaardsche krachten opgeheven zijn, òf wel zij zijn door haar eigen gewicht neergestort, toen zich door afkoeling en samentrekking ledige ruimten in het inwendige der aarde gevormd hadden. Zoo dikwijls men bij het doen boren van eene rij hellende lagen op het graniet komt, is men even zeker, de oppervlakte van dat laatste gesteente in dezelfde richting hellend te vinden, als men uit het feit, dat alle meubels eener kamer hellen, het besluit mag trekken, dat de vloer in dezelfde richting helt. Ja zelfs, de lagen, die men boven het graniet van eenen berg vindt, duiden het tijdperk zijner opheffing aan. Indien men bij voorbeeld alleen blauwe lagen vindt zonder het groene leisteen, dan is dit een bewijs, dat de opheffing van het graniet heeft plaats gevonden onmiddellijk na de eerste bezinking en vóór de tweede. Indien zich leisteenlagen boven de blauwe lagen bevinden, dan heeft de opheffing later plaats gehad. Het onderzoek der Alpen en der <corr sic="Pyrenëen">Pyreneën</corr> bewijst, dat die bergen verscheidene rijzingen en dalingen hebben ondergaan. Somtijds zijn het <pb n=37 id=pb37>niet de vorige lagen, die met het graniet in aanraking zijn, maar bezinksels van veel latere dagteekening. Indien een granieteiland zich uit de oorspronkelijke zee heeft opgeheven vóór de vorming der lagen, waarover wij gesproken hebben, en het daarna weder gezonken is (die afwisselende bewegingen zijn in den Griekschen Archipel en in Italië niet zeldzaam), dan is het granieteiland alleen bedekt met bezinksels van lateren tijd.
 
 
 <p><figure id=fig014 n=14>
@@ -486,7 +526,7 @@
 <div0 id=bk2 n=2 type=Book>
 <head type=label rend="image(images/fig017.jpg)">Tweede boek.</head>
 
-<head>Het azoïsche tijdperk.</head>
+<head><hi rend=ex>Het azoïsche tijdperk.</hi></head>
 
 
 <milestone unit=tb>
@@ -508,7 +548,7 @@
 
 <p>Onze verdeeling van het planten- en dierenrijk is noodzakelijk voor de studie, maar is volkomen kunstmatig en bestaat niet in de natuur zelf. Zij komt ons slechts daarom onveranderlijk voor, omdat wij slechts één oogenblik kennen in den onmetelijken duur der eeuwen. &bdquo;Indien het menschelijke leven&rdquo;, zoo zeide reeds Lamarck, &bdquo;zich slechts ééne secunde uitstrekte, dan zoude ieder individu onzer soort, de wijzers van een uurwerk beschouwende, deze niet van plaats zien veranderen. De waarnemingen van dertig geslachten zou nog weinig leeren omtrent de verplaatsing dier wijzers, want deze is in eene halve minuut nog niet noemenswaard, en indien oudere waarnemingen ons leerden, dat die wijzer werkelijk van plaats veranderd is, dan zouden wij het niet gelooven en aan eene vergissing denken, daar ieder die wijzers steeds op dezelfde plaats van de wijzerplaat gezien heeft.&rdquo;
 
-<p>Als wij met een oppervlakkig oog de zoo ongelijksoortige levens beschouwen, die onze planeet bewonen, dan schijnt het alsof zij elkander en ons volkomen vreemd zijn. Indien wij de voorwereldlijke dieren beschouwen, die den mensen zijn voorafgegaan en die thans uit hunne graven verrijzen, schijnen zij ons monsters toe; en toch zijn zij aan ons verbonden door banden, die in onzen tijd hoe langer zoo meer aan het licht komen, nu men den invloed weet, door <pb n=44 id=pb44><pb n=45 id=pb45>de omgeving uitgeoefend op den vorm en den bouw der wezens. De invloed van het water, de lucht, het licht en de warmte op de bewerktuiging der dieren en planten, is niet te loochenen. Doch indien de omgeving de ontwikkeling van bepaalde organen bepaalt, die in volume toenemen door aanhoudend gebruik, en van geslacht tot geslacht steeds volmaakter worden, niet minder waar is het, dat diezelfde organen in volume afnemen, wegsterven of geheel verdwijnen, indien door wijziging der omstandigheden het orgaan niet meer gebruikt wordt.
+<p>Als wij met een oppervlakkig oog de zoo ongelijksoortige levens beschouwen, die onze planeet bewonen, dan schijnt het alsof zij elkander en ons volkomen vreemd zijn. Indien wij de voorwereldlijke dieren beschouwen, die den mensch zijn voorafgegaan en die thans uit hunne graven verrijzen, schijnen zij ons monsters toe; en toch zijn zij aan ons verbonden door banden, die in onzen tijd hoe langer zoo meer aan het licht komen, nu men den invloed weet, door <pb n=44 id=pb44><pb n=45 id=pb45>de omgeving uitgeoefend op den vorm en den bouw der wezens. De invloed van het water, de lucht, het licht en de warmte op de bewerktuiging der dieren en planten, is niet te loochenen. Doch indien de omgeving de ontwikkeling van bepaalde organen bepaalt, die in volume toenemen door aanhoudend gebruik, en van geslacht tot geslacht steeds volmaakter worden, niet minder waar is het, dat diezelfde organen in volume afnemen, wegsterven of geheel verdwijnen, indien door wijziging der omstandigheden het orgaan niet meer gebruikt wordt.
 
 
 <p><figure id=fig019>
@@ -635,7 +675,7 @@
 
 <p>Dit is een zeer belangrijk feit voor de oplossing van het groote vraagstuk. Een tweede, niet minder belangrijk feit is, dat die wezens zich voortplanten. Maar men moet dit vermogen kunnen verklaren, en zich niet door den schijn laten verblinden.
 
-<p>Men gelooft gewoonlijk, dat alle levende wezens, menschen, dieren, planten, tegenwoordig geboren worden uit eenen vader en eene moeder, en men ziet daarin een onoverkomelijk bezwaar tegen de vorming van het eerste levende wezen. Dit is eene dwaling. Alleen de hoogere wezens planten zich langs sexueelen weg voort. De lagere wezens planten zich door deeling voort. Nemen wij b. v. de moneren, de zoöphyten, de amoeben, de polypen en andere. Wat zien wij bij een groot aantal van deze? Eenvoudig dit: het lichaam verdeelt zich in twee gelijke helften, zoodra <pb n=62 id=pb62>het door groei een zeker volume gekregen heeft; daarna groeit ieder der twee helften aan en wordt weder een volledig wezen. Dezelfde wijze van voortplanting ontmoet men bij sommige gelede dieren. Dit is dan ook de gewone toedracht bij de cel, het grondlichaam der bewerktuigde wezens. Oorspronkelijk waren er noch delfstoffen, noch dieren, maar alleen cellen, of misschien nog minder, de moneren van Haeckel.
+<p>Men gelooft gewoonlijk, dat alle levende wezens, menschen, dieren, planten, tegenwoordig geboren worden uit eenen vader en eene moeder, en men ziet daarin een onoverkomelijk bezwaar tegen de vorming van het eerste levende wezen. Dit is eene dwaling. Alleen de hoogere wezens planten zich langs sexueelen weg voort. De lagere wezens planten zich door deeling voort. Nemen wij <abbr expan=bijvoorbeeld>b.v.</abbr> de moneren, de zoöphyten, de amoeben, de polypen en andere. Wat zien wij bij een groot aantal van deze? Eenvoudig dit: het lichaam verdeelt zich in twee gelijke helften, zoodra <pb n=62 id=pb62>het door groei een zeker volume gekregen heeft; daarna groeit ieder der twee helften aan en wordt weder een volledig wezen. Dezelfde wijze van voortplanting ontmoet men bij sommige gelede dieren. Dit is dan ook de gewone toedracht bij de cel, het grondlichaam der bewerktuigde wezens. Oorspronkelijk waren er noch delfstoffen, noch dieren, maar alleen cellen, of misschien nog minder, de moneren van Haeckel.
 
 
 <p><figure id=fig023 n=23 rend="float(left)">
@@ -1022,7 +1062,7 @@
 
 <p>Bij de weekdieren is het zenuw- en spierstelsel nog slecht ontwikkeld. Het zenuwstelsel bestaat uit knoopen en strengen, en deze centrale deelen zijn onder het darmkanaal gelegen. Ééne der bijzondere eigenschappen van het bekleedsel der weekdieren is, dat het vaste stoffen afscheidt, die de zoo verschillende schelpen vormen, en die voor hen steunsels vormen, onafhankelijk van het spierstelsel. De zintuigen beginnen zich sterk te ontwikkelen. De tastzin is reeds ver gevorderd. De reuk onderscheidt zich langzamerhand van den smaak. Het gehoor heeft tot zintuig blaasjes, waarin reeds gehoorsteentjes gevonden worden. Het oog bezit een netvlies, eene kristallens, een regenboogvlies, eenen oogrok en glasachtig vocht. Het gedeelte van het lichaam, waarop de oogen gevonden worden, is gewoonlijk de aanhechtingsplaats der voelhorens; dikwijls zijn zij aan de uiteinden gelegen. Zij hebben alle een hart of een orgaan voor den bloedsomloop, dat de plaats daarvan inneemt. Zij zijn van geslachtsorganen voorzien en planten zich door eieren voort, maar de geslachten zijn niet altijd gescheiden in twee individuen: bij de koppootigen zijn de geslachten gescheiden, de buikpootigen zijn bijna alle tweeslachtig. De slakken zijn tweeslachtig, dat wil zeggen: ieder individu <pb n=110 id=pb110>bezit beide organen, maar de innige vereeniging van twee wezens is voor de voortplanting noodig, daar ieder tegelijkertijd als mannetje en wijfje optreedt.
 
-<p>Op de grens der gewervelde en ongewervelde dieren ontmoet men den <hi>Amphyoxus</hi>, lancetvischje, &bdquo;den eerwaardigen amphyoxus&rdquo;, zooals Haeckel hem begroet, die nog meer van de visschen verschilt, dan de visschen van den mensen. Het is een gewerveld dier zonder kop. De amphyoxus leeft op de zandige oevers der zee, gedeeltelijk in het zand begraven, men vindt hem aan de Noordzee, aan de kusten van Engeland, die der Middellandsche zee, in Brazilië, Peru, Borneo, China, bijna overal. Het geraamte bestaat uit eene kraakbeenige ruggestreng; een cilindervormige buis vormt de as van het lichaam, daarin ligt het centrale zenuwstelsel. Een kleine vlek aan het uiteinde van de ruggestreng is het begin van een oog, ook het reukorgaan komt in primitieven toestand voor, het gehoor bestaat nog niet; hersens zijn nog niet te ontdekken. De anatomische eigenschappen wijzen er op, dat hij de <hi>waarschijnlijke stamvader is van de gewervelde dieren</hi>, de laatste afstammeling van het oude ras der koplooze gewervelde dieren, de verbindingsschakel tusschen de gewervelde en de ongewervelde dieren. Onmiddellijk achter dezen stamvader kunnen de <hi>Cyclostomen</hi> (rondbekken) gerangschikt worden, waartoe de prik of lamprei behoort. Hun lichaam is wormvormig, zonder ledematen; hun bek bevat geene tanden, hunne huid is naakt en zonder schubben. Zij missen een beenig skelet, maar hebben reeds een begin van kieuwen en van hersenen.
+<p>Op de grens der gewervelde en ongewervelde dieren ontmoet men den <hi>Amphyoxus</hi>, lancetvischje, &bdquo;den eerwaardigen amphyoxus&rdquo;, zooals Haeckel hem begroet, die nog meer van de visschen verschilt, dan de visschen van den mensch. Het is een gewerveld dier zonder kop. De amphyoxus leeft op de zandige oevers der zee, gedeeltelijk in het zand begraven, men vindt hem aan de Noordzee, aan de kusten van Engeland, die der Middellandsche zee, in Brazilië, Peru, Borneo, China, bijna overal. Het geraamte bestaat uit eene kraakbeenige ruggestreng; een cilindervormige buis vormt de as van het lichaam, daarin ligt het centrale zenuwstelsel. Een kleine vlek aan het uiteinde van de ruggestreng is het begin van een oog, ook het reukorgaan komt in primitieven toestand voor, het gehoor bestaat nog niet; hersens zijn nog niet te ontdekken. De anatomische eigenschappen wijzen er op, dat hij de <hi>waarschijnlijke stamvader is van de gewervelde dieren</hi>, de laatste afstammeling van het oude ras der koplooze gewervelde dieren, de verbindingsschakel tusschen de gewervelde en de ongewervelde dieren. Onmiddellijk achter dezen stamvader kunnen de <hi>Cyclostomen</hi> (rondbekken) gerangschikt worden, waartoe de prik of lamprei behoort. Hun lichaam is wormvormig, zonder ledematen; hun bek bevat geene tanden, hunne huid is naakt en zonder schubben. Zij missen een beenig skelet, maar hebben reeds een begin van kieuwen en van hersenen.
 
 <p>Naarmate wij in ons onderzoek vooruitgaan, zullen wij het leven meer beperkt zien tot bepaalde organen, en de bestanddeelen, waaruit de dieren bestaan, hunne oorspronkelijke eigenschappen zien verliezen, om zich over te geven aan de leiding van het met hersenen voorziene wezen. De gewervelde dieren, zooals de zoogdieren, vogels, kruipende dieren, visschen, bestaan in hoofdzaak uit een gebouw van wervels, dat het ruggemerg beschermt, en eindigt in eenen <pb n=111 id=pb111>schedel, die zelf uit gewijzigde wervels bestaat, en de hersenen bevat, die niets anders zijn dan de oorsprong van het ruggemerg. Geboren uit de ongewervelde dieren, en ongetwijfeld voortgekomen uit de laagste dezer dieren, de ringwormen, wier anatomische bouw de meeste overeenkomst heeft met de lagere gewervelde dieren, vertoonen zij zich aan ons als de meest volmaakte ontwikkeling van het leven op onze planeet. Het is hieruit, dat men zich niet alleen den vorm der wezens kan verklaren, maar ook de schikking van ieder orgaan in het lichaam. Het hoofd, de zoo fijne organen van het gezicht en het gehoor, het hart, de longen, de nieren hebben zich langzaam gevormd. De vorm van ieder wezen, zoowel in- als uitwendig, is de vrucht van zijne levenswijze en die zijner voorouders. Wij zagen, dat gedurende eene reeks van eeuwen de organismen zich hebben voortgeplant door knopvorming en verdeeling. Daarna hebben wij bij wezens, die zich nog steeds op die wijze voortplantten, organen zien ontstaan, die het aanzijn schonken aan kleine eieren of aan klieren. Van toen af begon de geslachtsvoortplanting, bij dezelfde wezens met de vorige wijze van voortplanting afwisselende, en die optrad bij dieren, die beide geslachtsorganen bezaten en tweeslachtig waren. Daarna treedt de voortplanting op door de verbinding van twee verschillende wezens, die, om het voortbestaan der soort te verzekeren, tot elkander moeten naderen en zich tijdelijk tot één lichaam moeten vereenigen, en juist door deze wijze van voortplanting splitsen zich de wezens tot verschillende soorten. De ligging der voortplantingsorganen in de nabijheid van de organen, die dienen tot de afscheiding van stoffen, die geen nut meer hebben voor het organisme, is niet zeer gelukkig, zij is het gevolg van den bouw der aardwormen, bij welke de oorspronkelijke organen voor de voortplanting verbonden zijn met de organen tot afscheiding. Bij de ringwormen vinden de eitjes, die zich in alle kanalen van het lichaam vormen, in die afscheidingskanalen eenen doorgang naar buiten. De langzame <pb n=112 id=pb112>volmaking van het dierenrijk heeft dien oorsprong nog niet uitgewischt.
 
@@ -1064,7 +1104,7 @@
 
 <p>Indien de lezer ons wel heeft willen volgen in ons onderzoek over <hi>de ontwikkeling en den vooruitgang van het leven</hi>, dan zal hij doordrongen zijn van het denkbeeld, dat er een nauw verband bestaat tusschen de verschillende onderdeelen der natuur, van de gesteenten tot aan den mensch; wij herhalen het, van de gesteenten af. Zoo zal een stuk gebroken kristal weer evenzeer aangroeien, alsof het een plantaardig of dierlijk weefsel ware. Pasteur heeft aangetoond, dat indien men een gebroken kristal in de vloeistof plaatst, waaruit het gekristalliseerd is, men het kristal in alle richtingen ziet aangroeien door een afzetsel van kristallijne deeltjes, maar dat men tevens eene sterke werking waarneemt aan het gebroken gedeelte, zoodat het verminkte deel na verloop van enkele uren weer zijne regelmatige gedaante heeft herwonnen.
 
-<p>In die onafgebroken reeks openbaringen der scheppende natuur, heeft er van de mechanische, physische en chemische periode vóór het leven, tot aan onzen tijd, zoo rijk aan de vruchten van verstand en gedachte, geene verbreking plaats gehad in den samenhang, geene enkele gaping, geene verandering van plan, geen onoverkomelijke afgrond, geene spontane schepping. De geheele natuur op aarde is naar een zelfde plan gebouwd en vertoont overal de uitdrukking van eenzelfde gronddenkbeeld. Komt men eindelijk tot den mensen, dan staat men niet meer tegenover eenen onoverkomelijken afgrond. De mensen is het kind der natuur, evenals alle voorgaande voortbrengselen. Hij is door onverbreekbare banden verbonden aan de wezens, die hem zijn voorgegaan, aan de gesteenten, de planten en de dieren. Later zullen wij onderzoeken, wie zijn onmiddellijke stamvader geweest is. Maar terwijl wij dit onderzoek sluiten, moeten wij duidelijk die verwantschap van den mensch met de geheele natuur der aarde verstaan.
+<p>In die onafgebroken reeks openbaringen der scheppende natuur, heeft er van de mechanische, physische en chemische periode vóór het leven, tot aan onzen tijd, zoo rijk aan de vruchten van verstand en gedachte, geene verbreking plaats gehad in den samenhang, geene enkele gaping, geene verandering van plan, geen onoverkomelijke afgrond, geene spontane schepping. De geheele natuur op aarde is naar een zelfde plan gebouwd en vertoont overal de uitdrukking van eenzelfde gronddenkbeeld. Komt men eindelijk tot den mensch, dan staat men niet meer tegenover eenen onoverkomelijken afgrond. De mensch is het kind der natuur, evenals alle voorgaande voortbrengselen. Hij is door onverbreekbare banden verbonden aan de wezens, die hem zijn voorgegaan, aan de gesteenten, de planten en de dieren. Later zullen wij onderzoeken, wie zijn onmiddellijke stamvader geweest is. Maar terwijl wij dit onderzoek sluiten, moeten wij duidelijk die verwantschap van den mensch met de geheele natuur der aarde verstaan.
 
 <pb n=119 id=pb119><p>De geest zoowel als het lichaam zijn de producten van de levenskracht, zooals zij langzamerhand ontwikkeld is. Wel beperkt zich het leven meer en meer in het hart en in de hersenen, wel beperkt zich het bewustzijn meer en meer in de hersenen, maar daarom is dit nog geene nieuwe wereld, het is slechts de voortzetting en ontwikkeling van oude vormen.
 
@@ -1184,7 +1224,7 @@
 
 <p>Eindelijk echter brak de waarheid door. Een eenvoudig pottenbakker, Bernard Palissy, neemt de natuur zelf waar en heeft den moed te Parijs te verkondigen, ten aanhoore van alle doctoren, dat de fossiele schelpen niets anders waren clan gewone schelpen, eertijds door de zee neergelegd op de plaatsen, waar zij gevonden werden, dat dieren, en vooral visschen aan de steenen hunne verschillende vormen gegeven hadden, en hij tartte de geheele Aristotelische school, zijne bewijzen te weerleggen. &bdquo;En al vindt men steenen, met schelpen gevuld op de toppen der hoogste bergen,&rdquo; zoo sprak hij, &bdquo;daarom meene men niet, dat de schelpen gevormd zijn op zoodanige vreemde wijze, als sommigen meenen. Geen enkele steen kan den vorm van eene schelp of van een dier aannemen, als niet het dier <pb n=140 id=pb140>zelf dien vorm gebouwd heeft. Vóórdat dus die schelpen versteend waren, leefden de visschen, die ze gevormd hebben, in het water, en de visschen en het water zijn gelijktijdig versteend.&rdquo;
 
-<p>Toch bleef men twijfelen. Hoewel reeds Steno in 1669 eene verklaring gegeven had van de sedimentformaties en de fossielen, twijfelen Fontenelle, Buffon en anderen nog aan den aard der fossielen, en hebben zij geen denkbeeld van de wijze van ontstaan der sedimentformaties. Doch langzamerhand trekt het geheimzinnig waas weg, dat altijd de fossielen bedekt had. De onderzoekingen van Steno, Pallas, Saussure, Werner, Deluc, Hutton, Playfair, Smith, Humboldt, <hi rend=sc>Cuvier</hi>, Lyell, Elie de Beaumont en anderen verhieven de leer der fossielen tot de positieve wetenschap, die een belangrijk onderdeel der aardkunde uitmaakt. Cuvier was in waarheid de schepper der <hi>paleontologie</hi>. Na hem durfde niemand meer te twijfelen aan het wezen der fossielen, en moest iedereen erkennen, dat zij de overblijfselen waren van dieren en planten, die geleefd hadden in eenen tijd, toen de mensch nog niet op aarde verschenen was, en die bewaard gebleven waren in de sedimentformaties, die zich achtereenvolgens hadden afgezet. Toch had reeds Ovidius geschreven:
+<p>Toch bleef men twijfelen. Hoewel reeds Steno in 1669 eene verklaring gegeven had van de sedimentformaties en de fossielen, twijfelen Fontenelle, Buffon en anderen nog aan den aard der fossielen, en hebben zij geen denkbeeld van de wijze van ontstaan der sedimentformaties. Doch langzamerhand trekt het geheimzinnig waas weg, dat altijd de fossielen bedekt had. De onderzoekingen van Steno, Pallas, Saussure, Werner, Deluc, Hutton, Playfair, Smith, Humboldt, <hi rend=sc>Cuvier</hi>, Lyell, <corr sic=Elie>Élie</corr> de Beaumont en anderen verhieven de leer der fossielen tot de positieve wetenschap, die een belangrijk onderdeel der aardkunde uitmaakt. Cuvier was in waarheid de schepper der <hi>paleontologie</hi>. Na hem durfde niemand meer te twijfelen aan het wezen der fossielen, en moest iedereen erkennen, dat zij de overblijfselen waren van dieren en planten, die geleefd hadden in eenen tijd, toen de mensch nog niet op aarde verschenen was, en die bewaard gebleven waren in de sedimentformaties, die zich achtereenvolgens hadden afgezet. Toch had reeds Ovidius geschreven:
 
 
 <lg lang=la type=Group>
@@ -1211,16 +1251,16 @@
 <pb n=143 id=pb143><table id=t2>
 <head>Verhouding van de dichtheid der lagen en minimumduur der perioden:</head>
 
-<row role=label><cell>      <cell>Dikte.        <cell>Verhouding.   <cell>Duur.
-<row role=unit><cell cols=3>                            <cell>(100&nbsp;000 jaren voor de quaternaire periode gerekend).
+<row role=label><cell cols=2>                           <cell>Dikte.        <cell>Verhouding.   <cell>Duur.
+<row role=unit><cell cols=4>                                                                    <cell>(100&nbsp;000 jaren voor de quaternaire periode gerekend).
 
-<row><cell>Azoïsche periode.   <cell rend="align(right)">23&nbsp;000 Meters    <cell rend="align(right)"> 53,6     <cell rend="align(right)">10&nbsp;720&nbsp;000 jaren.
-<row><cell>Primaire <ditto>periode.</ditto> <cell rend="align(right)">14&nbsp;000 <ditto>Meters</ditto> <cell rend="align(right)"> 32,1     <cell rend="align(right)"> 6&nbsp;420&nbsp;000 <ditto>jaren.</ditto>
-<row><cell>Secundaire <ditto>periode.</ditto>   <cell rend="align(right)"> 5&nbsp;000 <ditto>Meters</ditto> <cell rend="align(right)"> 11,5         <cell rend="align(right)"> 2&nbsp;300&nbsp;000 <ditto>jaren.</ditto>
-<row><cell>Tertiaire <ditto>periode.</ditto>    <cell rend="align(right)"> 1&nbsp;000 <ditto>Meters</ditto> <cell rend="align(right)">  2,3     <cell rend="align(right)">   460&nbsp;000 <ditto>jaren.</ditto>
-<row><cell>Quaternaire <ditto>periode.</ditto>  <cell rend="align(right)">   200 <ditto>Meters</ditto>  <cell rend="align(right)">  0,5     <cell rend="align(right)">   102&nbsp;000 <ditto>jaren.</ditto>
+<row><cell>Azoïsche     <cell><seg id=segPeriode>periode.</seg> <cell rend="align(right)">23&nbsp;000 <seg id=segMeters>Meters</seg> <cell rend="align(right)"> 53,6 <cell rend="align(right)">10&nbsp;720&nbsp;000 <seg id=segJaren>jaren.</seg>
+<row><cell>Primaire     <cell><seg copyOf=segPeriode>,,</seg>   <cell rend="align(right)">14&nbsp;000 <seg copyOf=segMeters>,,</seg> <cell rend="align(right)"> 32,1 <cell rend="align(right)"> 6&nbsp;420&nbsp;000 <seg copyOf=segJaren>,,</seg>
+<row><cell>Secundaire   <cell><seg copyOf=segPeriode>,,</seg>   <cell rend="align(right)"> 5&nbsp;000 <seg copyOf=segMeters>,,</seg> <cell rend="align(right)"> 11,5 <cell rend="align(right)"> 2&nbsp;300&nbsp;000 <seg copyOf=segJaren>,,</seg>
+<row><cell>Tertiaire    <cell><seg copyOf=segPeriode>,,</seg>   <cell rend="align(right)"> 1&nbsp;000 <seg copyOf=segMeters>,,</seg> <cell rend="align(right)">  2,3 <cell rend="align(right)">        460&nbsp;000 <seg copyOf=segJaren>,,</seg>
+<row><cell>Quaternaire  <cell><seg copyOf=segPeriode>,,</seg>   <cell rend="align(right)">   200      <seg copyOf=segMeters>,,</seg> <cell rend="align(right)">  0,5 <cell rend="align(right)">        102&nbsp;000 <seg copyOf=segJaren>,,</seg>
 
-<row><cell>         <cell role=sum rend="align(right)">43&nbsp;200 Meters     <cell role=sum rend="align(right)">100        <cell role=sum rend="align(right)">20&nbsp;002&nbsp;000 jaren.<note n=1>Wij herhalen nog eens, dat deze getallen geene <hi>absolute</hi> waarde hebben en alleen dienen als verhoudingsgetallen.</note>
+<row><cell cols=2>      <cell role=sum rend="align(right)">43&nbsp;200 Meters     <cell role=sum rend="align(right)">100        <cell role=sum rend="align(right)">20&nbsp;002&nbsp;000 jaren.<note n=1>Wij herhalen nog eens, dat deze getallen geene <hi>absolute</hi> waarde hebben en alleen dienen als verhoudingsgetallen.</note>
 </table>
 
 
@@ -1238,11 +1278,11 @@
 
 <pb n=144 id=pb144>
 <table id=t3>
-    <row role=label><cell>                  <cell>Formaties.    <cell>Dikte.
+    <row role=label><cell>             <cell>Formaties.  <cell>Dikte.
 
-    <row><cell rows=3>Azoïsche periode <cell>laurentisch   <cell>9&nbsp;000 Meters,
-    <row>                                   <cell>cambrisch     <cell>6&nbsp;000 <ditto>Meters,</ditto>
-    <row>                                   <cell>silurisch     <cell>8&nbsp;000 <ditto>Meters.</ditto>
+    <row><cell rows=3>Azoïsche periode <cell>laurentisch <cell>9&nbsp;000 <seg id=segMeters2>Meters,</seg>
+    <row>                              <cell>cambrisch   <cell>6&nbsp;000 <seg copyOf=segMeters2>,,</seg>
+    <row>                              <cell>silurisch   <cell>8&nbsp;000 <seg copyOf=segMeters2>,,</seg>
 </table>
 
 
@@ -1425,7 +1465,7 @@
 
 <p>Tot voor eenige jaren twijfelde men nog aan het bestaan van dieren, die in de lucht ademen, uit het silurische tijdvak. In 1884 werd echter in de bovenste silurische lagen van Gothland (Zweden) een versteende schorpioen gevonden. Opmerkelijk <pb n=170 id=pb170>is het, dat tegelijkertijd de ware aard van eenen anderen schorpioen ontdekt werd, in 1883 in de bovenste silurische lagen van Schotland gevonden. Deze beide exemplaren van dieren, die thans alleen leven in de warme landen, zijn gevonden op de hooge breedte van Schotland en Zweden, een bewijs te meer, dat er toen nog geene klimaten bestonden.
 
-<p>Zoo vertoont zich dan het ééncellige wezen aan den drempel der geheele schepping; naarmate de eeuwen bij tienduizenden voorbijgaan, verdeelen zich de wezens in soorten, die zich weder splitsen en vertakken; al meer en meer wijken zij van elkander af; hunne levensverrichtingen worden met hunne organen ingewikkelder; hunne vermogens beperken zich tot bepaalde deelen; hunne instincten komen voor den dag; het laatst treedt het verstand op. En zóó nadert het indrukwekkende drama zijne ontknooping, waarbij de mensen optreedt, de kroon der schepping, volkomen bewust van de hem toebedeelde rol.
+<p>Zoo vertoont zich dan het ééncellige wezen aan den drempel der geheele schepping; naarmate de eeuwen bij tienduizenden voorbijgaan, verdeelen zich de wezens in soorten, die zich weder splitsen en vertakken; al meer en meer wijken zij van elkander af; hunne levensverrichtingen worden met hunne organen ingewikkelder; hunne vermogens beperken zich tot bepaalde deelen; hunne instincten komen voor den dag; het laatst treedt het verstand op. En zóó nadert het indrukwekkende drama zijne ontknooping, waarbij de mensch optreedt, de kroon der schepping, volkomen bewust van de hem toebedeelde rol.
 
 
 
@@ -1433,7 +1473,7 @@
 <div0 id=bk3 n=3>
 <head type=label rend="image(images/fig083.jpg)">Derde boek.</head>
 
-<head>Het primaire tijdperk.</head>
+<head><hi rend=ex>Het primaire tijdperk.</hi></head>
 
 
 <milestone unit=tb>
@@ -1471,53 +1511,53 @@
 <list rend="list-style-type(none)">
     <item><p rend="align(center)"><hi rend=bold>I. Azoïsche periode.</hi>
 
-    <p>Periode der koplooze dieren en der wieren.
+    <p rend="align(center)">Periode der koplooze dieren en der wieren.
 
-    <list>
-        <item>1 Oudste azoïsche periode of Laurentische periode.
-        <item>2 Middelste <ditto>azoïsche periode of</ditto> Cambrische <ditto>periode.</ditto>
-        <item>3 Jongste <ditto>azoïsche periode of</ditto> Silurische <ditto>periode.</ditto>
-    </list>
+    <table>
+        <row><cell>1 <cell>Oudste    <cell><seg id=segAPO>azoïsche periode of</seg> Laurentische <cell><seg id=segPeriode2>periode.</seg>
+        <row><cell>2 <cell>Middelste <cell><seg copyOf=segAPO>,, ,, ,,</seg> Cambrische <cell><seg copyOf=segPeriode2>,,</seg>
+        <row><cell>3 <cell>Jongste   <cell><seg copyOf=segAPO>,, ,, ,,</seg> Silurische <cell><seg copyOf=segPeriode2>,,</seg>
+    </table>
 
     <item><p rend="align(center)"><hi rend=bold>II. Primaire periode.</hi>
 
-    <p>Periode der Visschen en Varens.
+    <p rend="align(center)">Periode der Visschen en Varens.
 
-    <list>
-        <item>4 Oudste primaire periode of Devonische periode.
-        <item>5 Middelste <ditto>primaire periode of</ditto> Steenkool <ditto>periode.</ditto>
-        <item>6 Jongste <ditto>primaire periode of</ditto> Permische <ditto>periode.</ditto>
-    </list>
+    <table>
+        <row><cell>4 <cell>Oudste    <cell><seg id=segPPO>primaire periode of</seg> Devonische <cell>periode.
+        <row><cell>5 <cell>Middelste <cell><seg copyOf=segPPO>,, ,, ,,</seg> Steenkool <cell><seg copyOf=segPeriode2>,,</seg>
+        <row><cell>6 <cell>Jongste   <cell><seg copyOf=segPPO>,, ,, ,,</seg> Permische <cell><seg copyOf=segPeriode2>,,</seg>
+    </table>
 
     <item><p rend="align(center)"><hi rend=bold>III. Secundaire periode.</hi>
 
-    <p>Periode der kruipende dieren en der boomen met overblijvende bladeren.
+    <p rend="align(center)">Periode der kruipende dieren en der boomen met overblijvende bladeren.
 
-    <list>
-        <item>7 Oudste secundaire periode of Trias periode.
-        <item>8 Middelste <ditto>secundaire periode of</ditto> Jura <ditto>periode.</ditto>
-        <item>9 Jongste <ditto>secundaire periode of</ditto> Krijt <ditto>periode.</ditto>
-    </list>
+    <table>
+        <row><cell>7 <cell>Oudste    <cell><seg id=segSPO>secundaire periode of</seg> Trias <cell>periode.
+        <row><cell>8 <cell>Middelste <cell><seg copyOf=segSPO>,, ,, ,,</seg> Jura <cell><seg copyOf=segPeriode2>,,</seg>
+        <row><cell>9 <cell>Jongste   <cell><seg copyOf=segSPO>,, ,, ,,</seg> Krijt <cell><seg copyOf=segPeriode2>,,</seg>
+    </table>
 
     <item><p rend="align(center)"><hi rend=bold>IV. Tertiaire periode.</hi>
 
-    <p>Periode der zoogdieren en der boomen met afvallende bladeren.
+    <p rend="align(center)">Periode der zoogdieren en der boomen met afvallende bladeren.
 
-    <list>
-        <item>10 Oudste tertiaire periode of Eoceen periode.
-        <item>11 Middelste <ditto>tertiaire periode of</ditto> Mioceen <ditto>periode.</ditto>
-        <item>12 Jongste <ditto>tertiaire periode of</ditto> Plioceen <ditto>periode.</ditto>
-    </list>
+    <table>
+        <row><cell>10 <cell>Oudste    <cell><seg id=segTPO>tertiaire periode of</seg> Eoceen <cell>periode.
+        <row><cell>11 <cell>Middelste <cell><seg copyOf=segTPO>,, ,, ,,</seg> Mioceen <cell><seg copyOf=segPeriode2>,,</seg>
+        <row><cell>12 <cell>Jongste   <cell><seg copyOf=segTPO>,, ,, ,,</seg> Plioceen <cell><seg copyOf=segPeriode2>,,</seg>
+    </table>
 
     <item><p rend="align(center)"><hi rend=bold>V. Quaternaire periode.</hi>
 
-    <p>Periode der menschen, der gekweekte planten en der huisdieren.
+    <p rend="align(center)">Periode der menschen, der gekweekte planten en der huisdieren.
 
-    <list>
-        <item>13 Oudste quaternaire periode of IJsperiode.
-        <item>14 Middelste <ditto>quaternaire periode of</ditto> Postglaciaire periode.
-        <item>15 Jongste <ditto>quaternaire periode of</ditto> Periode der beschaving.
-    </list>
+    <table>
+        <row><cell>13 <cell>Oudste    <cell><seg id=segQPO>quaternaire periode of</seg> IJsperiode.
+        <row><cell>14 <cell>Middelste <cell><seg copyOf=segQPO>,, ,, ,,</seg> Postglaciaire periode.
+        <row><cell>15 <cell>Jongste   <cell><seg copyOf=segQPO>,, ,, ,,</seg> Periode der beschaving.
+    </table>
 </list>
 
 
@@ -1534,57 +1574,57 @@
     <cell>Quaternair
         <list>
             <item>Oppervlakte.
-            <item>Bovenste quaternaire formatie.
-            <item>Middelste <ditto>quaternaire formatie.</ditto> (Postglaciair).
-            <item>Oudste <ditto>quaternaire formatie.</ditto> (Glaciair).
+            <item>Bovenste <seg id=segQF>quaternaire formatie.</seg>
+            <item>Middelste <seg copyOf=segQF>,, ,,</seg> (Postglaciair).
+            <item>Oudste <seg copyOf=segQF>,, ,,</seg> (Glaciair).
         </list>
 <row>
     <cell>1000 m.
     <cell>Tertiair
         <list>
-            <item>Bovenste pliocene formatie.
-            <item>Onderste <ditto>pliocene formatie.</ditto>
-            <item>Bovenste miocene <ditto>formatie.</ditto>
-            <item>Onderste <ditto>miocene formatie.</ditto> (Molasse).
-            <item>Bovenste eocene <ditto>formatie.</ditto> (Gips).
-            <item>Middelste <ditto>eocene formatie.</ditto> (Grofkalk).
-            <item>Onderste <ditto>eocene formatie.</ditto> (Zand en klei).
+            <item>Bovenste <seg id=segPliocene>pliocene</seg> <seg id=segFormatie>formatie.</seg>
+            <item>Onderste <seg copyOf=segPliocene>,,</seg> <seg copyOf=segFormatie>,,</seg>
+            <item>Bovenste <seg id=segMiocene>miocene</seg> <seg copyOf=segFormatie>,,</seg>
+            <item>Onderste <seg copyOf=segMiocene>,,</seg> <seg copyOf=segFormatie>,,</seg> (Molasse).
+            <item>Bovenste <seg id=segEocene>eocene</seg> <seg copyOf=segFormatie>,,</seg> (Gips).
+            <item>Middelste <seg copyOf=segEocene>,,</seg> <seg copyOf=segFormatie>,,</seg> (Grofkalk).
+            <item>Onderste <seg copyOf=segEocene>,,</seg> <seg copyOf=segFormatie>,,</seg> (Zand en klei).
         </list>
 <row>
     <cell>5000 m.
     <cell>Secundair
         <list>
-            <item>Bovenste krijtformatie. (Wit krijt).
-            <item>Middelste <ditto>krijtformatie.</ditto> (Groenzand).
-            <item>Onderste <ditto>krijtformatie.</ditto> (Wealdvorming).
+            <item>Bovenste <seg id=segKrijtformatie>krijtformatie.</seg> (Wit krijt).
+            <item>Middelste <seg copyOf=segKrijtformatie>,,</seg> (Groenzand).
+            <item>Onderste <seg copyOf=segKrijtformatie>,,</seg> (Wealdvorming).
             <item>Witte Juraformatie. (Lithographische steen)
             <item>Bruine Juraformatie. (Portland cement).
             <item>Zwarte Juraformatie. (Lias).
-            <item>Bovenste Triasformatie. (Keuper, mergel).
-            <item>Middelste <ditto>Triasformatie.</ditto> (Schelpkalk).
-            <item>Onderste <ditto>Triasformatie.</ditto> (Bonte zandsteen).
+            <item>Bovenste <seg id=segTriasformatie>Triasformatie.</seg> (Keuper, mergel).
+            <item>Middelste <seg copyOf=segTriasformatie>,,</seg> (Schelpkalk).
+            <item>Onderste <seg copyOf=segTriasformatie>,,</seg> (Bonte zandsteen).
         </list>
 <row>
     <cell>14000 m.
     <cell>Primair
         <list>
-            <item>Bovenste Permische formatie. (Zechsteen).
-            <item>Onderste <ditto>Permische formatie.</ditto> (Roode zandsteen).
-            <item>Bovenste steenkoolformatie. (Zwarte leisteen).
-            <item>Onderste <ditto>steenkoolformatie.</ditto> (Kolenkalk).
-            <item>Bovenste devonische <ditto>formatie.</ditto> (Roode zandsteen).
-            <item>Onderste <ditto>devonische formatie.</ditto>
+            <item>Bovenste <seg id=segPermische>Permische</seg> formatie. (Zechsteen).
+            <item>Onderste <seg copyOf=segPermische>,,</seg> <seg copyOf=segFormatie>,,</seg> (Roode zandsteen).
+            <item>Bovenste <seg id=segSteenkoolformatie>steenkoolformatie.</seg> (Zwarte leisteen).
+            <item>Onderste <seg copyOf=segSteenkoolformatie>,,</seg> (Kolenkalk).
+            <item>Bovenste <seg id=segDevonische>devonische</seg> <seg copyOf=segFormatie>,,</seg> (Roode zandsteen).
+            <item>Onderste <seg copyOf=segDevonische>,,</seg> <seg copyOf=segFormatie>,,</seg>
         </list>
 <row>
     <cell>23000 m.
     <cell>Azoïsch
         <list>
-            <item>Bovenste silurische formatie.
-            <item>Onderste <ditto>silurische formatie.</ditto>
-            <item>Bovenste cambrische <ditto>formatie.</ditto>
-            <item>Onderste <ditto>cambrische formatie.</ditto>
-            <item>Bovenste laurentische <ditto>formatie.</ditto>
-            <item>Onderste <ditto>cambrische formatie.</ditto>
+            <item>Bovenste <seg id=segSilurische>silurische</seg> formatie.
+            <item>Onderste <seg copyOf=segSilurische>,,</seg> <seg copyOf=segFormatie>,,</seg>
+            <item>Bovenste <seg id=segCambrische>cambrische</seg> <seg copyOf=segFormatie>,,</seg>
+            <item>Onderste <seg copyOf=segCambrische>,,</seg> <seg copyOf=segFormatie>,,</seg>
+            <item>Bovenste <seg id=segLaurentische>laurentische</seG> <seg copyOf=segFormatie>,,</seg>
+            <item>Onderste <seg copyOf=segLaurentische>,,</seg> <seg copyOf=segFormatie>,,</seg>
         </list>
 </table>
 
@@ -1727,7 +1767,7 @@ Az.   Camb.
 </figure>
 
 
-<p>Zooals men ziet, is Parijs in eene soort kom gebouwd, op eene bedding, gevormd door de tertiaire lagen, zooals deze zich door de golvingen der secundaire lagen hebben moeten vervormen. De bovenste laag van de secundaire formatie, de krijtlaag, komt b. v. oostwaarts te Troyes bloot. De Juralaag heeft o. a. de heuvelen van Bourgogne en de bergvlakte van Langres gevormd. <ref target=fig091>Fig. 91</ref> maakt duidelijk, hoe het water der artesische put gevoed wordt door het water, dat stroomt door het secundaire zand, dat de Juraformatie van Langres tot Parijs bedekt.
+<p>Zooals men ziet, is Parijs in eene soort kom gebouwd, op eene bedding, gevormd door de tertiaire lagen, zooals deze zich door de golvingen der secundaire lagen hebben moeten vervormen. De bovenste laag van de secundaire formatie, de krijtlaag, komt b.v. oostwaarts te Troyes bloot. De Juralaag heeft <abbr expan="onder andere">o.a.</abbr> de heuvelen van Bourgogne en de bergvlakte van Langres gevormd. <ref target=fig091>Fig. 91</ref> maakt duidelijk, hoe het water der artesische put gevoed wordt door het water, dat stroomt door het secundaire zand, dat de Juraformatie van Langres tot Parijs bedekt.
 
 
 <p><figure id=fig093 n=93>
@@ -1882,7 +1922,7 @@ Az.   Camb.
 
 <p>Wij zouden nog veel meer voorbeelden kunnen noemen. Wij hebben echter alleen de meest sprekende typen gekozen. Het is natuurlijk, dat die landaanwinning alleen plaats heeft, als er geene andere factoren in het spel zijn; een aantal monden vertoonen juist een tegenovergesteld verschijnsel door den vorm der rotsen, door de zeestroomingen of de dalingen van den bodem; het resultaat is echter steeds <hi>langzame vervorming</hi>. Slechts weinige plekken zijn in het geheel niet veranderd, zelfs van de historische tijden gerekend.
 
-<p>Door dien arbeid van het water worden de bergen lager en de bodem der zee hooger. De Rijn voert in zijn water 6/1000 deelen slib mede, de Garonne 10/1000, de Indus van 2/1000 tot 5/1000. Het is natuurlijk, dat dit maxima zijn, die alleen bereikt worden bij sterken was. Er zijn dagen, waarop de Donau 1250000 cubieke meters slib naar zee voert. Elisée Réclus berekent, dat alle stroomen te zamen jaarlijks 10 <hi>cubieke kilometers</hi> slib in zee storten. Indien dit zich regelmatig verspreidde over den bodem der zee, dan zoude dat bezinksel in 341 jaren 1 centimeter dik zijn, en dus in 34 <pb n=203 id=pb203>millioen jaren 1 kilometer. Al het water der rivieren en stroomen vormt slechts een klein deel van het water der oceanen. Nemen wij aan, dat de gemiddelde diepte der oceanen vijf kilometers bedraagt, dan zoude de hoeveelheid water, die in zee stroomt, eerst in 5&frac12; millioen jaren gelijk zijn aan al het water, dat de zee bevat.
+<p>Door dien arbeid van het water worden de bergen lager en de bodem der zee hooger. De Rijn voert in zijn water &frac6-1000; deelen slib mede, de Garonne &frac10-1000;, de Indus van &frac2-1000; tot &frac5-1000;. Het is natuurlijk, dat dit maxima zijn, die alleen bereikt worden bij sterken was. Er zijn dagen, waarop de Donau 1250000 cubieke meters slib naar zee voert. Elisée Réclus berekent, dat alle stroomen te zamen jaarlijks 10 <hi>cubieke kilometers</hi> slib in zee storten. Indien dit zich regelmatig verspreidde over den bodem der zee, dan zoude dat bezinksel in 341 jaren 1 centimeter dik zijn, en dus in 34 <pb n=203 id=pb203>millioen jaren 1 kilometer. Al het water der rivieren en stroomen vormt slechts een klein deel van het water der oceanen. Nemen wij aan, dat de gemiddelde diepte der oceanen vijf kilometers bedraagt, dan zoude de hoeveelheid water, die in zee stroomt, eerst in 5&frac12; millioen jaren gelijk zijn aan al het water, dat de zee bevat.
 
 <p>Onverbiddelijk moet de gedaante der aarde veranderen. Indien geen enkele oorzaak rijzingen of dalingen van den bodem teweegbracht, dan zoude alleen door de werking van het water de aarde eindelijk volkomen glad worden, en bedekt met eene laag water van eenige honderden meters diepte. Maar ook de oppervlakte van den bodem wordt gewijzigd. Toch is van eeuw tot eeuw de invloed der aanslibbing alleen duidelijk merkbaar. Zoo zal mettertijd de Middellandsche zee eene aaneenschakeling van meren worden, en nog later een reusachtige stroom. De zee van Azof verandert langzamerhand door de nadering der oevers in eene rivier. De golf van Venetië zal mettertijd niets anders zijn dan het verlengde van de vallei van de Po, en de twee groote bekkens der Middellandsche zee, gescheiden door de onderzeesche zandbank, die Sicilië met Afrika verbindt, zullen twee meren vormen, die al nauwer en nauwer zullen worden en den grootsten stroom der wereld zullen voeden. Dan zullen de Dnieper, de Donau en de Po slechts bijrivieren van dien stroom zijn; misschien zelfs dat de Nijl, die thans reeds zoo weinig beteekent aan zijne monding, al zijn water door verdamping zal verliezen, vóórdat hij den breeden stroom bereikt.
 
@@ -2151,7 +2191,7 @@ Az.   Camb.
 </figure>
 
 
-<p>Die geheele streek is van vulkanischen aard. Daar was, zooals men weet, volgens Virgilius de onderwereld gelegen (Phlegreïsche velden). Men vindt daar het meer van Averno, de Solfatare, de Sibyllijnsche grot, enz. Ook vindt men daar de beroemde Hondsgrot, waarin een hond verstikt wordt door het onzichtbare koolzuur, dat tot op één voet van den bodem stijgt, terwijl de mensen gewone dampkringslucht ademt. Daar vindt men ook de zweetbaden van Nero, een gang in den berg, waarvan de temperatuur 55&deg; bedraagt: een jongen gaat naakt met eenen leegen emmer en rauwe eieren in de gaanderij en komt na drie minuten terug, met den emmer vol warm water, de eieren gekookt, en het lichaam zoo rood als een kreeft. Ook de Solfatare is zóó hol, dat de grond tot op eenen grooten afstand beeft, als men er met den voet op trapt.
+<p>Die geheele streek is van vulkanischen aard. Daar was, zooals men weet, volgens Virgilius de onderwereld gelegen (Phlegreïsche velden). Men vindt daar het meer van Averno, de Solfatare, de Sibyllijnsche grot, enz. Ook vindt men daar de beroemde Hondsgrot, waarin een hond verstikt wordt door het onzichtbare koolzuur, dat tot op één voet van den bodem stijgt, terwijl de mensch gewone dampkringslucht ademt. Daar vindt men ook de zweetbaden van Nero, een gang in den berg, waarvan de temperatuur 55&deg; bedraagt: een jongen gaat naakt met eenen leegen emmer en rauwe eieren in de gaanderij en komt na drie minuten terug, met den emmer vol warm water, de eieren gekookt, en het lichaam zoo rood als een kreeft. Ook de Solfatare is zóó hol, dat de grond tot op eenen grooten afstand beeft, als men er met den voet op trapt.
 
 <p>Ten slotte wijzen wij nog op de verwoestingen, door de vulkanen en de aardbevingen aangericht; in het jaar 79, toen Pompeji, Herculanum en Stabia verwoest werden, en op de verwoesting van Ischia (1883).
 
@@ -2163,9 +2203,9 @@ Az.   Camb.
 
 <p>En wat te zeggen van de bergstortingen, door het water veroorzaakt? Steile en vooroverhangende rotsen, die boven de velden hingen, raken plotseling los en glijden langs de hellingen af; neerstortend doen zij stofwolken opstijgen, die gelijken op de asch, door vulkanen uitgeworpen; de geheele vallei is in duisternis gehuld, de grond dreunt onder het botsen en stooten der rotsblokken. Als de duisternis is opgetrokken, dan ziet men puinhoopen en rotsblokken, dáár waar eertijds groene weiden en vruchtbare akkers gelegen waren; de bergstroom is in eenen modderpoel veranderd, en de muur van rotsen heeft zijnen ouden vorm verloren.
 
-<p>Bekend is de bergstorting, waarbij de oude Romeinsche stad Velleja in de 6<hi rend=sup>de</hi> eeuw verzwolgen werd; het groot aantal beenderen, munten en kostbaarheden, die men in de puinhoopen gevonden heeft, bewijzen, dat de bevolking geenen tijd gehad heeft, te vluchten. Zoo werd ook het kasteel Tauretunum en het naburige dorp, aan den zuidelijken oever van het meer van Genève in 563 door eene neerstorting van rotsen verwoest; de golven, die ontstonden door het neerstorten der steenen in het meer, verwoestten zelfs aan den anderen oever alle woningen; alle steden der kust werden verwoest en eerst eene halve eeuw later opgebouwd: zelfs Genève werd gedeeltelijk door het water bedekt.<note n=1>Welke verwoestingen eene zoodanige golf, veroorzaakt door het storten van groote massa&apos;s steen in het water, kan veroorzaken, heeft men in 1883 te Krakatau ondervonden. Men leze over die ontzettende ramp het voortreffelijke werk van den Heer R.D.M. Verbeek: Krakatau.</note>
+<p>Bekend is de bergstorting, waarbij de oude Romeinsche stad Velleja in de 6<hi rend=sup>de</hi> eeuw verzwolgen werd; het groot aantal beenderen, munten en kostbaarheden, die men in de puinhoopen gevonden heeft, bewijzen, dat de bevolking geenen tijd gehad heeft, te vluchten. Zoo werd ook het kasteel Tauretunum en het naburige dorp, aan den zuidelijken oever van het meer van Genève in 563 door eene neerstorting van rotsen verwoest; de golven, die ontstonden door het neerstorten der steenen in het meer, verwoestten zelfs aan den anderen oever alle woningen; alle steden der kust werden verwoest en eerst eene halve eeuw later opgebouwd: zelfs Genève werd gedeeltelijk door het water bedekt.<note n=1>Welke verwoestingen eene zoodanige golf, veroorzaakt door het storten van groote massa&apos;s steen in het water, kan veroorzaken, heeft men in 1883 te Krakatau ondervonden. Men leze over die ontzettende ramp het voortreffelijke werk van den Heer R. D. M. Verbeek: Krakatau.</note>
 
-<p>Vreeselijk waren de gevolgen van het neerstorten van <pb n=242 id=pb242>een deel van den Rossberg, den 2<hi rend=sup>den</hi> September 1806. Die berg, ten noorden van de Rigi gelegen, in het midden van het schiereiland, begrensd door de meren van Zug, Egeri en Lowerz, bestaat uit lagen van stevig samengepakte stoffen, op eene kleibedding rustend, die door het water ondermijnd wordt. Reeds op een onbekend tijdstip was het dorp Rotten door de instorting van eenen bergwand verwoest; maar in 1806 was de vernieling nog veel ontzettender. Het had langen tijd geregend, en de kleilagen waren langzamerhand in eene modderachtige massa veranderd; eindelijk begonnen de bovenste rotsen, nu zij haren steun misten, langs de helling af te glijden. Plotseling stortte de geheele massa, met hare bosschen, weiden, hutten en bewoners in de vlakte neer; de tegen elkander botsende rotsen sloegen vlammen uit; het water der diepe lagen, plotseling in damp veranderd, spoot uit den grond, en ontzettende massa&apos;s steen en modder werden als uit den mond van eenen vulkaan uitgeworpen. De prachtige buitenplaatsen van Goldau en vier dorpen, door omstreeks duizend menschen bewoond, verdwenen onder de puinhoopen, en de woedende golf, door het storten van het puin in het meer van Lowerz tot eene hoogte van twintig meters opgeheven, vaagde alle woningen weg. Het gedeelte van den berg, dat ingestort was, was vier kilometers lang, 320 meters breed en 32 meters hoog, d. i. 40 millioen cubieke meters.
+<p>Vreeselijk waren de gevolgen van het neerstorten van <pb n=242 id=pb242>een deel van den Rossberg, den 2<hi rend=sup>den</hi> September 1806. Die berg, ten noorden van de Rigi gelegen, in het midden van het schiereiland, begrensd door de meren van Zug, Egeri en Lowerz, bestaat uit lagen van stevig samengepakte stoffen, op eene kleibedding rustend, die door het water ondermijnd wordt. Reeds op een onbekend tijdstip was het dorp Rotten door de instorting van eenen bergwand verwoest; maar in 1806 was de vernieling nog veel ontzettender. Het had langen tijd geregend, en de kleilagen waren langzamerhand in eene modderachtige massa veranderd; eindelijk begonnen de bovenste rotsen, nu zij haren steun misten, langs de helling af te glijden. Plotseling stortte de geheele massa, met hare bosschen, weiden, hutten en bewoners in de vlakte neer; de tegen elkander botsende rotsen sloegen vlammen uit; het water der diepe lagen, plotseling in damp veranderd, spoot uit den grond, en ontzettende massa&apos;s steen en modder werden als uit den mond van eenen vulkaan uitgeworpen. De prachtige buitenplaatsen van Goldau en vier dorpen, door omstreeks duizend menschen bewoond, verdwenen onder de puinhoopen, en de woedende golf, door het storten van het puin in het meer van Lowerz tot eene hoogte van twintig meters opgeheven, vaagde alle woningen weg. Het gedeelte van den berg, dat ingestort was, was vier kilometers lang, 320 meters breed en 32 meters hoog, <abbr expan="dat is">d.i.</abbr> 40 millioen cubieke meters.
 
 <p>Minder hevig was de bergstorting, die in het jaar 1881 de helft van het dorpje Elm in Zwitserland vernielde. Deze ramp was het gevolg van onvoorzichtigheid. Gedurende eeuwen waren leigroeven gegraven, in eene vooruitstekende rots, zonder dat men zich de moeite gaf de rots te schoren. Reeds vóór de instorting verwachtte men het onheil: er had zich in den grond boven de groeve eene spleet gevormd, die jaarlijks breeder en dieper werd. Eindelijk brak de grond door: tien millioen cubieke meters steen stortten zich uit over het dorp Unterthal en stootten tegen eenen daar tegenover <pb n=243 id=pb243>gelegen berg aan, die de ontzettende massa steenen weer in de vlakte terugkaatste.
 
@@ -2215,7 +2255,7 @@ Az.   Camb.
 <argument><p>De devonische periode.&mdash;De geboorte der visschen.</argument>
 
 
-<p>De talrijke bewijsstukken, die wij in het vorige hoofdstuk gegeven hebben, met het doel om den arbeid der natuur bij de voortdurende gedaantewisseling der aarde te begrijpen, mogen ons niet uit het oog doen verliezen, bij welk tijdperk wij geëindigd zijn in onze beschrijving van de wereld vóór den mensen. Het vorige overzicht heeft ons in staat gesteld, ons rekenschap te geven van den weg, door de natuur gevolgd bij de vorming en ontwikkeling der aarde. In de werkplaats der natuur toegelaten, ingewijd in hare geheimen, kunnen wij den grootschen eenvoud van haren arbeid op prijs stellen, en zien wij de langzame opklimming van het planten- en dierenrijk tot hooger ontwikkelde vormen.
+<p>De talrijke bewijsstukken, die wij in het vorige hoofdstuk gegeven hebben, met het doel om den arbeid der natuur bij de voortdurende gedaantewisseling der aarde te begrijpen, mogen ons niet uit het oog doen verliezen, bij welk tijdperk wij geëindigd zijn in onze beschrijving van de wereld vóór den mensch. Het vorige overzicht heeft ons in staat gesteld, ons rekenschap te geven van den weg, door de natuur gevolgd bij de vorming en ontwikkeling der aarde. In de werkplaats der natuur toegelaten, ingewijd in hare geheimen, kunnen wij den grootschen eenvoud van haren arbeid op prijs stellen, en zien wij de langzame opklimming van het planten- en dierenrijk tot hooger ontwikkelde vormen.
 
 <pb n=250 id=pb250><p>Reeds de ouden zeiden, dat de aarde de dochter is van den Oceaan, en terecht. Wij zagen in de lauwe wateren der azoïsche periode het leven te voorschijn treden, in den vorm van eenvoudige organismen, klonters gelei, protisten, afgietseldiertjes, diatomeeën, wieren, bilobieten, chondriten, mosdieren, plantdieren, poliepen, stekelhuidigen, armpootigen, trilobieten, enz. De eerste eilanden kwamen uit de zee naar boven, en de weekdieren en zeeplanten begonnen zich te wagen op de eerste oevers, nog laag en vochtig, en trachtten zich in te passen in die gewijzigde levensvoorwaarden. In de vochtige lucht, onder eenen zwaren en lauwen dampkring, verkrijgen de varens hunnen rijken bladerendos, en reeds ziet men op den vasten grond ringwormen, schaaldieren en spinachtige dieren, krabben en schorpioenen.
 
@@ -2403,7 +2443,7 @@ Az.   Camb.
 
 <p>De inwendige warmte der aarde drong nog door de aardschors heen en onderhield eene hooge temperatuur in den dampkring. Wel schijnt het voor hem, die eenen vulkaan bestijgt, alsof eene geringe laag slakken en asch voldoende is, om de warmte te onderscheppen, en iedereen weet, dat men, door een weinigje asch in de holte der hand te nemen, eene gloeiende kool kan vasthouden zonder zich te branden; maar men vergete niet, dat de temperatuur der lava nooit hooger is dan 1000&deg;, terwijl die van den oorspronkelijken <pb n=271 id=pb271>aardbol minstens negen- of tienmaal hooger was; de mechanische warmteleer leert, dat alleen reeds de verdichting van alle moleculen der aarde van haren neveltoestand tot hare tegenwoordige dichtheid eene hitte moet hebben veroorzaakt van 89880&deg;, de warmte, ontstaan door de scheikundige verbindingen niet medegerekend. Door de spleten, door uitbarstingen, en zelfs door de dunne aardschors heen, die nog nauwelijks vast en die met water doortrokken was, kwam die inwendige warmte in den dampkring, die toen nog de warmtestralen niet doorliet. <hi>Het opslorpend vermogen van waterdamp is</hi> 16000 <hi>maal grooter dan dat van droge lucht.</hi> Wij zagen zooeven, dat de dampkring verzadigd was van waterdamp, en dat de regen bijna voortdurend neerviel. Voegen wij nog hierbij, dat er geen vastland was, maar alleen eilanden en dus de geheele aarde onder den invloed van een zeeklimaat stond, en het is duidelijk, dat de temperatuur van de oppervlakte der aarde uitnemend geschikt was voor de ontwikkeling van den plantengroei, en dat wel niet alleen in de tropen, maar over de geheele aarde, daar er nog geene jaargetijden bestonden.
 
-<p>Onze lezers weten uit &bdquo;de Wonderen des Hemels&rdquo;<note n=1>De Wonderen des Hemels, naar Camille <corr sic=Flamarion>Flammarion</corr>. Zutphen, W.J. Thieme en C<hi rend=sup>ie</hi>.</note>, dat de aarde zich om de zon beweegt, en dat hare as helt ten opzichte van het vlak der ecliptica. Gedurende de helft van het jaar is de ééne pool naar de zon toegekeerd, en de zes overige maanden de andere pool. Vandaar de lange winternachten en de lange zomerdagen, de lage temperatuur aan de polen en de groote afwisseling in jaargetijden. Gedurende het primaire tijdperk verschilde de helling der as niet veel van de tegenwoordige helling. Had dus de zon toen evenals thans eenen overwegenden invloed op de warmte der aarde, dan zouden reeds toen klimaten bestaan hebben: de zonnestralen, loodrecht vallende op de keerkringslanden, zouden daar eene veel hoogere temperatuur hebben doen ontstaan dan aan de poolstreken, waar zij veel schuiner vallen. Doch <pb n=272 id=pb272>de plantengroei der steenkoolperiode wijst juist op het tegendeel. Dezelfde plantensoorten, die aan de tropen voorkwamen, werden ook in de poolstreken gevonden. Tot aan Spitzbergen en zelfs tot op de hoogste breedte, door menschen bereikt (noordpoolexpeditie in 1878, tot op eene breedte van 82&deg; 40&prime;<corr sic=",">)</corr> heeft men dezelfde kolenkalk gevonden, en tot op 76&deg; breedte dezelfde steenkoollagen als in Frankrijk en de Vereenigde Staten, in China, Zambeze (Afrika) en Zuid-Amerika. Bovendien bestaat de geheele flora uit boomen met blijvende bladeren. De stammen van de fossiele boomen uit dit tijdvak hebben nog niet de concentrische jaarringen, ieder voorjaar gevormd, waaruit men den ouderdom der boomen kan leeren kennen. Men kan hieruit met zekerheid afleiden, <hi>dat er toen nog geene jaargetijden waren</hi>. De zon voegde slechts weinig warmte toe aan die der aarde, want de temperatuur, waarbij de boomvarens, de wolfsklauwen, de cycadeën groeien, ligt tusschen 20 en 25 graden, en was niet hooger in Afrika dan in Spitzbergen.
+<p>Onze lezers weten uit &bdquo;de Wonderen des Hemels&rdquo;<note n=1>De Wonderen des Hemels, naar Camille <corr sic=Flamarion>Flammarion</corr>. Zutphen, W. J. Thieme en C<hi rend=sup>ie</hi>.</note>, dat de aarde zich om de zon beweegt, en dat hare as helt ten opzichte van het vlak der ecliptica. Gedurende de helft van het jaar is de ééne pool naar de zon toegekeerd, en de zes overige maanden de andere pool. Vandaar de lange winternachten en de lange zomerdagen, de lage temperatuur aan de polen en de groote afwisseling in jaargetijden. Gedurende het primaire tijdperk verschilde de helling der as niet veel van de tegenwoordige helling. Had dus de zon toen evenals thans eenen overwegenden invloed op de warmte der aarde, dan zouden reeds toen klimaten bestaan hebben: de zonnestralen, loodrecht vallende op de keerkringslanden, zouden daar eene veel hoogere temperatuur hebben doen ontstaan dan aan de poolstreken, waar zij veel schuiner vallen. Doch <pb n=272 id=pb272>de plantengroei der steenkoolperiode wijst juist op het tegendeel. Dezelfde plantensoorten, die aan de tropen voorkwamen, werden ook in de poolstreken gevonden. Tot aan Spitzbergen en zelfs tot op de hoogste breedte, door menschen bereikt (noordpoolexpeditie in 1878, tot op eene breedte van 82&deg; 40&prime;<corr sic=",">)</corr> heeft men dezelfde kolenkalk gevonden, en tot op 76&deg; breedte dezelfde steenkoollagen als in Frankrijk en de Vereenigde Staten, in China, Zambeze (Afrika) en Zuid-Amerika. Bovendien bestaat de geheele flora uit boomen met blijvende bladeren. De stammen van de fossiele boomen uit dit tijdvak hebben nog niet de concentrische jaarringen, ieder voorjaar gevormd, waaruit men den ouderdom der boomen kan leeren kennen. Men kan hieruit met zekerheid afleiden, <hi>dat er toen nog geene jaargetijden waren</hi>. De zon voegde slechts weinig warmte toe aan die der aarde, want de temperatuur, waarbij de boomvarens, de wolfsklauwen, de cycadeën groeien, ligt tusschen 20 en 25 graden, en was niet hooger in Afrika dan in Spitzbergen.
 
 <p>De zon was toen reusachtig groot, maar nog nevelachtig, er straalde slechts een zwak licht uit. De zon heeft zich eertijds uitgestrekt tot voorbij Neptunus en is langzamerhand kleiner geworden, zoodat zij thans slechts eene middellijn heeft van 1380000 kilometers, terwijl die van de loopbaan van Mercurius 112 millioen, van Venus 208 millioen, van de aarde 296 millioen kilometers bedraagt. Toen de zon zich nog uitstrekte tot aan de baan van Venus, was de middellijn der zonneschijf, van de aarde gezien, 90&deg; groot, of 169 maal zoo groot als thans. Toch waren de warmte en het licht, dat de aarde toen van de zon verkreeg, uiterst gering in vergelijking met de warmte, die de aarde zelf bezat.
 
@@ -2411,7 +2451,7 @@ Az.   Camb.
 
 
 <pb><p><figure id=plate2>
-<head>Een bosch uit de steenkool-periode.</head>
+<head>Een bosch uit de <corr sic=steenkool-periode>steenkoolperiode</corr>.</head>
 </figure>
 
 
@@ -2425,11 +2465,11 @@ Az.   Camb.
 
 <p>De planten, weinig samengesteld, zonder geur, zonder bloemen, verkrijgen in dien voedzamen dampkring reusachtige afmetingen. De zon heeft nog geen glans; de vogels zingen nog niet; eene doodelijke stilte omringt de aarde; alleen de insecten gonzen en vermenigvuldigen zich in de schaduw der onmetelijke bosschen, die de planeet voor het eerst <pb n=274 id=pb274>bekleeden met een niet te ontwarren groen tapijt, van den evenaar tot aan de polen. Niemand kan nog gissen, dat er in de toekomst ijswoestijnen of eeuwigdurende sneeuw zullen ontstaan, die op de bergen en aan de poolstreken in de toekomst het leven zullen tegenhouden. Indien men zich in de verbeelding in die uitgestrekte eenzaamheid verplaatst, dan wordt men tegenover die eentonigheid van vormen vreemd gestemd. De geheele afwezigheid van bloemen en hoogere dieren wierp op de schepping eenen sluier van algemeene droefheid, geen enkele vogel vervroolijkte de bosschen, waarin ook nog geene zoogdieren ronddwaalden. De zoele lucht was vervuld met verstikkende dampen, die uit den grond opstegen, en de stilte der natuur werd alleen verbroken door het geraas van den regen, en het suizen van den wind tusschen de boomen.
 
-<p>De Zweedsche natuuronderzoekers Nordenskjöld en Malmgren hebben in den zomer van 1868 op Beren-Eiland <corr>(</corr>74&deg; 30&prime; N. B.) in de steenkool en de gesteenten aan de oppervlakte, achttien soorten van planten gevonden, waarvan vijftien overeenkomen met die der diepste lagen der steenkoolformatie. Die flora heeft groote overeenkomst met die der Vogezen en het Schwartzwald. Overvloedig komen de Lepidodendrons (schubboomen) voor. In de schaduw dier boomen leefden de varens met groote bladeren. Ook de flora der Parryeilanden heeft hetzelfde karakter; men heeft daar talrijke steenkoollagen gevonden, en onder de planten, die men daarin ontdekt heeft, vindt men er, die ook in de steenkool van Silezië voorkomen.
+<p>De Zweedsche natuuronderzoekers Nordenskjöld en Malmgren hebben in den zomer van 1868 op Beren-Eiland <corr>(</corr>74&deg; 30&prime; N.B.) in de steenkool en de gesteenten aan de oppervlakte, achttien soorten van planten gevonden, waarvan vijftien overeenkomen met die der diepste lagen der steenkoolformatie. Die flora heeft groote overeenkomst met die der Vogezen en het Schwartzwald. Overvloedig komen de Lepidodendrons (schubboomen) voor. In de schaduw dier boomen leefden de varens met groote bladeren. Ook de flora der Parryeilanden heeft hetzelfde karakter; men heeft daar talrijke steenkoollagen gevonden, en onder de planten, die men daarin ontdekt heeft, vindt men er, die ook in de steenkool van Silezië voorkomen.
 
 <p>De zeedierenwereld in de poolstreken heeft hetzelfde karakter. Men vindt talrijke weekdieren, uit de zee afkomstig, in de steenkoolformatie der poolstreken, welke in dezelfde formatie in Europa gevonden worden, sommige zelfs komen in de tropen voor. Behalve die weekdieren vindt men in Spitzbergen in de kalksteen ook koraaldieren.
 
-<p>Alles wijst er op, dat toen de warmte, die op de aarde de overhand had, niet van de zon afkomstig was. De poolstreken <pb n=275 id=pb275>hadden eene veel hoogere temperatuur dan thans; zooals wij zagen, mogen wij uit het voorkomen derzelfde soorten van 40 tot 76 graden N. B. afleiden, dat er over de geheele aarde eene groote gelijkmatigheid in temperatuur bestond. Bovendien wijst het karakter der steenkoolflora op eenen moerassigen bodem en eenen dampkring, met waterdamp bezwangerd; tegenwoordig vindt men alleen in de vochtige streken der tropen plantenvormen, daarmede overeenkomend.
+<p>Alles wijst er op, dat toen de warmte, die op de aarde de overhand had, niet van de zon afkomstig was. De poolstreken <pb n=275 id=pb275>hadden eene veel hoogere temperatuur dan thans; zooals wij zagen, mogen wij uit het voorkomen derzelfde soorten van 40 tot 76 graden N.B. afleiden, dat er over de geheele aarde eene groote gelijkmatigheid in temperatuur bestond. Bovendien wijst het karakter der steenkoolflora op eenen moerassigen bodem en eenen dampkring, met waterdamp bezwangerd; tegenwoordig vindt men alleen in de vochtige streken der tropen plantenvormen, daarmede overeenkomend.
 
 <p>In onzen tijd groeien de varens en de wolfsklauwen meestal onder de dichte schaduw der bosschen, en hebben zij veel minder dan de zaadplanten behoefte aan de rechtstreeksche werking van de zonnestralen. Dit was ook het geval met hunne oorspronkelijke voorouders, en daar zij de groote meerderheid uitmaken van de planten der steenkoolformatie, zoo begrijpen wij, dat zij hebben kunnen leven en bloeien onder eenen steeds bedekten hemel. Hetzelfde is het geval met de insecten dier periode, want voor het meerendeel zijn het nachtdieren, zooals de witte mieren en de kakkerlakken.
 
@@ -2445,7 +2485,7 @@ Az.   Camb.
 
 <p>De dampkring was in de steenkoolperiode rijk aan koolzuur; die groote hoeveelheid koolzuur werd op het eerste voor goed uit de zee verrezene vaste land aan die rijke plantenwereld afgestaan onder begunstiging van eene tropische temperatuur en een overvloedig, hoewel verspreid licht. In gewone omstandigheden, zouden die planten bij hare ontleding aan den dampkring het koolzuur teruggegeven hebben, dat zij daaraan ontnomen hadden. Maar de plantenoverblijfselen werden naar gelang van hunnen val onder het water en de modder bedolven, en hunne langzame verandering, <pb n=277 id=pb277>afgesloten van de lucht, liet in de koolaarde de koolstof bijna geheel bestaan. Tegelijkertijd zetten zich ontzettende massa&apos;s kalksteen af, die eveneens eene groote hoeveelheid koolzuur bonden. Zoo werd in die periode langzamerhand de dampkring gezuiverd.
 
-<p>Al zijn de natuurkundige voorwaarden der steenkoolperiode over de geheele aarde dezelfde geweest, daaruit volgt nog niet, dat men op alle breedten steenkolen verwachten kan. Op die plaatsen toch, waar toen de zee stroomde, konden alleen kalksteenen, zooals koolzure kalk en andere gevormd worden. Hieruit volgt, dat in de steenkoolperiode boven 76&deg; N. B. zich eene onmetelijke zee uitstrekte. Eerst ten zuiden dier parallel, op de eilanden Melville, Bathurst en Patrick vindt men steenkoolformaties. Zoo ook ontbreken zij in de tropen van het noordelijk halfrond, die toen onder water lagen. Op het noordelijk halfrond vindt men dus de steenkoolformatie overal tusschen 40&deg; en 76&deg;. Op het zuidelijk halfrond vindt men haar alleen op 16&deg; breedte (Zambeze) en in Australië, tusschen 25&deg; en 35&deg;. Het is dus waarschijnlijk, dat toen, evenals thans, de zuidelijke landen zich minder ver uitstrekten en dichter bij den evenaar gelegen waren dan de noordelijke.
+<p>Al zijn de natuurkundige voorwaarden der steenkoolperiode over de geheele aarde dezelfde geweest, daaruit volgt nog niet, dat men op alle breedten steenkolen verwachten kan. Op die plaatsen toch, waar toen de zee stroomde, konden alleen kalksteenen, zooals koolzure kalk en andere gevormd worden. Hieruit volgt, dat in de steenkoolperiode boven 76&deg; N.B. zich eene onmetelijke zee uitstrekte. Eerst ten zuiden dier parallel, op de eilanden Melville, Bathurst en Patrick vindt men steenkoolformaties. Zoo ook ontbreken zij in de tropen van het noordelijk halfrond, die toen onder water lagen. Op het noordelijk halfrond vindt men dus de steenkoolformatie overal tusschen 40&deg; en 76&deg;. Op het zuidelijk halfrond vindt men haar alleen op 16&deg; breedte (Zambeze) en in Australië, tusschen 25&deg; en 35&deg;. Het is dus waarschijnlijk, dat toen, evenals thans, de zuidelijke landen zich minder ver uitstrekten en dichter bij den evenaar gelegen waren dan de noordelijke.
 
 <p>De steenkoolformatie is in sommige streken twaalfduizend meters dik; daarin overheerschen met de steenkool, zandsteen en zwarte leisteen, waarin als afdruksels de overblijfselen der plantenwereld voorkomen; in de kolenkalk vindt men alleen zeedieren.
 
@@ -2457,7 +2497,7 @@ Az.   Camb.
 
 <p>III. In de derde periode vindt men voor het grootste gedeelte varens, cordaïten en ringvormige moerasplanten (Annularia). In die laatste periode komt de Walchia te voorschijn, die in de bosschen der Permische periode de overhand heeft.
 
-<p>Doch laat ons thans meer nauwkeurig de steenkolenmijnen onderzoeken. De steenkolen zijn het product van eene opeenhooping van ontlede plantaardige stoffen. Men vindt daarin de overblijfselen, de takken, de bladeren, de indrukken van de boomen dier oude bosschen. Scheikundig ontleed, blijken zij te bestaan uit koolstof, waterstof en zuurstof, d. i. uit de samenstellende bestanddeelen der plantenweefsels. Gemiddeld bevatten de steenkolen 83% koolstof, 6% waterstof, 5&frac12;% zuurstof en sporen van stikstof en zwavel. Sommige stukken anthraciet bevatten 95% koolstof.
+<p>Doch laat ons thans meer nauwkeurig de steenkolenmijnen onderzoeken. De steenkolen zijn het product van eene opeenhooping van ontlede plantaardige stoffen. Men vindt daarin de overblijfselen, de takken, de bladeren, de indrukken van de boomen dier oude bosschen. Scheikundig ontleed, blijken zij te bestaan uit koolstof, waterstof en zuurstof, d.i. uit de samenstellende bestanddeelen der plantenweefsels. Gemiddeld bevatten de steenkolen 83% koolstof, 6% waterstof, 5&frac12;% zuurstof en sporen van stikstof en zwavel. Sommige stukken anthraciet bevatten 95% koolstof.
 
 <p>Men kan letterlijk zeggen, dat de warmte, die de locomotieven verhit en die afkomstig is van de koolstof, in de bosschen der primaire periode vastgelegd, niets anders is dan de oorspronkelijke warmte der aarde en de zonnewarmte. Die oude warmte was opgehoopt in de steenkolen, wij maken die thans weer vrij, terwijl wij haar arbeidsvermogen in eenen anderen vorm gebruiken, en wij geven aan de natuur de reserve terug, die zij had achtergehouden.
 
@@ -2467,11 +2507,11 @@ Az.   Camb.
 </figure>
 
 
-<p>Zijn die bosschen der steenkoolperiode begraven op de plaats, waar zij oorspronkelijk aanwezig waren? Zou de steenkool oorspronkelijk turf geweest zijn, die gedrukt onder later ontstane bezinksels, versteend is? of bestaat de steenkool uit plantaardige overblijfselen, door het water medegesleept en op den bodem der bekkens afgezet? De tweede theorie is het eerst door de geologen verkondigd, zij is daarna door de eerste verdrongen, toen men bijna versteende, rechtopstaande boomen ontdekt had, doch in de laatste jaren weder in eere hersteld, omdat zij het geheel der waargenomen <pb n=279 id=pb279>feiten beter verklaart. Stroomen beladen met grint, modder en plantaardige overblijfselen monden uit in het diepe en stille water van een meer, waar de stoffen naar hare dichtheid gescheiden worden: de keisteenen en het grint vallen in zeer schuine lagen bij de monding, terwijl de modder verder doorstroomt, zich onder eene veel kleinere helling laagsgewijze afzet en de plantenstoffen bijna horizontaal aan het uiteinde bezinken. Zoo wordt voortdurend het plantenslib onder nieuwe sedimentlagen bedolven, en indien de toevoer van plantenoverblijfselen voortgaat, zal de steenkoollaag zich meer of minder regelmatig op den <pb n=280 id=pb280>bodem verlengen, hoewel de verschillende deelen niet gelijktijdig ontstaan zijn. Zoo kan men in de steenkoollaag alle overgangen vinden van de ruwere steenkool (d. i. de plantenstof zonder minerale bijmengselen) tot aan eene modderlaag, vermengd met enkele overblijfselen van planten.
+<p>Zijn die bosschen der steenkoolperiode begraven op de plaats, waar zij oorspronkelijk aanwezig waren? Zou de steenkool oorspronkelijk turf geweest zijn, die gedrukt onder later ontstane bezinksels, versteend is? of bestaat de steenkool uit plantaardige overblijfselen, door het water medegesleept en op den bodem der bekkens afgezet? De tweede theorie is het eerst door de geologen verkondigd, zij is daarna door de eerste verdrongen, toen men bijna versteende, rechtopstaande boomen ontdekt had, doch in de laatste jaren weder in eere hersteld, omdat zij het geheel der waargenomen <pb n=279 id=pb279>feiten beter verklaart. Stroomen beladen met grint, modder en plantaardige overblijfselen monden uit in het diepe en stille water van een meer, waar de stoffen naar hare dichtheid gescheiden worden: de keisteenen en het grint vallen in zeer schuine lagen bij de monding, terwijl de modder verder doorstroomt, zich onder eene veel kleinere helling laagsgewijze afzet en de plantenstoffen bijna horizontaal aan het uiteinde bezinken. Zoo wordt voortdurend het plantenslib onder nieuwe sedimentlagen bedolven, en indien de toevoer van plantenoverblijfselen voortgaat, zal de steenkoollaag zich meer of minder regelmatig op den <pb n=280 id=pb280>bodem verlengen, hoewel de verschillende deelen niet gelijktijdig ontstaan zijn. Zoo kan men in de steenkoollaag alle overgangen vinden van de ruwere steenkool (d.i. de plantenstof zonder minerale bijmengselen) tot aan eene modderlaag, vermengd met enkele overblijfselen van planten.
 
-<p>Hoevele jaren en eeuwen vertegenwoordigen die bezinkingen? Het is moeilijk te ramen. Volgens de berekeningen van Elie de Beaumont zoude al de steenkool, die door onze tegenwoordige bosschen kan geleverd worden, over de uitgestrektheid der thans ontgonnen mijnen slechts eene laag vormen van 16 centimeters in 100 jaren. Wij hebben hier dus te doen met de vrucht van honderdduizenden jaren, die millioenen jaren achter ons liggen. Men denkt hier onwillekeurig aan de voorstelling der Buddhisten. Om een denkbeeld te geven van den ouderdom der aarde en van haren duur, vergelijken zij onze planeet met eenen diamantberg, die iedere eeuw eens met een katoenen lapje wordt afgestoft. Wanneer zal die berg versleten zijn?
+<p>Hoevele jaren en eeuwen vertegenwoordigen die bezinkingen? Het is moeilijk te ramen. Volgens de berekeningen van <corr sic=Elie>Élie</corr> de Beaumont zoude al de steenkool, die door onze tegenwoordige bosschen kan geleverd worden, over de uitgestrektheid der thans ontgonnen mijnen slechts eene laag vormen van 16 centimeters in 100 jaren. Wij hebben hier dus te doen met de vrucht van honderdduizenden jaren, die millioenen jaren achter ons liggen. Men denkt hier onwillekeurig aan de voorstelling der Buddhisten. Om een denkbeeld te geven van den ouderdom der aarde en van haren duur, vergelijken zij onze planeet met eenen diamantberg, die iedere eeuw eens met een katoenen lapje wordt afgestoft. Wanneer zal die berg versleten zijn?
 
-<p>De spoorwegen hebben in de laatste vijftig jaren een ongekend licht laten vallen op de ontwikkelingsgeschiedenis der aarde, door de tunnels, die door de verschillende lagen van de oppervlakte der aarde geboord zijn. Maar van alle formaties is toch de steenkoolformatie het ijverigst bestudeerd, om hare groote innerlijke waarde en hare beteekenis voor de industrie. (Wij behoeven hier niet te spreken van de diamant- en metaalmijnen, omdat zij tot de vulcanische formaties behooren, tot eenen tijd, die aan het leven is voorafgegaan). Men kent niet alleen de steenkoolmijnen, die de oppervlakte van den bodem aanraken, maar met de grootst mogelijke inspanning heeft men ook die lagen onderzocht, die iets dieper liggen, maar toch nog de ontginning waard zijn. Die ontginning heeft immers hare grenzen: indien de diepte der steenkolenlaag zoó groot is, dat de exploitatiekosten den verkoopsprijs overtreffen, dan houdt de ontginning op. Zóó b.v. blijkt reeds uit de figuren op blz. <ref target=pb179 type=pageref>179</ref> en <ref target=pb184 type=pageref>184</ref>, dat men, zoo men doorgraaft tot aan de primaire <pb n=281 id=pb281>formatie, die onder Parijs gelegen is, wel steenkool kan vinden, maar dat de exploitatiekosten eene ontginning onmogelijk maken.
+<p>De spoorwegen hebben in de laatste vijftig jaren een ongekend licht laten vallen op de ontwikkelingsgeschiedenis der aarde, door de tunnels, die door de verschillende lagen van de oppervlakte der aarde geboord zijn. Maar van alle formaties is toch de steenkoolformatie het ijverigst bestudeerd, om hare groote innerlijke waarde en hare beteekenis voor de industrie. (Wij behoeven hier niet te spreken van de diamant- en metaalmijnen, omdat zij tot de vulcanische formaties behooren, tot eenen tijd, die aan het leven is voorafgegaan). Men kent niet alleen de steenkoolmijnen, die de oppervlakte van den bodem aanraken, maar met de grootst mogelijke inspanning heeft men ook die lagen onderzocht, die iets dieper liggen, maar toch nog de ontginning waard zijn. Die ontginning heeft immers hare grenzen: indien de diepte der steenkolenlaag zóó groot is, dat de exploitatiekosten den verkoopsprijs overtreffen, dan houdt de ontginning op. Zóó b.v. blijkt reeds uit de figuren op blz. <ref target=pb179 type=pageref>179</ref> en <ref target=pb184 type=pageref>184</ref>, dat men, zoo men doorgraaft tot aan de primaire <pb n=281 id=pb281>formatie, die onder Parijs gelegen is, wel steenkool kan vinden, maar dat de exploitatiekosten eene ontginning onmogelijk maken.
 
 <p>De groote waarde van de steenkool, die kostbaarder is, naarmate zij minder onuitputtelijk is (de vraag wordt thans ernstig behandeld, voor hoevele eeuwen er nog steenkool beschikbaar is), heeft er toe geleid, om ook de steenkoollagen te leeren kennen, die niet tot de oppervlakte der aarde naderen, en door formaties van later dagteekening bedekt zijn. Zeer rijk aan steenkolenmijnen zijn België, Engeland, Westphalen, de Vereenigde Staten, Rusland en China<note n=1>De oppervlakte der steenkolenmijnen, die in exploitatie zijn, bedraagt ongeveer 500&nbsp;000 vierkante kilometers. De hoeveelheid steenkool, die gemiddeld jaarlijks uit alle mijnen der aarde opgedolven wordt, bedraagt 200 milliard kilogram. Engeland levert daarvan de helft, Frankrijk het tiende deel. Engeland bezit 350&nbsp;000 mijnwerkers, Frankrijk 100&nbsp;000, Duitschland eveneens, België 50&nbsp;000. Het onderaardsche leger, dat over de geheele aarde strijdt voor de werken des vredes, voor de industrie en de ontwikkeling der menschheid, telt ongeveer één millioen man.</note>. Het steenkolengebied strekt zich uit over meer dan een derde deel van Europeesch Rusland. De geologische samenstelling (kolenkalk) toont aan, dat op het einde der steenkoolperiode zich eene zee over Rusland uitstrekte toen westelijk Europa, reeds voor het grootste gedeelte boven water, met meren en zoetwatermoerassen bedekt was, die den voet der reuzenplanten besproeiden.
 
@@ -2827,7 +2867,7 @@ Az.   Camb.
 
 <p>In Frankrijk ligt die formatie op verscheidene plaatsen bloot. Op de centrale hoogvlakte, die, zooals wij zagen, zoo <pb n=313 id=pb313>rijk is aan steenkolenlagen, bedekt de permische formatie dikwijls die lagen met eene laag van 900 tot 1000 meters, bestaande uit zandsteen en leisteen. In de Vogezen neemt die formatie den bodem der valleien in, die op den oostelijken rand dier bergstreek de secundaire bergketens snijden: daar rust zij onmiddellijk op het gneiss, dat den ondergrond van die valleien vormt, en vermengt zij zich met het porfier, dat daar is uitgeworpen in den tijd, toen dat geheele oostelijke gedeelte der Vogezen met permische wouden (varens, cordaïten, enz.) bedekt was. Het oudste gedeelte der permische formatie is eene strandvorming, in ondiepe zee gevormd.
 
-<p>Planten en dieren zijn nog dezelfde als in de vorige periode, maar zij staan reeds op het punt, om plaats te maken voor volkomener vormen. De omgeving verandert. Toch zijn er nog geene jaargetijden op onze planeet, en de zon is nog niet zeer lichtgevend. De temperatuur is nog overal gelijkmatig en tropisch. De bodem ondergaat dalingen, die het gevolg zijn van inwendige afkoeling en samentrekking der aarde. In het begin dier nieuwe periode voert eene algemeene daling van den bodem de zee weer terug over een groot gedeelte van Europa, vooral Rusland, Centraal-Duitschland, het zuid-westen van Engeland, den voet der Vogezen enz. Groote opeenhoopingen verzamelen zich in de zeeën: zij vormen het <hi>jonge roode zandsteen</hi>. Daarboven zet zich in tijden van betrekkelijke kalmte de magnesiumkalk, ook wel zechsteen genoemd, af. Dit is in Centraal- en West-Europa de gewone samenstelling der permische formatie, die trouwens zeer veranderlijk is. Op verscheidene plaatsen brengen onderaardsche inspuitingen in de zeeën delfstoffen, die in het algemeen verderfelijk zijn voor het leven; b.v. het koper in Thuringen en Rusland, het gips en het steenzout in Rusland en Amerika, en het magnesium overal. Uit een mineralogisch standpunt gelijkt dan ook de permische formatie meer op het trias, dat daarop volgt, dan op de formaties, die zijn voorafgegaan; uit een organisch oogpunt is echter het omgekeerde <pb n=314 id=pb314>het geval. Behalve in Rusland en in de Vereenigde Staten, waar nog steeds de stilte der vorige perioden voortduurt, zijn de bewegingen van den bodem en de omwentelingen der lagen uiterst talrijk; vandaar dan ook, dat in de Vereenigde Staten de permische formatie 250 meters is, terwijl deze in Boheme 700 meters en in Saksen 1200 meters bedraagt. De onderste lagen rusten nu eens op de steenkool, dan weder op leisteen of graniet, hetgeen wijst op den invloed der zee. De permische periode teekent het einde van een groot geologisch tijdvak, omdat daarin de meeste oude typen uitsterven, hetzij omdat zij hun natuurlijk uiteinde bereikt hebben, hetzij omdat de omgeving niet meer geschikt voor hen is. Slechts enkele typen blijven voortbestaan: nog geene enkele der nieuwe vormen, die het secundaire tijdperk teekenen, komt ten tooneele. Het is dus natuurlijk, dat het einde der permische periode tevens als het einde der paleozoïsche periode beschouwd wordt.
+<p>Planten en dieren zijn nog dezelfde als in de vorige periode, maar zij staan reeds op het punt, om plaats te maken voor volkomener vormen. De omgeving verandert. Toch zijn er nog geene jaargetijden op onze planeet, en de zon is nog niet zeer lichtgevend. De temperatuur is nog overal gelijkmatig en tropisch. De bodem ondergaat dalingen, die het gevolg zijn van inwendige afkoeling en samentrekking der aarde. In het begin dier nieuwe periode voert eene algemeene daling van den bodem de zee weer terug over een groot gedeelte van Europa, vooral Rusland, Centraal-Duitschland, het <corr sic=zuid-westen>zuidwesten</corr> van Engeland, den voet der Vogezen enz. Groote opeenhoopingen verzamelen zich in de zeeën: zij vormen het <hi>jonge roode zandsteen</hi>. Daarboven zet zich in tijden van betrekkelijke kalmte de magnesiumkalk, ook wel zechsteen genoemd, af. Dit is in Centraal- en West-Europa de gewone samenstelling der permische formatie, die trouwens zeer veranderlijk is. Op verscheidene plaatsen brengen onderaardsche inspuitingen in de zeeën delfstoffen, die in het algemeen verderfelijk zijn voor het leven; b.v. het koper in Thuringen en Rusland, het gips en het steenzout in Rusland en Amerika, en het magnesium overal. Uit een mineralogisch standpunt gelijkt dan ook de permische formatie meer op het trias, dat daarop volgt, dan op de formaties, die zijn voorafgegaan; uit een organisch oogpunt is echter het omgekeerde <pb n=314 id=pb314>het geval. Behalve in Rusland en in de Vereenigde Staten, waar nog steeds de stilte der vorige perioden voortduurt, zijn de bewegingen van den bodem en de omwentelingen der lagen uiterst talrijk; vandaar dan ook, dat in de Vereenigde Staten de permische formatie 250 meters is, terwijl deze in Boheme 700 meters en in Saksen 1200 meters bedraagt. De onderste lagen rusten nu eens op de steenkool, dan weder op leisteen of graniet, hetgeen wijst op den invloed der zee. De permische periode teekent het einde van een groot geologisch tijdvak, omdat daarin de meeste oude typen uitsterven, hetzij omdat zij hun natuurlijk uiteinde bereikt hebben, hetzij omdat de omgeving niet meer geschikt voor hen is. Slechts enkele typen blijven voortbestaan: nog geene enkele der nieuwe vormen, die het secundaire tijdperk teekenen, komt ten tooneele. Het is dus natuurlijk, dat het einde der permische periode tevens als het einde der paleozoïsche periode beschouwd wordt.
 
 <p>De dierenwereld uit die periode telt nauwelijks driehonderd bekende soorten. Alle dierengroepen geraken in verval, ten minste in Europa en in de Vereenigde Staten. De poliepen, de zeeleliën en de stekelhuidigen tellen nog slechts enkele soorten. Bijna alle paleozoïsche armpootigen zijn verdwenen, enkele komen nog voor het laatst voor. Die klasse zal zich niet meer uit haar verval opheffen en altijd overtroffen worden door de buikpootige en koplooze weekdieren. De koppootigen zijn tot enkele soorten teruggebracht, en de schaaldieren worden alleen nog slechts vertegenwoordigd door de laatste der trilobieten, enkele limulen en enkele cypridinen. De glansschubbige visschen behouden hunne stelling en zijn merkwaardig door het groote aantal soorten en individuen.
 
@@ -2876,7 +2916,7 @@ Az.   Camb.
 </figure>
 
 
-<p>Reeds in 1863 heeft Dawson verscheidene amphibiën en kruipende dieren gevonden, vooral eene soort, die den naam van <hi>Hylonomus</hi> gekregen heeft, en die door de inrichting harer wervels in staat moet geweest zijn, om buiten het water te klimmen en te springen. Huxley heeft in de steenkool van Groot-Brittanië verscheidene kruipende dieren gevonden, waaronder <hi>den Anthracosaurus</hi>, twee meters lang. King vond in de steenkool van Pensylvanië de indruksels van een ontzaglijk dier, <hi>den Batrachopus</hi>; de indruksels der achterpooten waren bijna een voet lang, en overtroffen dus in grootte die der doolhoftandigen uit de triasperiode. Die indruksels wijzen op een dier, dat in de lucht ademde; want naar de wijze hunner versteening moeten die indruksels gemaakt zijn door een viervoetig dier, dat op de weeke klei aan den oever liep, en moet die klei in de zon gedroogd en gespleten zijn. Daarna <pb n=319 id=pb319>moet de klei bedekt zijn geworden met zand, en dit zand in zandsteen veranderd zijn. Enkele voetstappen van kruipende dieren in Pensylvanië gevonden, hebben doen vermoeden, dat zij tot de devonische periode behoord hebben.
+<p>Reeds in 1863 heeft Dawson verscheidene amphibiën en kruipende dieren gevonden, vooral eene soort, die den naam van <hi>Hylonomus</hi> gekregen heeft, en die door de inrichting harer wervels in staat moet geweest zijn, om buiten het water te klimmen en te springen. Huxley heeft in de steenkool van Groot-Brittanië verscheidene kruipende dieren gevonden, waaronder <hi>den Anthracosaurus</hi>, twee meters lang. King vond in de steenkool van <corr sic="Pensylvanië">Pennsylvanië</corr> de indruksels van een ontzaglijk dier, <hi>den Batrachopus</hi>; de indruksels der achterpooten waren bijna een voet lang, en overtroffen dus in grootte die der doolhoftandigen uit de triasperiode. Die indruksels wijzen op een dier, dat in de lucht ademde; want naar de wijze hunner versteening moeten die indruksels gemaakt zijn door een viervoetig dier, dat op de weeke klei aan den oever liep, en moet die klei in de zon gedroogd en gespleten zijn. Daarna <pb n=319 id=pb319>moet de klei bedekt zijn geworden met zand, en dit zand in zandsteen veranderd zijn. Enkele voetstappen van kruipende dieren in <corr sic="Pensylvanië">Pennsylvanië</corr> gevonden, hebben doen vermoeden, dat zij tot de devonische periode behoord hebben.
 
 <p>Niet alleen dat de dieren de sporen van hunnen stap achterlaten aan eenen effenen, slibbigen oever, ook de regen, in groote droppels neervallend, boort in dat slib een aantal ronde holten. Onder den invloed der warmte worden al die sporen hard. Indien nu bij eenen volgenden vloed het zeewater weder nieuw fijn zand brengt op den uitgedroogden oever, dan zal dat zand als het ware afgietsels vormen in die holten, en weder drogende, getuigenis afleggen van den doortocht van dieren en het neerstorten van den regen. Zoo kan men aantoonen, dat in die periode de regen met stroomen moet zijn neergevallen.
 
@@ -2945,7 +2985,7 @@ Az.   Camb.
 <div0 id=bk4 n=4>
 <head type=label rend="image(images/fig190.jpg)">Vierde boek.</head>
 
-<head>Het secundaire tijdperk.</head>
+<head><hi rend=ex>Het secundaire tijdperk.</hi></head>
 
 
 <milestone unit=tb>
@@ -2972,7 +3012,7 @@ Az.   Camb.
 
 <pb n=331 id=pb331><p>Het tijdperk, dat wij thans bespreken, wordt in drie perioden onderverdeeld, die door hare karakteristieke eigenschappen scherp onderscheiden kunnen worden: de trias- de jura- en de krijtperiode.
 
-<p>De eerste periode heet <hi>trias</hi>, omdat de formaties dier periode bij de eerste studie dier formaties zich in drie lagen vertoonden: de bonte-zandsteen, de schelpkalk en de keuper, waarin de mergel voorkomt. Die drie lagen vindt men regelmatig op elkander in Wurtemberg, Beieren, Lotharingen en elders; doch die verdeeling, die berust op het bestaan eener zeevorming tusschen twee zoetwatervormingen, geldt o. a. niet voor Engeland, de Alpenstreken, het Himalayagebergte en Californië. Bovendien vindt men dikwijls de triasformatie nauw aan de permische formatie verbonden, waardoor de geleidelijke ontwikkeling der organische wereld nog nader bevestigd wordt. Wel kunnen enkele lagen ontbreken, maar de volgorde wordt nooit gewijzigd, nooit ligt de bonte-zandsteen onder de schelpkalk, evenals de juraformatie nooit boven de krijtformatie gelegen is.
+<p>De eerste periode heet <hi>trias</hi>, omdat de formaties dier periode bij de eerste studie dier formaties zich in drie lagen vertoonden: de bonte-zandsteen, de schelpkalk en de keuper, waarin de mergel voorkomt. Die drie lagen vindt men regelmatig op elkander in Wurtemberg, Beieren, Lotharingen en elders; doch die verdeeling, die berust op het bestaan eener zeevorming tusschen twee zoetwatervormingen, geldt o.a. niet voor Engeland, de Alpenstreken, het Himalayagebergte en Californië. Bovendien vindt men dikwijls de triasformatie nauw aan de permische formatie verbonden, waardoor de geleidelijke ontwikkeling der organische wereld nog nader bevestigd wordt. Wel kunnen enkele lagen ontbreken, maar de volgorde wordt nooit gewijzigd, nooit ligt de bonte-zandsteen onder de schelpkalk, evenals de juraformatie nooit boven de krijtformatie gelegen is.
 
 <p>De tweede periode van het secundaire tijdperk, heet de <hi>Juraperiode</hi>, omdat het Juragebergte, dat eerst later is opgeheven, grootendeels bestaat uit formaties, die in deze periode bezonken zijn. Deze periode wordt weder onderverdeeld in de lias- en de oölietperiode.
 
@@ -2994,7 +3034,7 @@ Az.   Camb.
 
 <p>De grassen komen in grooten getale voor, doch niet meer in groote lagen verkoolde plantenstof, zooals vroeger, maar in den vorm van talrijke afdruksels in de zandsteen.
 
-<p>Bijzonder eigen aan de secundaire periode zijn de Cycadeën, eene plant, waarvan in de steenkoolperiode slechts vier soorten, en waarvan thans veertig soorten bekend zijn. In de triasformatie vindt men van de cycadeën twintig soorten, in de Juraformatie dertig en in de krijtformatie vijftien soorten, d. i. dus in het geheel vijfenzestig, of vijfentwintig <pb n=334 id=pb334>meer dan wij er thans van vinden. <ref target=fig192>Fig. 192</ref> geeft een denkbeeld van den algemeenen vorm dier familie.
+<p>Bijzonder eigen aan de secundaire periode zijn de Cycadeën, eene plant, waarvan in de steenkoolperiode slechts vier soorten, en waarvan thans veertig soorten bekend zijn. In de triasformatie vindt men van de cycadeën twintig soorten, in de Juraformatie dertig en in de krijtformatie vijftien soorten, d.i. dus in het geheel vijfenzestig, of vijfentwintig <pb n=334 id=pb334>meer dan wij er thans van vinden. <ref target=fig192>Fig. 192</ref> geeft een denkbeeld van den algemeenen vorm dier familie.
 
 
 <p><figure id=fig193>
@@ -3019,7 +3059,7 @@ Az.   Camb.
 <head>Fig. 194. Versteende tak eener araucaria.</head>
 </figure>
 
-<p>Tot de merkwaardige boomen van die wouden der secundaire periode behooren de voltzia en het pterophyllum, alsmede de haidingera, een naaldboom, die zeer veel voorkomt in de schelpkalkperiode, en die in bouw moet geleken hebben op onze cederen. Doch de rijkdom aan planten uit de steenkoolperiode heeft plaats gemaakt voor betrekkelijke armoede; het zijn niet meer die diepe bosschen met reuzenboomen, en ondoordringbare schaduw. De planten zijn dun gezaaid, het terrein is meer golvend, en het licht speelt op een groen grastapijt. Het plantentype der steenkoolperiode is verdwenen, maar de &bdquo;bedektzadigen&rdquo;, d.i. de planten, die alleen reeds 9/10 uitmaken van de tegenwoordige flora, zijn nog niet gevormd, behoudens enkele zeldzame éénzaadlobbigen. Men vindt bijna alleen sporeplanten en naaktzadigen, <pb n=337 id=pb337>de eerste vertegenwoordigd door varens, paardestaarten e.a., de tweede door cycadeën en naaldboomen. Over den geheelen archipel, die toen bestond, waar nu Europa gelegen is, merkt men op, dat de plantengroei der kusten en lage streken van dien der heuvels en bergtoppen verschilt: beneden, de varens met breed ontwikkelde of fijn uitgesneden bladeren, de paardestaarten en de oorspronkelijke naaldboomen; boven, op de drogere en hooger gelegen plaatsen, de varens met schraal en hard loof, cycadeën en de reuzenconiferen, die de voornaamste boomen waren der wouden op de bergen.
+<p>Tot de merkwaardige boomen van die wouden der secundaire periode behooren de voltzia en het pterophyllum, alsmede de haidingera, een naaldboom, die zeer veel voorkomt in de schelpkalkperiode, en die in bouw moet geleken hebben op onze cederen. Doch de rijkdom aan planten uit de steenkoolperiode heeft plaats gemaakt voor betrekkelijke armoede; het zijn niet meer die diepe bosschen met reuzenboomen, en ondoordringbare schaduw. De planten zijn dun gezaaid, het terrein is meer golvend, en het licht speelt op een groen grastapijt. Het plantentype der steenkoolperiode is verdwenen, maar de &bdquo;bedektzadigen&rdquo;, d.i. de planten, die alleen reeds &frac9-10; uitmaken van de tegenwoordige flora, zijn nog niet gevormd, behoudens enkele zeldzame éénzaadlobbigen. Men vindt bijna alleen sporeplanten en naaktzadigen, <pb n=337 id=pb337>de eerste vertegenwoordigd door varens, paardestaarten e.a., de tweede door cycadeën en naaldboomen. Over den geheelen archipel, die toen bestond, waar nu Europa gelegen is, merkt men op, dat de plantengroei der kusten en lage streken van dien der heuvels en bergtoppen verschilt: beneden, de varens met breed ontwikkelde of fijn uitgesneden bladeren, de paardestaarten en de oorspronkelijke naaldboomen; boven, op de drogere en hooger gelegen plaatsen, de varens met schraal en hard loof, cycadeën en de reuzenconiferen, die de voornaamste boomen waren der wouden op de bergen.
 
 
 <p><figure id=fig195-196>
@@ -3100,7 +3140,7 @@ Az.   Camb.
 </figure>
 
 
-<p>Wij zagen vroeger, dat het zout één der belangrijkste voortbrengselen is van de triasformatie; doch ook het gips, behoort tot diezelfde formatie. Men vindt het tusschen de schelpkalk en het keuper, bij voorbeeld te Habsburg, Mullingen, Niederweningen, Birmensdorf, Gebensdorf, Munsterthal enz. Het gips bevat hier en daar zwavelzure natron en magnesia; die zouten, in water opgelost, leveren de purgeerende minerale wateren. Uit hunnen aard zijn die wateren een handelsartikel; er zijn trouwens andere rijke <pb n=348 id=pb348>minerale bronnen uit de triasformatie, zooals het zoo hooggeschatte water uit Baden, dat uit eene groote diepte te voorschijn komend, waarschijnlijk uit de keuperformatie voortkomt. De zwavelhoudende wateren van Schinznach en de jodiumhoudende wateren van Wildegg vinden waarschijnlijk hunnen oorsprong in de gips der triasformatie. Behalve het zout en de gips en de minerale wateren bevat de triasformatie nog rijke hulpbronnen; het levert ons talrijke bouwmaterialen, en door hare ontleding geeft zij ons in den vorm van mergelaarde eene uitstekende meststof; de keuperstreken onderscheiden zich door hare vette weiden, vruchtbare akkers en rijke wijngaarden; overal is de triasformatie eene bron van welvaart voor de bevolking.
+<p>Wij zagen vroeger, dat het zout één der belangrijkste voortbrengselen is van de triasformatie; doch ook het gips, behoort tot diezelfde formatie. Men vindt het tusschen de schelpkalk en het keuper, bij voorbeeld te Habsburg, Mullingen, Niederweningen, Birmensdorf, Gebensdorf, <corr sic=Munsterthal>Münsterthal</corr> enz. Het gips bevat hier en daar zwavelzure natron en magnesia; die zouten, in water opgelost, leveren de purgeerende minerale wateren. Uit hunnen aard zijn die wateren een handelsartikel; er zijn trouwens andere rijke <pb n=348 id=pb348>minerale bronnen uit de triasformatie, zooals het zoo hooggeschatte water uit Baden, dat uit eene groote diepte te voorschijn komend, waarschijnlijk uit de keuperformatie voortkomt. De zwavelhoudende wateren van Schinznach en de jodiumhoudende wateren van Wildegg vinden waarschijnlijk hunnen oorsprong in de gips der triasformatie. Behalve het zout en de gips en de minerale wateren bevat de triasformatie nog rijke hulpbronnen; het levert ons talrijke bouwmaterialen, en door hare ontleding geeft zij ons in den vorm van mergelaarde eene uitstekende meststof; de keuperstreken onderscheiden zich door hare vette weiden, vruchtbare akkers en rijke wijngaarden; overal is de triasformatie eene bron van welvaart voor de bevolking.
 
 <p>Alleen het dolomiet maakt eene uitzondering; als de regens dat gesteente ontleed hebben, blijft er niets over dan zand, dat het water doorlaat en onvruchtbaar is. Waar de bodem dan ook alleen uit dolomiet bestaat, zooals in de kalkbergen van Vorarlberg in sommige vlakten van Engadin, is de plantengroei zeer arm; de boomen en de struiken komen daar niet tot wasdom, de weiden zijn daar slechts bedekt met enkele grasstoppels en de hooger gelegen streken zijn totaal kaal. In Zwitserland zijn enkele dolomietstreken (zooals de Moravallei, die van St. Giacomo naar den Munsterthalalp leidt), waar de plantengroei geheel ontbreekt, en waar alles van de diepte der vallei tot op de toppen der bergen het beeld vertoont van verlatenheid en dood.
 
@@ -3250,7 +3290,7 @@ Az.   Camb.
 
 <p>De schoone lentedagen zijn aangebroken; de boomen vormen krachtige knoppen; maar de opossum is bijna naakt en schijnt door vasten uitgeput. Hij zoekt de kreken op en smult nu aan de jeugdige kikkers. Maar de brandnetel begint zijne teere en saprijke knoppen te ontwikkelen, die hem een kostbaar voedsel opleveren. Het morgengeroep van den wilden kalkoen doet hem aangenaam aan, want de sluwerd weet, dat hij nu spoedig de stem van het wijfje zal hooren, en dat hij haar naar haar nest kan volgen om hare eieren te rooven. En terwijl hij door de bosschen zweeft, nu eens op den grond, dan weder op de boomen van tak tot tak springend, hoort hij het gekraai van eenen haan; en zijn hart klopt van genot, als hij zich te binnenbrengt, wat een heerlijk maal hij het vorige jaar gehad heeft op eene nabijzijnde boerderij. Zachtjes, de oogen wijd geopend, gaat hij vooruit en verbergt hij zich in het hoenderhok.
 
-<p>Waarom, eerzame landman, hebt gij het vorige jaar zoovele kraaien en raven gedood? Koop u nu kruit en lood, maak uw geweer schoon, zet uwe vallen gereed en zorg, dat uwe trage honden trouw waken, want de opossum nadert, de strooper is <pb n=367 id=pb367>op weg. Hoort gij de kreten van uwe kippen? Eéne der beste is door den sluwen dief medegenomen. Gij loert op vos en uil, en waant u gelukkig, zoo gij hunnen vijand en uwen vriend, de arme raaf gedood hebt. Nog geen week geleden lagen onder deze groote kip een dozijn eieren; zij zijn verdwenen, de opossum heeft ze weggestolen.
+<p>Waarom, eerzame landman, hebt gij het vorige jaar zoovele kraaien en raven gedood? Koop u nu kruit en lood, maak uw geweer schoon, zet uwe vallen gereed en zorg, dat uwe trage honden trouw waken, want de opossum nadert, de strooper is <pb n=367 id=pb367>op weg. Hoort gij de kreten van uwe kippen? Ééne der beste is door den sluwen dief medegenomen. Gij loert op vos en uil, en waant u gelukkig, zoo gij hunnen vijand en uwen vriend, de arme raaf gedood hebt. Nog geen week geleden lagen onder deze groote kip een dozijn eieren; zij zijn verdwenen, de opossum heeft ze weggestolen.
 
 <p>Het wijfje van den opossum is een voorbeeld van moederliefde. Sla uwen blik in dien zonderlingen buidel, waar de jongen ieder aan eene melkklier bevestigd zijn. De zorgzame moeder voedt ze niet alleen, maar beveiligt ze ook tegen den vijand; zij neemt ze met zich mede, zooals de zeehond haar kroost medevoert, of verbergt ze onder de bladeren van eenen tulpeboom. Na twee maanden beginnen zij voor zich zelf te kunnen zorgen, met wijze lessen gaan zij de wereld in. Maar als de pachter den opossum op heeterdaad heeft betrapt, terwijl hij éénen zijner schoonste hoenders vermoordde, en zich woedend op het arme dier werpt, rolt het zich tot eenen bal samen. Naarmate de man woedender wordt, blijft het dier rustiger liggen; eindelijk blijft het onder den voet van den pachter liggen zonder eenig teeken van leven te geven, met de tong uit den bek, en de oogen gesloten, totdat zijn beul hem laat liggen in het denkbeeld, dat het dier dood is. Doch neen! het is niet dood. Het hield zich slechts zoo; nauwelijks heeft de vijand de hielen gekeerd, of het dier richt zich weer op en vlucht in het bosch.
 
@@ -3389,7 +3429,7 @@ Az.   Camb.
 
 <p>De ichthyosauren hadden de wervels van eenen visch, den kop van eene hagedis, den muil van eenen bruinvisch, de tanden van eenen krokodil, het borstbeen van eenen ornithorynchus en de vinnen van eenen walvisch. Men kent een <pb n=386 id=pb386>groot aantal verschillende soorten, waarvan enkele van tien tot twaalf meters groot zijn. Men vindt ze in grooten getale in de Juraformatie, vooral in de onderste lagen. Hun kop was lang en puntig, met ontzaglijke oogen voorzien, hunne talrijke tanden waren groot, kegelvormig en puntig; men heeft kaken gevonden met 180 tanden. Zij moeten eenige overeenkomst gehad hebben met onze tegenwoordige walvisschen.
 
-<p>Zelfs onafhankelijk van de grootte van het monster, moeten de oogen, die de grootte hadden van een menschenhoofd, het reeds een schrikwekkend aanzien gegeven hebben. Binnen de oogholte ziet men eenen cirkel, bestaande uit 13 tot 17 beenige platen, die waarschijnlijk tot steun dienden aan het wit van het oog; het licht werd door de opening van den cirkel doorgelaten. Die platen, die men ook vindt in de oogen van verscheidene vogels, bij de schildpadden en de hagedissen, dienen om het doorschijnende hoornvlies naar voren of naar achteren te duwen, ten einde zijne kromming te vermeerderen of te verminderen, en om daardoor het waarnemen van voorwerpen op groote en op kleine afstanden gemakkelijk te maken, d. i. om het dier naar verkiezing bijziend of verziend te maken. Van de oogen af neemt de schedel reusachtige afmetingen aan, het voorhoofd stijgt om van achteren weder af te platten: de beenderen steken in het midden en de beide zijden tot aan het achterhoofd uit, en laten holten open, die de spieren hielden, waarmede het dier de lange onderkaak moest bewegen.
+<p>Zelfs onafhankelijk van de grootte van het monster, moeten de oogen, die de grootte hadden van een menschenhoofd, het reeds een schrikwekkend aanzien gegeven hebben. Binnen de oogholte ziet men eenen cirkel, bestaande uit 13 tot 17 beenige platen, die waarschijnlijk tot steun dienden aan het wit van het oog; het licht werd door de opening van den cirkel doorgelaten. Die platen, die men ook vindt in de oogen van verscheidene vogels, bij de schildpadden en de hagedissen, dienen om het doorschijnende hoornvlies naar voren of naar achteren te duwen, ten einde zijne kromming te vermeerderen of te verminderen, en om daardoor het waarnemen van voorwerpen op groote en op kleine afstanden gemakkelijk te maken, d.i. om het dier naar verkiezing bijziend of verziend te maken. Van de oogen af neemt de schedel reusachtige afmetingen aan, het voorhoofd stijgt om van achteren weder af te platten: de beenderen steken in het midden en de beide zijden tot aan het achterhoofd uit, en laten holten open, die de spieren hielden, waarmede het dier de lange onderkaak moest bewegen.
 
 <p>De groote kop had eenen machtigen steun noodig; die rol werd door den hals vervuld, die kort en dik was en waarvan de wervels zich tot binnen in den kop uitstrekten, terwijl de benedenkaak zich vrij vóór en onder deze bewoog. De wervelkolom wordt van den kop tot het midden van den rug dikker. De wervels zijn bijna cirkelvormig, plat en voorzien van uitsnijdingen voor de kraakbeenige banden, waarmede zij onder elkander verbonden zijn.
 
@@ -3403,7 +3443,7 @@ Az.   Camb.
 </figure>
 
 
-<p>De met zwemvliezen voorziene pooten herinneren aan de vinnen van den walvisch, met dit verschil, dat zij meer vingers bevatten; maar deze bestaan, evenals de hand van den mensen (behalve de duim) uit eene rij leden, die door spieren en kraakbeenige bandspieren aan elkander verbonden zijn. Die pooten schijnen meer gevormd te zijn tot zwemmen dan tot loopen, doch zij kunnen voor beide gediend hebben.
+<p>De met zwemvliezen voorziene pooten herinneren aan de vinnen van den walvisch, met dit verschil, dat zij meer vingers bevatten; maar deze bestaan, evenals de hand van den mensch (behalve de duim) uit eene rij leden, die door spieren en kraakbeenige bandspieren aan elkander verbonden zijn. Die pooten schijnen meer gevormd te zijn tot zwemmen dan tot loopen, doch zij kunnen voor beide gediend hebben.
 
 <p>De vier ledematen van den ichthyosaurus waren gepantserd als een ijzeren handschoen, terwijl het overige deel van het lichaam geene wapenrusting ter verdediging bezat.
 
@@ -3431,7 +3471,7 @@ Az.   Camb.
 </figure>
 
 
-<p>Indien wij zoo de sporen van dit lang vervlogen leven terugvinden, indien wij in het lichaam van den ichthyosaurus <pb n=390 id=pb390>het voedsel terugvinden, dat hij een oogenblik vóór zijnen dood inzwelgde, indien wij daarin nog de overblijfselen zien van visschen, voor honderden millioenen jaren verslonden, dan verdwijnt die onmetelijke tijdsruimte voor onzen geest, en dan vinden wij ons als het ware in onmiddellijke aanraking met alle gebeurtenissen, die toen ten tijde hebben plaats gevonden, als waren zij eerst onlangs geschied.<note n=1>Merkwaardig is het, hoever wij het in de kennis van die oude soorten gebracht hebben. Wij weten b. v. welke dieren de ichthyosauren verslonden; men weet, hoe hun darmkanaal gevormd was. Die kennis zijn wij te danken aan de ontdekking van de koprolithen (dreksteenen), die tegelijk met de skeletten dier dieren versteend zijn. Het onderzoek dier dreksteenen van den ichthyosaurus heeft ons duidelijk schubben van visschen, tanden, enz. doen kennen.</note>
+<p>Indien wij zoo de sporen van dit lang vervlogen leven terugvinden, indien wij in het lichaam van den ichthyosaurus <pb n=390 id=pb390>het voedsel terugvinden, dat hij een oogenblik vóór zijnen dood inzwelgde, indien wij daarin nog de overblijfselen zien van visschen, voor honderden millioenen jaren verslonden, dan verdwijnt die onmetelijke tijdsruimte voor onzen geest, en dan vinden wij ons als het ware in onmiddellijke aanraking met alle gebeurtenissen, die toen ten tijde hebben plaats gevonden, als waren zij eerst onlangs geschied.<note n=1>Merkwaardig is het, hoever wij het in de kennis van die oude soorten gebracht hebben. Wij weten b.v. welke dieren de ichthyosauren verslonden; men weet, hoe hun darmkanaal gevormd was. Die kennis zijn wij te danken aan de ontdekking van de koprolithen (dreksteenen), die tegelijk met de skeletten dier dieren versteend zijn. Het onderzoek dier dreksteenen van den ichthyosaurus heeft ons duidelijk schubben van visschen, tanden, enz. doen kennen.</note>
 
 <p>Opmerkelijk is het, dat men geene ichthyosauren gevonden heeft in de secundaire formaties van de Vereenigde Staten van Amerika. In 1879 vond echter professor Marsh een exemplaar van drie meters lengte, afkomstig uit de Juraformatie van het Rotsgebergte, maar <hi>zonder tanden</hi>. De wervels, de ribben en de overige deelen van het skelet konden nauwelijks onderscheiden worden van de overeen-komstige deelen van eenen ichthyosaurus, en ook de schedel kwam in velerlei opzicht met dien van den laatsten overeen. En toch waren er geene tanden aanwezig; zelfs werden de tandholten gemist. De geleerde paleontoloog stelt voor, de nieuwe hagedis &bdquo;Sauranodon&rdquo; of tandlooze hagedis te noemen.
 
@@ -3575,7 +3615,7 @@ Az.   Camb.
 
 
     <figure id=fig223>
-    <head>Fig. 223. Dieren der Juraperiode: de brontosaurus (1/125 der ware grootte).</head>
+    <head>Fig. 223. Dieren der Juraperiode: de brontosaurus (&frac1-125; der ware grootte).</head>
     </figure>
 
 
@@ -3584,9 +3624,9 @@ Az.   Camb.
     <p>II. De Iguanodon Mantelli onderscheidt zich van den Iguanodon Bernissartensis in de volgende opzichten:
 
     <list>
-        <item>1&ordm;. Hij is slechts 5 tot 6 meters, in plaats van 10 meters lang.
-        <item>2&ordm;. Hij heeft slechts 5 wervels aan het heiligbeen, in plaats van zes.
-        <item>3&ordm;. De neusgaten zijn wijder.
+        <item><ab type=itemNum>1&ordm;.</ab> Hij is slechts 5 tot 6 meters, in plaats van 10 meters lang.
+        <item><ab type=itemNum>2&ordm;.</ab> Hij heeft slechts 5 wervels aan het heiligbeen, in plaats van zes.
+        <item><ab type=itemNum>3&ordm;.</ab> De neusgaten zijn wijder.
     </list>
 
     <p>III. De Iguanodon Prestwichi onderscheidt zich door vier wervels in het heiligbeen en door het samengestelde der tanden.</q>
@@ -3718,7 +3758,7 @@ Az.   Camb.
 </figure>
 
 
-<p>De ontdekking der eerste veeren van den fossielen vogel was hoogst belangrijk. Zij dateert van 1860 en is gedaan in de bovenste Juraformatie van Beieren, in de lithographische steen van Solenhofen. De geologen twijfelden aan de echtheid van de veer, totdat men in het volgende jaar in dezelfde formatie en vlak bij de plaats, waar de veer gevonden was, een gedeelte ontdekte van het lichaam van den oorspronkelijken vogel, die den naam kreeg van <hi>archeopteryx</hi>. Het duurde verscheidene jaren, eer het mogelijk was, nauwkeuriger kennis omtrent dien vogel op te doen. In 1863 gaf Owen er voor het eerst eene beschrijving van. In 1877 werd een tweede exemplaar, schooner en vollediger, gevonden op 14 kilometers van de plek, waar het eerste gevonden is. Het eerste exemplaar is aangekocht door het Museüm van Londen, het tweede door dat van Berlijn. Het onderzoek van dat laatste exemplaar heeft geleerd, dat de schedel reeds den eigenaardigen vorm van eenen vogelschedel heeft, maar dat hij voorzien is van kaken met tanden in tandkassen. De grootte van dien vogel komt overeen met die van eene duif. De staart is hoogst merkwaardig. Hij is zeer <pb n=424 id=pb424>lang en bestaat uit 20 wervels, die ieder aan weerszijden eene veer dragen. Door die wervels is het meer de staart van een kruipend dier dan van eenen vogel. De archeopteryx vult juist de leege ruimte aan tusschen de kruipende dieren en de vogels. Reeds lang wist men, dat de vogels vervormde kruipende dieren zijn; maar men kende nog geene fossielen <pb n=425 id=pb425>uit dien overgangstijd. De <corr sic=archeoptheryx>archeopteryx</corr> is dus in ieder opzicht eene der belangrijkste ontdekkingen der paleontologie.
+<p>De ontdekking der eerste veeren van den fossielen vogel was hoogst belangrijk. Zij dateert van 1860 en is gedaan in de bovenste Juraformatie van Beieren, in de lithographische steen van Solenhofen. De geologen twijfelden aan de echtheid van de veer, totdat men in het volgende jaar in dezelfde formatie en vlak bij de plaats, waar de veer gevonden was, een gedeelte ontdekte van het lichaam van den oorspronkelijken vogel, die den naam kreeg van <hi>archeopteryx</hi>. Het duurde verscheidene jaren, eer het mogelijk was, nauwkeuriger kennis omtrent dien vogel op te doen. In 1863 gaf Owen er voor het eerst eene beschrijving van. In 1877 werd een tweede exemplaar, schooner en vollediger, gevonden op 14 kilometers van de plek, waar het eerste gevonden is. Het eerste exemplaar is aangekocht door het <corr sic="Museüm">Museum</corr> van Londen, het tweede door dat van Berlijn. Het onderzoek van dat laatste exemplaar heeft geleerd, dat de schedel reeds den eigenaardigen vorm van eenen vogelschedel heeft, maar dat hij voorzien is van kaken met tanden in tandkassen. De grootte van dien vogel komt overeen met die van eene duif. De staart is hoogst merkwaardig. Hij is zeer <pb n=424 id=pb424>lang en bestaat uit 20 wervels, die ieder aan weerszijden eene veer dragen. Door die wervels is het meer de staart van een kruipend dier dan van eenen vogel. De archeopteryx vult juist de leege ruimte aan tusschen de kruipende dieren en de vogels. Reeds lang wist men, dat de vogels vervormde kruipende dieren zijn; maar men kende nog geene fossielen <pb n=425 id=pb425>uit dien overgangstijd. De <corr sic=archeoptheryx>archeopteryx</corr> is dus in ieder opzicht eene der belangrijkste ontdekkingen der paleontologie.
 
 
 <p><figure id=fig232>
@@ -3748,11 +3788,11 @@ Az.   Camb.
 
 
 <table id=t7 rend="width(300px)">
-    <row><cell>Rechtvleugeligen   <cell rend="align(right)">  7 soorten.
-    <row><cell>Netvleugeligen     <cell rend="align(right)">  7 <ditto>soorten.</ditto>
-    <row><cell>Schildvleugeligen  <cell rend="align(right)">116 <ditto>soorten.</ditto>
-    <row><cell>Vliesvleugeligen   <cell rend="align(right)">  1 <ditto>soorten.</ditto>
-    <row><cell>Halfvleugeligen    <cell rend="align(right)"> 12 <ditto>soorten.</ditto>
+    <row><cell>Rechtvleugeligen   <cell rend="align(right)">  7 <seg id=segSoorten>soorten.</seg>
+    <row><cell>Netvleugeligen     <cell rend="align(right)">  7 <seg copyOf=segSoorten>,,</seg>
+    <row><cell>Schildvleugeligen  <cell rend="align(right)">116 <seg copyOf=segSoorten>,,</seg>
+    <row><cell>Vliesvleugeligen   <cell rend="align(right)">  1 <seg copyOf=segSoorten>,,</seg>
+    <row><cell>Halfvleugeligen    <cell rend="align(right)"> 12 <seg copyOf=segSoorten>,,</seg>
 </table>
 
 
@@ -3978,7 +4018,7 @@ Az.   Camb.
 
 <p>Dat krijt met micrasters is het hoofdbestanddeel der rotsen van Dieppe.
 
-<p>Al die krijtlagen vormen in het bekken van Parijs, om de tertiaire lagen, die in het middelpunt gelegen zijn, eene uitgestrekte, golvende, hoefijzervormige vlakte, waarvan de beide beenen op de Normandische kust uitkomen, het ééne tusschen Dieppe en Tréport, het andere tusschen Boulogne en Calais. Die twee krijtstrooken zetten zich door het Kanaal voort, en komen weer op de Engelsche kust voor den dag, waar zij de witte krijtrotsen vormen, aan weerszijden van Dover. Engeland draagt daarom den naam van Albion. Het krijt wordt daar ook gevonden rondom de tertiaire lagen, waarop Londen gelegen is, en vormt daar eene heuvelenrij, die den naam van Downs draagt. Al die streken, Orleans, Parijs, Dieppe, Londen, waren dus in dien tijd onder water bedolven. In de omstreken van Parijs, te Meudon, vindt men, boven het witte krijt, eene gele kalksteen, bestaande uit kleine, ronde korrels en overblijfselen van fossielen, bekend onder den naam van pisolithische steen; die steen, die het bovenste bezinksel is der krijtperiode, bevat een mengsel van stoffen uit de krijtformatie en de tertiaire formatie. Men vindt daar onder andere, ananchiten<note n=1 id=n452.1>Soorten van zeeëgels.</note>, cerithiden<ref target=n452.1 type=noteref>1</ref>, die vergeleken kunnen worden met het cerithium<ref target=n452.1 type=noteref>1</ref> gigantëum, <pb n=453 id=pb453>dat in de Parijsche tertiaire formatie in groote hoeveelheden voorkomt.
+<p>Al die krijtlagen vormen in het bekken van Parijs, om de tertiaire lagen, die in het middelpunt gelegen zijn, eene uitgestrekte, golvende, hoefijzervormige vlakte, waarvan de beide beenen op de Normandische kust uitkomen, het ééne tusschen Dieppe en Tréport, het andere tusschen Boulogne en Calais. Die twee krijtstrooken zetten zich door het Kanaal voort, en komen weer op de Engelsche kust voor den dag, waar zij de witte krijtrotsen vormen, aan weerszijden van Dover. Engeland draagt daarom den naam van Albion. Het krijt wordt daar ook gevonden rondom de tertiaire lagen, waarop Londen gelegen is, en vormt daar eene heuvelenrij, die den naam van Downs draagt. Al die streken, Orleans, Parijs, Dieppe, Londen, waren dus in dien tijd onder water bedolven. In de omstreken van Parijs, te Meudon, vindt men, boven het witte krijt, eene gele kalksteen, bestaande uit kleine, ronde korrels en overblijfselen van fossielen, bekend onder den naam van pisolithische steen; die steen, die het bovenste bezinksel is der krijtperiode, bevat een mengsel van stoffen uit de krijtformatie en de tertiaire formatie. Men vindt daar onder andere, ananchiten<note n=1 id=n452.1>Soorten van zeeëgels.</note>, cerithiden<note n=1 sameAs=n452.1></note>, die vergeleken kunnen worden met het cerithium<note n=1 sameAs=n452.1></note> gigantëum, <pb n=453 id=pb453>dat in de Parijsche tertiaire formatie in groote hoeveelheden voorkomt.
 
 <p>Men vindt diezelfde formatie in losse brokken tegen het krijt aan op verschillende punten van de omstreken van Parijs. Zij heeft duidelijk het karakter eener kustformatie, en wijst door hare verdeeling op eene belangrijke verandering, die heeft plaats gehad in den toestand van het Parijsche bekken, dat eerst door de zee bedekt was. Die zee, van het noorden komende, is geleidelijk teruggeweken, zoodat al die krijtmassa&apos;s, die wij besproken hebben, bij het terugwijken de ééne op de andere is afgezet. Na het afzetten der pisolithische kalksteen, die slechts over eene kleine uitgestrektheid beperkt is, was het geheele noordelijke deel van Frankrijk boven water gekomen.
 
@@ -4250,15 +4290,15 @@ Az.   Camb.
 
 <p>De eerste palmboomen vindt men in Europa in de tweede helft der krijtperiode; het spreekt vanzelf, dat wij hierbij geen rekening houden met de verkeerde opvattingen omtrent de aanwezigheid dier planten in de steenkoolperiode.
 
-<p>Nördenskjöld heeft eene cenomanische laag van landplanten ontdekt op Groenland. Men vindt daar eene bamboessoort, eene cycadea, tropische varens, gleichenia&apos;s en bedektzadige planten, waaronder vooral eene populiersoort van de familie populus euphratica, en daarbij vijgeboomen, magnolia&apos;s, enz. Dit merkwaardig geheel wordt voltooid door pijnboomen, sequoia&apos;s, enz.; palmen komen er niet voor; deze worden op dat tijdstip wel gevonden in Silezië en Provence. Hieruit schijnt te mogen worden afgeleid, dat zich toen de klimaten in de poolstreken begonnen te scheiden.
+<p><corr sic="Nördenskjöld">Nordenskjöld</corr> heeft eene cenomanische laag van landplanten ontdekt op Groenland. Men vindt daar eene bamboessoort, eene cycadea, tropische varens, gleichenia&apos;s en bedektzadige planten, waaronder vooral eene populiersoort van de familie populus euphratica, en daarbij vijgeboomen, magnolia&apos;s, enz. Dit merkwaardig geheel wordt voltooid door pijnboomen, sequoia&apos;s, enz.; palmen komen er niet voor; deze worden op dat tijdstip wel gevonden in Silezië en Provence. Hieruit schijnt te mogen worden afgeleid, dat zich toen de klimaten in de poolstreken begonnen te scheiden.
 
 <p>Saporta zegt: &bdquo;Het gelijktijdig voorkomen der twee typen, die elkander in onzen tijd schijnen uit te sluiten, had toen zijnen grond. Niettegenstaande de warmte, die zeker getemperd werd door de vochtigheid en die waarschijnlijk tamelijk gelijkmatig was, konden zij in de beste harmonie te zamen leven. De grootte der planten uit die periode wijst op eenen tijd, die zeer geschikt was voor de ontwikkeling der plantenwereld, en daardoor hebben zich de verschillende typen der tweezaadlobbige planten zoo snel kunnen ontwikkelen. De meeste tweezaadlobbige planten zijn van dien tijd afkomstig, en hadden van toen af aan het karakter, dat haar nog steeds onderscheidt. De tweede helft der krijtperiode kan beschouwd worden als het uitgangspunt van den plantengroei, die ons klimaat eigen is, evenals de steenkoolperiode het uitgangspunt der geheele plantenwereld is. Van de cenomanische periode af begint eene ontwikkeling, waaruit nieuwe soorten in toenemende mate ontstaan.
 
 <pb n=482 id=pb482><p><corr>&bdquo;</corr>Het Europeesch klimaat is verscheidene malen gewijzigd, en daaruit kan verklaard worden, hoe in den loop der tertiaire periode beurtelings soorten met weinig en taai loof, beurtelings soorten met eenen rijken bladerentooi gevonden worden. Hetzelfde heeft nog onder onze eigen oogen plaats; de afwijkingen in de boomen op de ééne plaats of de andere zijn het beeld van de afwijkingen, die het gevolg waren van het verschil in tijd op dezelfde plaats. Dezelfde verschijnselen, die wij thans opmerken, indien wij verschillende streken der aarde vergelijken, hebben zich eertijds na elkander voorgedaan in den loop der tijden. De wijze van werken der natuur is eigenlijk volkomen dezelfde gebleven. Steeds heeft zij de organismen gewijzigd naar hare omgeving, en onder den invloed dier omgeving is de kracht geboren, die de veranderingen schept, waaraan ieder levend wezen onderworpen is. Die kracht treedt des te sterker op, daar zij steeds voortwerkt en haren invloed uitoefent op organismen, aan den grond vastgehecht, zooals de planten, die daaraan onderworpen zijn, zonder zich door de vlucht daaraan te kunnen onttrekken.&rdquo;
 
-<p><ref target=fig273>Fig. 273</ref> stelt een landschap voor uit de krijtperiode, en wel tijdens de cenomanische formatie. Men ziet, dat de wereld zich in de richting van onzen tijd ontwikkelt. Het zijn niet meer de paardestaarten en de calamiten der devonische periode, of de varens der steenkoolperiode (blz. 284), de sigillaria&apos;s, de lepidodendrons (blz. <ref target=pb298 type=pageref>298</ref>) of de haidingera&apos;s en de voltzia&apos;s der triasperiode. (blz. <ref target=pb330 type=pageref>330</ref> en <ref target=pb354 type=pageref>354</ref>). Wij naderen meer en meer tot het tegenwoordige type. Maar toch zijn het nog niet onze tropische landschappen, noch onze bosschen met eiken, beuken of olmen, of onze bosschages met linden, populieren of wilgen.
+<p><ref target=fig273>Fig. 273</ref> stelt een landschap voor uit de krijtperiode, en wel tijdens de cenomanische formatie. Men ziet, dat de wereld zich in de richting van onzen tijd ontwikkelt. Het zijn niet meer de paardestaarten en de calamiten der devonische periode, of de varens der steenkoolperiode (blz. <ref target=pb284 type=pageref>284</ref>), de sigillaria&apos;s, de lepidodendrons (blz. <ref target=pb298 type=pageref>298</ref>) of de haidingera&apos;s en de voltzia&apos;s der triasperiode. (blz. <ref target=pb330 type=pageref>330</ref> en <ref target=pb354 type=pageref>354</ref>). Wij naderen meer en meer tot het tegenwoordige type. Maar toch zijn het nog niet onze tropische landschappen, noch onze bosschen met eiken, beuken of olmen, of onze bosschages met linden, populieren of wilgen.
 
-<p>Toch zijn de nieuwere soorten reeds geboren. De sequoia&apos;s, de pijnboomen, de bamboe&apos;s, de vijgeboomen, de magnolia&apos;s, de palmboomen, de platanen, de populieren, de eiken, de linden, de kastanjes, de beuken, de wilgen, het klimop bestaan reeds. De woonplaats van den mensen wordt reeds gereedgemaakt. Men ziet, hoe de plantenwereld zich evenals <pb n=483 id=pb483>de dierenwereld regelmatig ontwikkeld heeft, en dat juist tijdens de krijtperiode de tweezaadlobbige planten zijn overgegaan in de hoogst ontwikkelde organismen van het plantenrijk. Van dien tijd af hebben wij afwisseling van jaargetijden, boomen met in den winter afvallende en in de lente zich weder vernieuwende bladeren. De bewoners der oude bosschen zijn verdwenen. De wonderlijke iguanodons, de vreemdsoortige reptielen met hunne fantastische vlucht, de reuzenhagedissen, die geheel vormlooze, ruwe, weinig sierlijke wereld is thans onder de fossielenrijke lagen begraven. Boven hunne grafsteden kweelen de vogels, fladderen de insecten, vliegen de vlinders en in die liefelijke omgeving beschijnen de zonnestralen de eerste bloemen. Het ruwe gekrijsch van de monsterachtige dieren wordt al zeldzamer en zeldzamer gehoord en wordt overstemd door duizenden welluidende stemmen, die zich doen hooren onder den adem der hartstochten. Op de afzondering der eerste wezens is het leven in kudden gevolgd. Bij de buideldieren heeft zich het gevoel van moederliefde ontwikkeld. Verstandige zorg voor hun kroost is de levensvoorwaarde der vogels geworden. De planten zoowel als de dieren zijn schooner geworden; spoedig zullen zij, naast schitterende bloemen, saprijke vruchten opleveren. De warmte is meer gematigd, de lucht is zuiverder, de hemel helderder. De aarde wordt volmaakter. De menschheid ontwaakt weldra&mdash;binnen enkele duizenden eeuwen&mdash;met hare hoogere neigingen, maar ook met hare dierlijke hartstochten, die aan haren oorsprong herinneren, met hare nagels, tanden, wapenen, haar oorlogsbudget en hare staande legers.
+<p>Toch zijn de nieuwere soorten reeds geboren. De sequoia&apos;s, de pijnboomen, de bamboe&apos;s, de vijgeboomen, de magnolia&apos;s, de palmboomen, de platanen, de populieren, de eiken, de linden, de kastanjes, de beuken, de wilgen, het klimop bestaan reeds. De woonplaats van den mensch wordt reeds gereedgemaakt. Men ziet, hoe de plantenwereld zich evenals <pb n=483 id=pb483>de dierenwereld regelmatig ontwikkeld heeft, en dat juist tijdens de krijtperiode de tweezaadlobbige planten zijn overgegaan in de hoogst ontwikkelde organismen van het plantenrijk. Van dien tijd af hebben wij afwisseling van jaargetijden, boomen met in den winter afvallende en in de lente zich weder vernieuwende bladeren. De bewoners der oude bosschen zijn verdwenen. De wonderlijke iguanodons, de vreemdsoortige reptielen met hunne fantastische vlucht, de reuzenhagedissen, die geheel vormlooze, ruwe, weinig sierlijke wereld is thans onder de fossielenrijke lagen begraven. Boven hunne grafsteden kweelen de vogels, fladderen de insecten, vliegen de vlinders en in die liefelijke omgeving beschijnen de zonnestralen de eerste bloemen. Het ruwe gekrijsch van de monsterachtige dieren wordt al zeldzamer en zeldzamer gehoord en wordt overstemd door duizenden welluidende stemmen, die zich doen hooren onder den adem der hartstochten. Op de afzondering der eerste wezens is het leven in kudden gevolgd. Bij de buideldieren heeft zich het gevoel van moederliefde ontwikkeld. Verstandige zorg voor hun kroost is de levensvoorwaarde der vogels geworden. De planten zoowel als de dieren zijn schooner geworden; spoedig zullen zij, naast schitterende bloemen, saprijke vruchten opleveren. De warmte is meer gematigd, de lucht is zuiverder, de hemel helderder. De aarde wordt volmaakter. De menschheid ontwaakt weldra&mdash;binnen enkele duizenden eeuwen&mdash;met hare hoogere neigingen, maar ook met hare dierlijke hartstochten, die aan haren oorsprong herinneren, met hare nagels, tanden, wapenen, haar oorlogsbudget en hare staande legers.
 
 
 
@@ -4268,7 +4308,7 @@ Az.   Camb.
 <div0 id=bk5 n=5>
 <head type=label rend="image(images/fig274.jpg)">Vijfde boek.</head>
 
-<head>Het tertiaire tijdperk.</head>
+<head><hi rend=ex>Het tertiaire tijdperk.</hi></head>
 
 
 <milestone unit=tb>
@@ -4370,7 +4410,7 @@ Az.   Camb.
 
 <p>In dien tijd strekte zich eene vier- of vijfmaal grootere Middellandsche zee dan de onze, de nummulitische zee, dwars over Europa uit, van Nizza tot de Krim, in de richting van den Alpenketen. Op de plaats, waar thans de Alpen gelegen zijn, had men toen slechts kleine eilanden. Vandaar dat men de bezinksels dier zee op de toppen der Alpen terugvindt.
 
-<p>Europa had toen een Afrikaansch klimaat. Onder den invloed eener warme zee, die in het zuiden aan de keerkringen grensde, had men droge en brandend heete jaargetijden, afwisselend met gematigde en regenachtige tijden; de gemiddelde jaartemperatuur bedroeg op 45&deg; N. B. 25&deg;. Het is die periode van het tertiaire tijdperk, waarin Europa de hoogste temperatuur had. In Frankrijk kwamen palmboomen <pb n=492 id=pb492>in overvloed voor, kokosboomen en dergelijke tieren welig in Engeland, waar de boomen met afwisselende bladeren nog alleen op de hoogten gevonden worden, waarvan zij eerst op het einde der eocene periode zullen afdalen. Zoolang die periode duurt, blijven de streken in de nabijheid van de pool eenen plantengroei vertoonen, die overeenkomt met eene temperatuur, gemiddeld 20&deg; hooger dan die, welke men in onzen tijd in diezelfde streken heeft.
+<p>Europa had toen een Afrikaansch klimaat. Onder den invloed eener warme zee, die in het zuiden aan de keerkringen grensde, had men droge en brandend heete jaargetijden, afwisselend met gematigde en regenachtige tijden; de gemiddelde jaartemperatuur bedroeg op 45&deg; <abbr expan=noorderbreedte>N.B.</abbr> 25&deg;. Het is die periode van het tertiaire tijdperk, waarin Europa de hoogste temperatuur had. In Frankrijk kwamen palmboomen <pb n=492 id=pb492>in overvloed voor, kokosboomen en dergelijke tieren welig in Engeland, waar de boomen met afwisselende bladeren nog alleen op de hoogten gevonden worden, waarvan zij eerst op het einde der eocene periode zullen afdalen. Zoolang die periode duurt, blijven de streken in de nabijheid van de pool eenen plantengroei vertoonen, die overeenkomt met eene temperatuur, gemiddeld 20&deg; hooger dan die, welke men in onzen tijd in diezelfde streken heeft.
 
 <p>Ook de werking in het inwendige der aarde begint zich in dien tijd te openbaren, en uit zich vooral door de opheffing der Pyreneën en Apennijnen, terwijl meer in het noorden zwavel- en ijzerverbindingen tot de oppervlakte der aarde dringen.
 
@@ -4462,7 +4502,7 @@ Az.   Camb.
 </figure>
 
 
-<p>Wij geven hier (blz. <ref target=pb499 type=pageref>499</ref>) eene schets van het chronologisch verband tusschen de ontwikkeling van het dierenrijk en de opvolging der geologische tijdperken. Eén blik is voldoende, <pb n=499 id=pb499><pb n=500 id=pb500>om die grootsche geschiedenis te kunnen opbouwen. De tegenwoordige orden der visschen bestonden reeds tijdens de krijtperiode, en waarschijnlijk reeds vroeger; zij begonnen zich te vormen in de devonische en de steenkoolperiode. De tegenwoordige orden der kruipende dieren bestonden reeds vóór de eocene periode; hunne vorming is begonnen in de permische periode. De tegenwoordige orden der zoogdieren zijn eerst volledig tot ontwikkeling gekomen in de miocene periode; in het eocene tijdperk begonnen zij zich eerst te splitsen en verschilden zij nog slechts zeer weinig van elkander.
+<p>Wij geven hier (blz. <ref target=pb499 type=pageref>499</ref>) eene schets van het chronologisch verband tusschen de ontwikkeling van het dierenrijk en de opvolging der geologische tijdperken. Één blik is voldoende, <pb n=499 id=pb499><pb n=500 id=pb500>om die grootsche geschiedenis te kunnen opbouwen. De tegenwoordige orden der visschen bestonden reeds tijdens de krijtperiode, en waarschijnlijk reeds vroeger; zij begonnen zich te vormen in de devonische en de steenkoolperiode. De tegenwoordige orden der kruipende dieren bestonden reeds vóór de eocene periode; hunne vorming is begonnen in de permische periode. De tegenwoordige orden der zoogdieren zijn eerst volledig tot ontwikkeling gekomen in de miocene periode; in het eocene tijdperk begonnen zij zich eerst te splitsen en verschilden zij nog slechts zeer weinig van elkander.
 
 
 <p><figure id=fig276 rend="float(left)">
@@ -4516,7 +4556,7 @@ Az.   Camb.
 
 
 <p><figure id=fig280>
-<head>Fig. 280.&mdash;Het paleotherium, dikhuidig zoogdier der eocene periode (1/20 der nat. gr.).</head>
+<head>Fig. 280.&mdash;Het paleotherium, dikhuidig zoogdier der eocene periode (&frac1-20; der nat. gr.).</head>
 </figure>
 
 
@@ -4566,7 +4606,7 @@ Az.   Camb.
 
 
 <p><figure id=fig282>
-<head>Fig. 282. Het anoplotherium, dikhuidig zoogdier der eocone periode. (1/20 der nat. gr.)</head>
+<head>Fig. 282. Het anoplotherium, dikhuidig zoogdier der eocone periode. (&frac1-20; der nat. gr.)</head>
 </figure>
 
 
@@ -4664,7 +4704,7 @@ Az.   Camb.
 
 <p>De schedelholte toont aan, dat de hersenhalfronden voorzien waren van een aantal in de lengte gerangschikte windingen misschien vier in getal, en dat de twee middelste een begin van kronkelingen vertoonden; het achterhoofd was geheel bloot en zeer stevig.
 
-<p>De naam yan <hi>thylacomorphus</hi>, waaronder die schedel is <pb n=522 id=pb522>ingeschreven, toont aan, dat hij, volgens den geleerden directeur van het Museüm, verwantschap had met de buideldieren.
+<p>De naam yan <hi>thylacomorphus</hi>, waaronder die schedel is <pb n=522 id=pb522>ingeschreven, toont aan, dat hij, volgens den geleerden directeur van het <corr sic="Museüm">Museum</corr>, verwantschap had met de buideldieren.
 
 <p>Ook heeft men in de lagere tertiaire formatie een verscheurend dier gevonden, dat tot een geheel ander type behoort, dan alle voorgaande: zijne tanden zijn niet scherp en wijzen op de voeding der beren, die tot de allesetende (omnivore) dieren behooren; dat dier is de <hi>arctocyon</hi> uit de zandsteenformatie van la Fère; het is het oudste van alle tot nu toe bekende zoogdieren in de tertiaire formatie. Bekwame paleontologen hebben gemeend, dat het dier tot de placentaire zoogdieren behoorde; het is echter voornamelijk uit den vorm van den schedel gebleken, dat het meer tot de buideldieren naderde.
 
@@ -4696,7 +4736,7 @@ Az.   Camb.
 
 <p>Daarna wijkt de zee naar het noorden terug en wordt bijna geheel Europa vastland. Het is het tijdperk der groote meren, zoowel in Frankrijk als in Zwitserland, verscheidene deelen van Duitschland, Oostenrijk, Italië en Griekenland. Tegelijkertijd vindt men in Noord-Duitschland de veenachtige lagunen, waarin de bruinkool gevormd wordt. De uitbreiding der meren en de overvloed der zoetwaterbezinkingen, zoowel als de rijkdom der plantenwereld, wijzen op de toenemende vochtigheid van den bodem, gevoegd bij eene gematigde en gelijkmatige temperatuur. De boomen met afvallende bladeren nemen in die tweede phase eene groote vlucht, zonder dat echter de palmen ontbreken, die nog welig tieren voorbij 50&deg; N.B., dus nog in het noorden van Frankrijk, noch de kamferboomen, wier noordelijke grens voorbij 55&deg; ligt. De periode eindigt met eene uitdroging der groote meren en het ontstaan van groote stroomen, waarop de molasse zee volgt.
 
-<p>Waarschijnlijk behoort de bruinkool met fossiele planten, in Groenland op 70&deg; N.-B., en in Noord-Canada, IJsland en Spitzbergen ontdekt, tot de eocene formatie. Die lagen bevatten 9 soorten van groote varens, 31 soorten van naaldboomen, 11 soorten van éénzaadlobbigen en 93 tweezaadlobbige planten, waaronder noteboomen, platanen, beuken, eiken, ahornen, populieren enz.
+<p>Waarschijnlijk behoort de bruinkool met fossiele planten, in Groenland op 70&deg; <corr sic="N.-B.">N.B.</corr>, en in Noord-Canada, IJsland en Spitzbergen ontdekt, tot de eocene formatie. Die lagen bevatten 9 soorten van groote varens, 31 soorten van naaldboomen, 11 soorten van éénzaadlobbigen en 93 tweezaadlobbige planten, waaronder noteboomen, platanen, beuken, eiken, ahornen, populieren enz.
 
 <p>Daar de afkoeling der aarde aan de polen begonnen is, zoo is het waarschijnlijk, dat die flora, niettegenstaande het voorkomen van miocene soorten, die trouwens niet meer dan een vierde deel van het geheel vormen, ouder is dan de Europeesche miocene flora, dat is, ouder dan de periode, <pb n=527 id=pb527>waarin de planten, die de miocene periode kenmerken, zich zuidwaarts verplaatsten. Het noordelijkste punt, waar die flora is waargenomen, is Grinnelland, op de 82<hi rend=sup>ste</hi> paralel gelegen. Daar groeiden de zilverspar en de cipres naast den populier en den berk, aan de oevers der meren, die met nenufars bedekt waren; het klimaat was dus op korten afstand van de pool hetzelfde als thans in de Vogezen. Maar de magnolia&apos;s ontbraken er, terwijl deze wel in Groenland, op 70&deg; breedte gevonden werden. De gemiddelde jaartemperatuur van noordelijk Groenland was toen 12&deg; en dus dezelfde als thans die van Californië, terwijl op Spitzbergen (80&deg; N.B.) de gemiddelde jaartemperatuur 8&deg; of 9&deg; bedroeg. De flora van Groenland had eene merkwaardige overeenkomst met die van de Parijsche lagere eocene formatie. De flora der poolstreken is de onze voorafgegaan en heeft zich verplaatst naar Europa en Amerika, terwijl de palmboomen, die voor het eerst in Europa gekomen zijn in de krijtperiode, nooit binnen den poolcirkel zijn binnengedrongen.
 
@@ -4753,7 +4793,7 @@ Az.   Camb.
 
 <p>Wij zeiden reeds vroeger, dat de miocene formatie in drie lagen kan worden verdeeld: de onderste of langhische is eene zoetwatervorming en is ontstaan vóór den inval der molassezee. De middelste of Helvetische laag omvat de zeevorming van het schelpzand van Touraine en de Zwitsersche molasse. In de bovenste of Tortonische laag vindt men de lagen, die gelijktijdig ontstaan zijn met de klei van Tortone in Italië, en vooral het meerendeel der bezinkingen van het bekken van Weenen.
 
-<p>In het begin der miocene periode is Parijs door eene groote zee bedekt, die uit het noord-oosten afkomstig was; het zand, daaruit afgezet, is de zandsteen van Fontainebleau geworden; die zee, die om Normandië stroomde, komt niet verder dan het zuiden van Engeland; in het noordoosten bedekt zij nog een groot gedeelte van België, doch weldra trekt zich die zee weder terug en ontstaat daar een groot, zich ver naar het zuiden uitstrekkend meer, waarin zich de kalksteen van Beauce afzet.
+<p>In het begin der miocene periode is Parijs door eene groote zee bedekt, die uit het <corr sic=noord-oosten>noordoosten</corr> afkomstig was; het zand, daaruit afgezet, is de zandsteen van Fontainebleau geworden; die zee, die om Normandië stroomde, komt niet verder dan het zuiden van Engeland; in het noordoosten bedekt zij nog een groot gedeelte van België, doch weldra trekt zich die zee weder terug en ontstaat daar een groot, zich ver naar het zuiden uitstrekkend meer, waarin zich de kalksteen van Beauce afzet.
 
 <p>Het is merkwaardig, om den zandsteen van Fontainebleau op den top dier heuvels te beschouwen. Men zou meenen, <pb n=537 id=pb537>dat de zee eerst sedert gisteren is teruggetrokken. De zandsteen ligt tusschen twee zoetwatervormingen, de kalksteen van Beauce er boven, die van Brie er onder.
 
@@ -4804,7 +4844,7 @@ Az.   Camb.
 
 <p>Hoe het mogelijk is, dat genoemde natuuronderzoeker in dit geraamte een mensch heeft kunnen zien, blijft een raadsel <pb n=544 id=pb544>(zie <ref target=fig291>fig. 291</ref>). Cuvier zeide reeds: &bdquo;Neem een geraamte van eenen salamander en leg het, zonder u te laten in de war brengen door het verschil in grootte, naast de versteening, hetgeen gemakkelijk is, indien men eene teekening van eenen salamander op de natuurlijke grootte vergelijkt met de teekening der versteening op &frac16; der ware grootte, en alles wordt u duidelijk. Indien men over de versteening mocht beschikken, dan zou men zeker in de wervels, in de kaken, in de sporen van zeer kleine tanden en zelfs in het doolhof van het oor nog een aantal nieuwe bewijzen daarvan vinden.&rdquo;
 
-<p>De groote natuuronderzoeker had de voldoening, zelf het onderzoek te mogen doen, waarvan hij in het bovenstaande sprak. Toen hij te Haarlem was, vroeg hij den bestuurder van het Museüm, om den steen te mogen uithollen, die den zoogenaamden fossielen mensch bevatte. De bewerking had plaats in tegenwoordigheid van den bestuurder en eenen anderen natuuronderzoeker. Eene teekening van het geraamte van eenen salamander was door Cuvier naast het fossiele voorwerp geplaatst. Hij had de voldoening, dat naarmate het geraamte meer werd blootgelegd, de juistheid zijner onderstelling meer en meer werd bevestigd.
+<p>De groote natuuronderzoeker had de voldoening, zelf het onderzoek te mogen doen, waarvan hij in het bovenstaande sprak. Toen hij te Haarlem was, vroeg hij den bestuurder van het <corr sic="Museüm">Museum</corr>, om den steen te mogen uithollen, die den zoogenaamden fossielen mensch bevatte. De bewerking had plaats in tegenwoordigheid van den bestuurder en eenen anderen natuuronderzoeker. Eene teekening van het geraamte van eenen salamander was door Cuvier naast het fossiele voorwerp geplaatst. Hij had de voldoening, dat naarmate het geraamte meer werd blootgelegd, de juistheid zijner onderstelling meer en meer werd bevestigd.
 
 <p>Zoo geraakte de salamander van Oeningen, die een oogenblik veranderd was in een fossiel mensch, weder in vergetelheid, zooals dit het geval geweest is met een aantal dergelijke ontdekkingen, hetzelfde onderwerp betreffende. De werkelijke overblijfselen van eenen fossielen mensch zijn eerst in onze eeuw gevonden, zooals wij later zullen zien.
 
@@ -4861,7 +4901,7 @@ Az.   Camb.
 
 <p>Ten allen tijde heeft men beenderen van fossiele olifanten en mastodonten gevonden; die beenderen hebben aanleiding gegeven tot de dwaze verhalen omtrent de opgraving van geraamten van oude reuzen; want in eenen tijd, toen de ontleedkunde nog zoo laag stond, kon de zucht tot het wonderbaarlijke te meer van dergelijke gebeurtenissen partij trekken, om denkbeelden te doen ingang vinden, die op de verbeelding werkten, waar de olifant een dier is, wiens geraamte (met uitzondering van de grootte) tamelijk veel overeenkomst heeft met dat van den mensch. Men zou een geheel boek kunnen vullen met verhalen omtrent fossiele beenderen van groote viervoetige dieren, die bedrog of <pb n=550 id=pb550>onkunde hebben doen doorgaan voor overblijfselen van menschelijke reuzen. Het bekendste van die verhalen is dat omtrent het geraamte, dat men onder Lodewijk XIII vond, en dat men vertoonde als dat van Teutobochus, koning der Cimbren, die tegen Marius gestreden had.
 
-<p>Den 11<hi rend=sup>den</hi> Januari 1613 vond men in eene zandgroeve bij het kasteel van Chaumont in Dauphiné tusschen de steden Montricaux en St. Etienne, beenderen, waarvan enkele door de werklieden gebroken waren; een heelkundige uit Beaurepaire, Mazurier genaamd, wien men de ontdekking mededeelde, maakte zich van de beenderen meester en besloot er zijn voordeel mede te doen; hij beweerde, dat hij ze in een graf van 30 voet lengte gevonden had, waarop geschreven stond <hi rend=sc>Teutobochus Rex</hi>; hij deelde verder mede, dat hij tevens een vijftigtal penningen ontdekt had met de beeltenis van Marius. Al die verhalen maakte hij publiek in eene brochure, die er op ingericht was, de nieuwsgierigheid van het publiek te prikkelen, en hij liet zoowel in Parijs als op andere plaatsen de beenderen van den reus voor geld zien. Gassendi toonde aan, dat de zoogenaamde penningen nagemaakt waren; de beenderen, die thans in het Museüm te Parijs geplaatst zijn, zijn, zooals de vorm der tanden reeds op het eerste gezicht doet zien, beenderen van eenen mastodon en niet van eenen olifant, zooals men gemeend had, zoolang men geenen anderen gids bij het onderzoek had dan eene soort inventaris van de stukken, aan het publiek vertoond, en enkele niet zeer heldere opgaven in de geschriften der geneesheeren, die deelnamen aan den strijd vóór of tegen de leugenachtige beweringen van Mazurier.
+<p>Den 11<hi rend=sup>den</hi> Januari 1613 vond men in eene zandgroeve bij het kasteel van Chaumont in Dauphiné tusschen de steden Montricaux en St. Etienne, beenderen, waarvan enkele door de werklieden gebroken waren; een heelkundige uit Beaurepaire, Mazurier genaamd, wien men de ontdekking mededeelde, maakte zich van de beenderen meester en besloot er zijn voordeel mede te doen; hij beweerde, dat hij ze in een graf van 30 voet lengte gevonden had, waarop geschreven stond <hi rend=sc>Teutobochus Rex</hi>; hij deelde verder mede, dat hij tevens een vijftigtal penningen ontdekt had met de beeltenis van Marius. Al die verhalen maakte hij publiek in eene brochure, die er op ingericht was, de nieuwsgierigheid van het publiek te prikkelen, en hij liet zoowel in Parijs als op andere plaatsen de beenderen van den reus voor geld zien. Gassendi toonde aan, dat de zoogenaamde penningen nagemaakt waren; de beenderen, die thans in het <corr sic="Museüm">Museum</corr> te Parijs geplaatst zijn, zijn, zooals de vorm der tanden reeds op het eerste gezicht doet zien, beenderen van eenen mastodon en niet van eenen olifant, zooals men gemeend had, zoolang men geenen anderen gids bij het onderzoek had dan eene soort inventaris van de stukken, aan het publiek vertoond, en enkele niet zeer heldere opgaven in de geschriften der geneesheeren, die deelnamen aan den strijd vóór of tegen de leugenachtige beweringen van Mazurier.
 
 <p>Dergelijke dwaasheden waren in de achttiende eeuw reeds niet meer mogelijk; als men olifantsbeenderen vond, begreep men, dat het olifantsbeenderen en geene menschenbeenderen waren; maar toch geloofde men nog, dat zij ten tijde der Romeinen onder den grond begraven waren.
 
@@ -4894,7 +4934,7 @@ Az.   Camb.
 
 <p>Gaudry heeft te Pikermi de overblijfselen bijeengezameld van 25 exemplaren van het geslacht mesopithecus; daaruit kan men zich een denkbeeld vormen van zijn voorkomen en zijne levenswijze (<ref target=fig293>fig. 293</ref> en <ref target=fig294>294</ref>). Zijn gezichtshoek van 57&deg; wijst op eenen aap, die tamelijk ontwikkeld was; zijne tanden toonen aan, dat hij zich niet uitsluitend met vruchten, maar ook met boomknoppen voedde. Uit de gelijkheid van zijne vóór- en achterpooten kan men afleiden, dat hij veeleer liep dan klom; hij leefde in kleine troepen vereenigd. De kennis van de verschillende deelen van het geraamte van den mesopithecus leert ons, dat die aap den overgang vormt tusschen twee thans nog levende soorten, de semnopitheken en de gibbons; daarom heeft men ze ook mesopitheken genoemd<note n=1><GR>m'esoc</GR>, midden; <GR>p'ijhkoc</GR>, aap.</note>.
 
-<p>De ontdekking der anthropomorphe fossiele apen is men verschuldigd aan Gaudry. In 1835 heeft hij bij Auch den pliopithecus gevonden, die nauw aan den gibbon verwant is. Later heeft hij den dryopithecus beschreven; men kent daarvan echter alleen de benedenkaak en het sleutelbeen. &bdquo;De dryopithecus,&rdquo; zegt de uitnemende geleerde, &bdquo;was een zeer ontwikkelde aap. Hij kwam in verschillende bijzonderheden <pb n=555 id=pb555>met den mensen overeen. Hij moet ongeveer even groot geweest zijn als de mensen; zijne snijtanden waren klein; zijne achterkiezen hadden knobbels, die minder rond waren dan die van de Europeesche rassen, maar die geleken op de knobbels van de kiezen der Australiërs. Naast die punten van overeenkomst is er een punt van verschil, dat ons treft, zoodra wij de kaak van een mensch met die van eenen dryopithecus vergelijkt: in de kaak van den mensch is de eerste achterkies sterker dan bij den dryopithecus, de hoektand en de voorkiezen zijn echter zwakker; dat verschil is van groot gewicht, want de verkorting der voortanden staat in verband met het weinig vooruitsteken van het gelaat, en is dus een bewijs voor de voortreffelijkheid van den mensch; de mensch kenmerkt zich vooral door eene buitengewone ontwikkeling van de beenderen, die de hersens, den zetel der gedachten, omgeven, en eene zóó sterke vermindering der aangezichtsbeenderen, dat zij niet meer eenen snuit, maar den gevel van het hoofd vormen.&rdquo;
+<p>De ontdekking der anthropomorphe fossiele apen is men verschuldigd aan Gaudry. In 1835 heeft hij bij Auch den pliopithecus gevonden, die nauw aan den gibbon verwant is. Later heeft hij den dryopithecus beschreven; men kent daarvan echter alleen de benedenkaak en het sleutelbeen. &bdquo;De dryopithecus,&rdquo; zegt de uitnemende geleerde, &bdquo;was een zeer ontwikkelde aap. Hij kwam in verschillende bijzonderheden <pb n=555 id=pb555>met den mensch overeen. Hij moet ongeveer even groot geweest zijn als de mensch; zijne snijtanden waren klein; zijne achterkiezen hadden knobbels, die minder rond waren dan die van de Europeesche rassen, maar die geleken op de knobbels van de kiezen der Australiërs. Naast die punten van overeenkomst is er een punt van verschil, dat ons treft, zoodra wij de kaak van een mensch met die van eenen dryopithecus vergelijkt: in de kaak van den mensch is de eerste achterkies sterker dan bij den dryopithecus, de hoektand en de voorkiezen zijn echter zwakker; dat verschil is van groot gewicht, want de verkorting der voortanden staat in verband met het weinig vooruitsteken van het gelaat, en is dus een bewijs voor de voortreffelijkheid van den mensch; de mensch kenmerkt zich vooral door eene buitengewone ontwikkeling van de beenderen, die de hersens, den zetel der gedachten, omgeven, en eene zóó sterke vermindering der aangezichtsbeenderen, dat zij niet meer eenen snuit, maar den gevel van het hoofd vormen.&rdquo;
 
 <p>Zoo wordt van stap tot stap de heerschappij van den mensch voorbereid.
 
@@ -4941,7 +4981,7 @@ Az.   Camb.
 </figure>
 
 
-<p>Op het nieuwe vasteland vindt men onder de merkwaardigste zoogdieren dier periode het megatherium, te Buenos-Ayres ontdekt, tot de orde der tandeloozen behoorende; dat dier was dom<corr sic=","></corr> en traag in zijne bewegingen, plantenetend en was 2&frac12; meter hoog; zijn geraamte is bewaard gebleven in het Museüm te Madrid. Wij kunnen hier nog bijvoegen zijnen tijdgenoot, den mylodon, die zich hoofdzakelijk voedde met bladeren en knoppen van boomen. Deze was iets kleiner dan het megatherium en had eveneens aan iederen poot groote nagels.&mdash;Doch keeren wij tot de bewoners van Europa terug.
+<p>Op het nieuwe vasteland vindt men onder de merkwaardigste zoogdieren dier periode het megatherium, te Buenos-Ayres ontdekt, tot de orde der tandeloozen behoorende; dat dier was dom<corr sic=","></corr> en traag in zijne bewegingen, plantenetend en was 2&frac12; meter hoog; zijn geraamte is bewaard gebleven in het <corr sic="Museüm">Museum</corr> te Madrid. Wij kunnen hier nog bijvoegen zijnen tijdgenoot, den mylodon, die zich hoofdzakelijk voedde met bladeren en knoppen van boomen. Deze was iets kleiner dan het megatherium en had eveneens aan iederen poot groote nagels.&mdash;Doch keeren wij tot de bewoners van Europa terug.
 
 <pb n=561 id=pb561><p>De groote snuitdieren hebben de overhand, vooral de elephas meridionalis, die zelfs tot in Engeland gevonden wordt; op het einde der pliocene periode verdwijnen de mastodonten uit Europa, om in Amerika nog een tijdlang hun leven voort te zetten. De rhinocerossen en de nijlpaarden hebben hunnen grootsten bloei bereikt, het hert en het rund treden op: al die plantenetende dieren leveren het bewijs voor den grooten overvloed aan plantaardig voedsel.
 
@@ -4951,7 +4991,7 @@ Az.   Camb.
 </figure>
 
 
-<p>In de afdeeling voor paleontologie van het Museüm te Parijs kan men het versteende geraamte zien van den elephas meridionalis, in 1872 te Durfort (Gard) ontdekt; het dier is 4,10 meters hoog, en de grootste breedte van den schedel bedraagt 1,65 meters.
+<p>In de afdeeling voor paleontologie van het <corr sic="Museüm">Museum</corr> te Parijs kan men het versteende geraamte zien van den elephas meridionalis, in 1872 te Durfort (Gard) ontdekt; het dier is 4,10 meters hoog, en de grootste breedte van den schedel bedraagt 1,65 meters.
 
 <pb n=562 id=pb562><p>In de pliocene periode wordt ook het grootste van alle herten geboren; zijne beenderen zijn in Indië gevonden, in de streken, waar de God Siva wordt aangebeden, vandaar de naam <hi>sivatherium</hi>.
 
@@ -4973,7 +5013,7 @@ Az.   Camb.
 
 
 <p><figure id=fig301>
-<head>Fig. 301. Fossiel geraamte van den masthodon uit het Museüm te Parijs.</head>
+<head>Fig. 301. Fossiel geraamte van den masthodon uit het <corr sic="Museüm">Museum</corr> te Parijs.</head>
 </figure>
 
 
@@ -4999,7 +5039,7 @@ Az.   Camb.
 
 
 <p><figure id=fig303>
-<head>Fig. 303. Fossiel geraamte van een hipparion. (1/20 der nat. gr.)</head>
+<head>Fig. 303. Fossiel geraamte van een hipparion. (&frac1-20; der nat. gr.)</head>
 </figure>
 
 
@@ -5012,7 +5052,7 @@ Az.   Camb.
 <div0 id=bk6 n=6>
 <head type=label rend="image(images/fig304.jpg)">Zesde boek.</head>
 
-<head>Het quaternaire tijdperk.</head>
+<head><hi rend=ex>Het quaternaire tijdperk.</hi></head>
 
 
 <milestone unit=tb>
@@ -5042,7 +5082,7 @@ Az.   Camb.
 
 <p>Die ijsstroomen hebben evenals waterstroomen aan hunne randen en aan hun uiteinde hoopen modder afgezet, die heuvels of moraines vormen, en zij hebben op hunnen weg de dikwijls ontzaglijke zwerfblokken neergelegd, wier aanwezigheid tot de vreemdste verhalen aanleiding heeft gegeven.
 
-<p>De oude geologen noemen al die van andere plaatsen afkomstige stoffen <hi>diluvium</hi>, een naam, die het gevolg is van de vroegere opvatting van eenen algemeenen zondvloed, waaraan die verplaatsing te danken zoude zijn.<note n=1>In Nederland vindt men vier soorten van diluvium, en wel 1&ordm;. Het <hi>Rijndiluvium</hi>, afkomstig van de gebergten langs den Rijn; dit bestaat grootendeels uit zand en grint (heuvels van Arnhem, Nijmegen en Kleef). 2&ordm;. Het <hi>Maasdiluvium</hi>, uit de Ardennen aangevoerd. 3&ordm;. Het <hi>Scandinavisch diluvium</hi>, granietblokken, door ijsbergen uit Zweden en Noorwegen aangevoerd (Hunnebedden). 4&ordm;. Het <hi>gemengde diluvium</hi> (in de Veluwe en Gooiland). Men zie hierover in bijzonderheden W.C.H. Staring, de Bodem van Nederland.</note>
+<p>De oude geologen noemen al die van andere plaatsen afkomstige stoffen <hi>diluvium</hi>, een naam, die het gevolg is van de vroegere opvatting van eenen algemeenen zondvloed, waaraan die verplaatsing te danken zoude zijn.<note n=1>In Nederland vindt men vier soorten van diluvium, en wel 1&ordm;. Het <hi>Rijndiluvium</hi>, afkomstig van de gebergten langs den Rijn; dit bestaat grootendeels uit zand en grint (heuvels van Arnhem, Nijmegen en Kleef). 2&ordm;. Het <hi>Maasdiluvium</hi>, uit de Ardennen aangevoerd. 3&ordm;. Het <hi>Scandinavisch diluvium</hi>, granietblokken, door ijsbergen uit Zweden en Noorwegen aangevoerd (Hunnebedden). 4&ordm;. Het <hi>gemengde diluvium</hi> (in de Veluwe en Gooiland). Men zie hierover in bijzonderheden W. C. H. Staring, de Bodem van Nederland.</note>
 
 <p>Door nauwkeurige waarnemingen dier moraine-afzetsels, die zich duidelijk onderscheiden van de andere aanslibbingen door het volkomen gemis aan laagsgewijze schikking en door de hoekige steenen, die het bevat, kan men met zekerheid de uitgestrektheid der oude ijsbekkens leeren kennen. Door de groeven, die zij gesneden hebben in de onderliggende gesteenten, hebben zij de richting aangewezen, die zij bij hunne beweging gevolgd hebben.
 
@@ -5152,7 +5192,7 @@ Az.   Camb.
 
 <p>Men kan daarin al de karaktertrekken van het <hi>alluvium</hi> herkennen, dat is van bezinking in stroomend water. Men vindt het in de vlakten, op de bergvlakten, op de hellingen der heuvels; het vult ook de valleien, doch zoodanig, dat zijne massa, in stede van door het tegenwoordige water toe te nemen, dagelijks vermindert, daar het door de tegenwoordige rivieren wordt uitgegraven, die daar hare bedding leggen, en het alluvium wijzigen, door nieuwe <pb n=589 id=pb589>formaties, die zeer van de vorige verschillen, daarop af te zetten.
 
-<p>Die rangschikking is overal dezelfde. Toch is er eenig verschil in de samenstelling der lagen, welk verschil afhangt van de geologische gesteldheid van de streken, die de bouwstoffen er voor geleverd hebben. Zoo vindt men b. v. in het oude alluvium der Seine-vallei talrijke blokken graniet en porfier door de Yonne toegevoerd, terwijl men in de Marne-vallei kalkhoudende keien en vuursteenen vindt, uit de krijtvlakten van Champagne en het Juraplateau van Langres afkomstig.
+<p>Die rangschikking is overal dezelfde. Toch is er eenig verschil in de samenstelling der lagen, welk verschil afhangt van de geologische gesteldheid van de streken, die de bouwstoffen er voor geleverd hebben. Zoo vindt men b.v. in het oude alluvium der Seine-vallei talrijke blokken graniet en porfier door de Yonne toegevoerd, terwijl men in de Marne-vallei kalkhoudende keien en vuursteenen vindt, uit de krijtvlakten van Champagne en het Juraplateau van Langres afkomstig.
 
 <p>Het grint en het zand bevatten in groote hoeveelheden voor het meerendeel gebroken beenderen, die afkomstig zijn van thans uitgestorven geslachten, of wel van geslachten, die thans leven op plaatsen, ver verwijderd van die, waar de beenderen gevonden zijn. Zoo vindt men daarin over geheel Europa overblijfselen van reusachtige olifanten (elephas primigenius), groote rhinocerossen, die twee horens op den neus droegen (rhinoceros tichorinus) met een aantal beenderen van paarden en groote herkauwende dieren (herten, damherten, elanden, ossen enz.). Tanden en stukken van geraamten van tijgers en hyena&apos;s en van eene groote soort beren, die zoo groot waren als ossen, bewijzen eveneens, dat onder de quaternaire dieren vele roofdieren gevonden worden. In de groote stroomen van dat tijdperk leefden in Europa ook groote nijlpaarden. Al die geslachten zijn thans uitgestorven; onder die uitgeweken geslachten komen het rendier en de veelvraat voor, die thans naar de poolstreken zijn teruggeweken.
 
@@ -5160,7 +5200,7 @@ Az.   Camb.
 
 <p>Men weet, dat men dikwijls aan de oevers der Lena en in het ijs van Siberië niet alleen fossiel ivoor vindt (reeds sedert onheugelijke tijden in den handel gebruikt) maar ook geheele lijken met vleesch, huid en haar.
 
-<p>Het museüm te Petersburg bezit één der schoonste exemplaren, een geheel geraamte, in 1804 te midden van het ijs der Lena gevonden. Het dier is zes meters hoog, terwijl de omgekrulde slagtanden meer dan vier meters lang zijn. De mammouth was veel grooter dan de olifant. Nog onlangs heeft het ijs eenen mammouth geleverd, die bijna even groot is als die van het museüm te Petersburg.
+<p>Het <corr sic="museüm">museum</corr> te Petersburg bezit één der schoonste exemplaren, een geheel geraamte, in 1804 te midden van het ijs der Lena gevonden. Het dier is zes meters hoog, terwijl de omgekrulde slagtanden meer dan vier meters lang zijn. De mammouth was veel grooter dan de olifant. Nog onlangs heeft het ijs eenen mammouth geleverd, die bijna even groot is als die van het <corr sic="museüm">museum</corr> te Petersburg.
 
 <p>Onder de rhinocerossen komt de rhinoceros tichorinus voor, zoo genoemd, omdat de beide neusgaten door een beenig tusschenschot gescheiden waren. Die rhinoceros speelde in dien tijd eenen gewichtigen rol en bijna overal vindt men zijne beenderen terug. Aan de horens van dat dier zijn een aantal sprookjes verbonden, onder andere meende men in de middeleeuwen den beroemden vogel Rock in den schoot der aarde te vinden. Ook de drakenkoppen der oude tijden ontleenen daaraan hunnen oorsprong. De anatomische kennis van dat fossiele dier dagteekent eerst van het jaar 1772, toen de natuuronderzoeker Pallas aan de oevers van eenen bijstroom der Lena een bijna volkomen lijk van het dier kon bestudeeren, dat juist uit het ijs was losgemaakt. Het lichaam van den rhinoceros tichorinus was met haren bedekt, en de huid was niet zoo ruw als die onzer Afrikaansche rhinocerossen.
 
@@ -5380,7 +5420,7 @@ Az.   Camb.
 
 <pb n=621 id=pb621>
 <p><figure id=fig321>
-<head>Fig. 321. De gorilla uit het museüm van Parijs, ééne maand vóór zijnen dood.</head>
+<head>Fig. 321. De gorilla uit het <corr sic="museüm">museum</corr> van Parijs, ééne maand vóór zijnen dood.</head>
 </figure>
 
 
@@ -5412,29 +5452,32 @@ Az.   Camb.
 
 <p>De hersenen nemen toe met den arbeid en de inspanning, waarvan zij de zetel zijn. Het gewicht kan voor eenen volwassen Europeaan afwisselen tusschen 1000 en 2000 gram. Men heeft zelfs gewichten gevonden boven en beneden die grenzen, doch dan alleen bij ziektegevallen.
 
-<p>Bij den Europeaan is het gewicht dus ongeveer 1/40 van het lichaam.
+<p>Bij den Europeaan is het gewicht dus ongeveer &frac1-40; van het lichaam.
 
 <p>Het gewicht vermindert naarmate men met minder ontwikkelde volksstammen te doen heeft, zooals de volgende tabel aanwijst:
 
 
-<table id=t10 rend="width(400px)">
+<table id=t10>
+<column><column rend="align(right)"><column>
 <row role=label><cell>               <cell>Grammen. <cell>Verhouding tot het lichaamsgewicht.
 
-<row><cell>Gemiddeld gewicht bij den Europeaan   <cell>1405      <cell>1/40
-<row><cell><ditto>Gemiddeld gewicht bij den</ditto> Mesties     <cell>1334      <cell>1/52
-<row><cell><ditto>Gemiddeld gewicht bij den</ditto> neger       <cell>1300      <cell>1/55
-<row><cell><ditto>Gemiddeld gewicht bij den</ditto> Australiër  <cell>1000      <cell>1/70
-<row><cell>Bij den gorilla zijn die getallen     <cell> 475      <cell>1/143
+<row><cell><seg id=segGGBD>Gemiddeld gewicht bij den</seg> Europeaan <cell>1405 <cell>&frac1-40;
+<row><cell><seg copyOf=segGGBD>,, ,, ,, ,,</seg> Mesties             <cell>1334 <cell>&frac1-52;
+<row><cell><seg copyOf=segGGBD>,, ,, ,, ,,</seg> neger               <cell>1300 <cell>&frac1-55;
+<row><cell><seg copyOf=segGGBD>,, ,, ,, ,,</seg> Australiër          <cell>1000 <cell>&frac1-70;
+<row><cell>Bij den gorilla zijn die getallen                         <cell> 475 <cell>&frac1-143;
 </table>
 
 <p>De verhouding van het gewicht der hersenen en het gewicht van het lichaam is bij de:
 
 
-<table id=t11 rend="width(300px)">
-    <row><cell>Honden      <cell>1/242
-    <row><cell>Olifanten   <cell>1/300
-    <row><cell>Paarden     <cell>1/633
-    <row><cell>Ossen       <cell>1/700
+<table id=t11>
+<column><column rend="align(right)">
+
+<row><cell>Honden      <cell>&frac1-242;
+<row><cell>Olifanten   <cell>&frac1-300;
+<row><cell>Paarden     <cell>&frac1-633;
+<row><cell>Ossen       <cell>&frac1-700;
 </table>
 
 
@@ -5557,7 +5600,7 @@ Az.   Camb.
 
 <p>Ieder der drie groote anthropoïde apen komt dus in enkele eigenschappen met den mensch overeen, geen enkele echter vereenigt al die eigenschappen in zich. Zoo kan men van de laagste menschenrassen niet beweren, (zelfs niet van de Bosjesmannen) dat zij van eenen anthropoïden aap afstammen; zij naderen daartoe alleen door enkele eigenschappen. De mensch, mogen wij dus aannemen, stamt niet af van ééne der <hi>tegenwoordig bestaande</hi> anthropoïde apensoorten, hij is als het ware de neef van den anthropoïden aap; de gemeenschappelijke stamvader behoort tot een ander tijdperk<note n=1>Wij zagen vroeger, dat de embryologie leert, dat de mensch en de zoogdieren in den moederschoot alle phasen doorloopen, die bij de ontwikkeling der soorten doorloopen zijn, en dat ieder onzer eenige dagen kruipend dier, viervoetig dier enz. geweest is. Wij zagen tevens, dat de afgestorven organen nog in ons lichaam voorkomen, als getuigen uit het verledene. Langen tijd heeft men er over getwist, of de menschelijke vrucht eenigen tijd eenen staart bezit, met wervels als die der apen en viervoetige dieren. Die vraag is onlangs voor goed opgelost. In de zitting der <foreign lang=fr>Académie des Sciences</foreign> van 8 Juni 1885 heeft de Heer Fol bewezen, dat de menschelijke vrucht van 5&frac12; millimeter, d.i. van 25 dagen, 32 wervels bezit; die van 9 tot 10 millimeters, d.i. van 35 tot 40 dagen, 38 wervels. Het menschelijke geraamte heeft er slechts 24. Die staartaanhangsels blijven slechts kort. Bij vruchten van 12 millimeters, d.i. van zes weken, vergroeien de 38<hi rend=sup>ste</hi>, 37<hi rend=sup>ste</hi> en 36<hi rend=sup>ste</hi> te zamen, terwijl de 35<hi rend=sup>ste</hi> niet meer scherp gescheiden is. Eene vrucht van 19 millimeters heeft nog slechts 34 wervels. Hieruit volgt, dat de normale vrucht in de 5<hi rend=sup>de</hi> en 6<hi rend=sup>de</hi> week harer ontwikkeling eenen staart heeft van kegelvormige gedaante, uit wervels bestaande en van het lichaam gescheiden.</note>.
 
-<p>De Amerikaansche apen verschillen van die van Afrika, <pb n=640 id=pb640>Azië en Europa hierin, dat zij eenen platten neus hebben, zoodat de neusgaten zijdelings geplaatst zijn; zij heeten daarom ook Platyrrhinae (platneuzen). De apen der oude wereld daarentegen (orang-oetans, gorilla&apos;s, chimpansee&apos;s<corr>)</corr>, hebben een smal tusschenschot in den neus en de neusgaten naar beneden gericht, en heeten daarom Catarrhinae. De laatste hebben bovendien hetzelfde aantal tanden als de mensen; aan iedere kaak heeft men vier snijtanden, 2 hoektanden en tien kiezen, in het geheel dus 32 tanden, terwijl de Amerikaansche apen er 36 hebben, en wel vier kiezen meer. Hieruit volgt, dat er oudtijds in de afstamming der apen eene scheiding heeft plaats gehad, en dat de mensch afstamt van de apen der oude wereld. <hi>Maar geen der tegenwoordige apen kan als onze stamvader beschouwd worden. Reeds lang zijn de aapachtige voorouders van den mensch verdwenen.</hi> Misschien is de dryopithecus, waarvan Gaudry beweert, dat hij in staat was, vuursteenen te slijpen, nauw aan dien voorvader verwant, wiens heerschappij dagteekent van voor meer dan honderdduizend jaren.
+<p>De Amerikaansche apen verschillen van die van Afrika, <pb n=640 id=pb640>Azië en Europa hierin, dat zij eenen platten neus hebben, zoodat de neusgaten zijdelings geplaatst zijn; zij heeten daarom ook Platyrrhinae (platneuzen). De apen der oude wereld daarentegen (orang-oetans, gorilla&apos;s, chimpansee&apos;s<corr>)</corr>, hebben een smal tusschenschot in den neus en de neusgaten naar beneden gericht, en heeten daarom Catarrhinae. De laatste hebben bovendien hetzelfde aantal tanden als de mensch; aan iedere kaak heeft men vier snijtanden, 2 hoektanden en tien kiezen, in het geheel dus 32 tanden, terwijl de Amerikaansche apen er 36 hebben, en wel vier kiezen meer. Hieruit volgt, dat er oudtijds in de afstamming der apen eene scheiding heeft plaats gehad, en dat de mensch afstamt van de apen der oude wereld. <hi>Maar geen der tegenwoordige apen kan als onze stamvader beschouwd worden. Reeds lang zijn de aapachtige voorouders van den mensch verdwenen.</hi> Misschien is de dryopithecus, waarvan Gaudry beweert, dat hij in staat was, vuursteenen te slijpen, nauw aan dien voorvader verwant, wiens heerschappij dagteekent van voor meer dan honderdduizend jaren.
 
 <p>De mensch is dus het laatste voortbrengsel van het leven op aarde, de top van den stamboom van het dierenrijk, de jongste en volmaaktste der zoogdieren, in één woord, een verbeterde en gewijzigde aap.
 
@@ -5587,7 +5630,7 @@ Az.   Camb.
 
 <p>Doch eerst in 1861 werd het vraagstuk met volkomen zekerheid opgelost door de wegruiming van het puin van de grot van Aurignac, door Lartet. Daar was verdere twijfel onmogelijk. Die grot was op het oogenblik der ontdekking gesloten door eenen van eenen grooten afstand aangebrachten steen. Lartet vond in die grot de beenderen van acht diersoorten, tot de quaternaire periode behoorende. Eenige van die dieren waren daar opgegeten; hunne gedeeltelijk verkoolde beenderen droegen nog de sporen van het vuur, waarvan men nog de kolen en de asch terugvond; de beenderen van eenen jongen rhinoceros tichorinus vertoonden inkervingen, gemaakt met vuursteenen werktuigen, en waren afgekloven door hyena&apos;s, waarvan men de sporen terugvond<corr>.</corr> De ligging van de grot maakte het onmogelijk, dat er door het diluvium <pb n=645 id=pb645>iets daarheen gevoerd was. Hieruit volgt dus, dat de oorspronkelijke mensch geleefd moet hebben tegelijk met de quaternaire dierenwereld, en dat hij zelfs rhinocerossen als voedsel gebruikte, en door de hyena uit dat tijdperk gevolgd werd, die zich aan de overblijfselen van den maaltijd te goed deed. Het gelijktijdig bestaan van den mensch en die fossiele dieren was daardoor bewezen.
 
-<p>Het volgende jaar werden die feiten door eene belangrijke ontdekking bevestigd. Den 28<hi rend=sup>sten</hi> Maart 1862 had Boucher de Perthes het geluk, dat hij zelf, in het grijze diluvium van de Somme-vallei eene menschelijke kaak opgroef, die wel niet volkomen was, maar toch ontegenzeggelijk toebehoorde aan den quaternairen mensen.
+<p>Het volgende jaar werden die feiten door eene belangrijke ontdekking bevestigd. Den 28<hi rend=sup>sten</hi> Maart 1862 had Boucher de Perthes het geluk, dat hij zelf, in het grijze diluvium van de Somme-vallei eene menschelijke kaak opgroef, die wel niet volkomen was, maar toch ontegenzeggelijk toebehoorde aan den quaternairen mensch.
 
 <p>Doch nog belangrijker feiten kwamen aan het licht. In 1868 werd in de Académie des Sciences eene kaak van eenen rhinoceros uit de miocene periode vertoond, waarop, zooals men zeide, eene door den mensch gedane inkerving zichtbaar was. Zoo ook heeft men in de miocene formatie van Maine-et-Loire eene rib van een halotherium gevonden evenzeer met insnijdingen door menschenhanden verricht<corr sic=":">.</corr> Hetzelfde is het geval met beenderen te Pikermi gevonden. Men zou kunnen beweren, dat die inkervingen verricht zijn door roofdieren of zelfs eenvoudig door wrijving zijn ontstaan; de abbé Bourgeois echter, een bekwaam onderzoeker, in 1878 gestorven, heeft in de miocene formatie van Loir-et-Cher vuursteenen gevonden, die zouden moeten geslepen zijn door een wezen, dat in verstand hooger ontwikkeld was dan de tegenwoordige dieren.
 
@@ -5597,11 +5640,11 @@ Az.   Camb.
 
 <p>Bovendien is het bijna onmogelijk, dat de mensch reeds in die periode zou bestaan hebben. Op welk standpunt men zich ook plaatse, de mensch kan alleen optreden aan de spits der organische wereld, nadat het planten- en dierenrijk tot volle ontwikkeling is gekomen. In de miocene periode was die ontwikkeling nog lang niet volledig genoeg, om de verschijning van den mensch in dien tijd niet als een <hi>anachronisme</hi> te beschouwen; dit is op zichzelf voldoende, om de meening te verwerpen, als zoude de mensch in de miocene periode verschenen zijn.
 
-<p>Dat de mensch reeds bestaan heeft in het begin der quaternaire periode, en zelfs op het einde der tertiaire periode, is echter niet twijfelachtig. De verandering van den aap, waaraan wij ons bestaan te danken hebben, dagteekent hoogstwaarschijnlijk van <hi>de pliocene periode</hi>. Het zou ons te ver voeren, indien wij alle ontdekkingen vermeldden, zoowel van fossiele overblijfselen van menschen als van geslepen vuursteenen of van voorwerpen, door den oorspronkelijken mensch vervaardigd. In het museüm te Brussel zijn niet minder dan 80000 door menschenhanden geslepen vuursteenen en 40000 beenderen van dieren voorhanden, die gelijktijdig met den oorspronkelijken mensch geleefd hebben. Men heeft <pb n=647 id=pb647>reeds de opvolging dier verdwenen menschenrassen kunnen bepalen; enkele waren tijdgenooten van den holenbeer, andere van den mammouth, nog andere van het rendier, weer andere van den aueros. De merkwaardige fossiele mensch, in 1872 te Mentone gevonden, schijnt uit den tijd van het rendier te dagteekenen. Nog in het jaar 1884 zijn op diezelfde plaats belangrijke opgravingen gedaan.
+<p>Dat de mensch reeds bestaan heeft in het begin der quaternaire periode, en zelfs op het einde der tertiaire periode, is echter niet twijfelachtig. De verandering van den aap, waaraan wij ons bestaan te danken hebben, dagteekent hoogstwaarschijnlijk van <hi>de pliocene periode</hi>. Het zou ons te ver voeren, indien wij alle ontdekkingen vermeldden, zoowel van fossiele overblijfselen van menschen als van geslepen vuursteenen of van voorwerpen, door den oorspronkelijken mensch vervaardigd. In het <corr sic="museüm">museum</corr> te Brussel zijn niet minder dan 80000 door menschenhanden geslepen vuursteenen en 40000 beenderen van dieren voorhanden, die gelijktijdig met den oorspronkelijken mensch geleefd hebben. Men heeft <pb n=647 id=pb647>reeds de opvolging dier verdwenen menschenrassen kunnen bepalen; enkele waren tijdgenooten van den holenbeer, andere van den mammouth, nog andere van het rendier, weer andere van den aueros. De merkwaardige fossiele mensch, in 1872 te Mentone gevonden, schijnt uit den tijd van het rendier te dagteekenen. Nog in het jaar 1884 zijn op diezelfde plaats belangrijke opgravingen gedaan.
 
 
 <p><figure id=fig327>
-<head>Fig. 327. De fossiele mensch, in 1872 in een hol te Mentone gevonden, thans aanwezig in het museüm te Parijs.</head>
+<head>Fig. 327. De fossiele mensch, in 1872 in een hol te Mentone gevonden, thans aanwezig in het <corr sic="museüm">museum</corr> te Parijs.</head>
 </figure>
 
 
@@ -5677,7 +5720,7 @@ Az.   Camb.
 
 <p>Men kan den tijd van het verschijnen van den mensch niet nauwkeurig bepalen, daar dat verschijnen niet plotseling heeft plaats gegrepen en de mensch eerst <hi>trapsgewijze</hi> ontstaan is. Evenmin kan men nauwkeurig de plaats bepalen, waar hij voor het eerst is opgetreden. Toch heeft men reden te onderstellen, dat de oorspronkelijke mensch, die reeds een spoor van eene taal bezat, die reeds in groepen vereenigd leefde, en die reeds steenen gereedschappen kon vervaardigen, en op horen teekenen kon, meer dan <hi>honderdduizend</hi> jaren oud is, en in Azië, in de nabijheid der Perzische golf leefde, van waar hij zich over de aarde verspreid heeft.
 
-<p>De geestelijke karaktertrek, die den mensch kenmerkt, is zijn vermogen om <hi>afgetrokken begrippen te vormen</hi>. Neem dat vermogen weg, en de mensch valt weder in den dierlijken toestand terug. Doch dat vermogen is nog betrekkelijk jong, en wij kunnen de verschillende phrasen van de ontwikkeling van dat vermogen volgen. De wiskunde wordt b.v. terecht beschouwd als de schoonste openbaring van den menschelijken geest, vooral in hare toepassing op de diepzinnigste vraagstukken der sterrenkunde; het is niet moeilijk hare ontwikkeling na te gaan. Men is begonnen met het gewone tellen tot tien, op de vingers der hand: dit is de oorsprong van het tientallig stelsel. Voor lengtematen heeft men den voet, den elleboog, de schrede genomen, voor dieptemetingen den vadem; al die afmetingen zijn aan het menschelijke lichaam ontleend. In het wigvormig schrift der Chaldeën worden de getallen eenvoudig voorgesteld door gaten. Bij de Grieken zijn de cijfers niets anders dan de letters van het alphabet met een accent er boven: <GR>a</GR>&prime; = 1, <GR>b</GR>&prime; = 2, enz. tot 20; grootere getallen worden voorgesteld door verbindingen van letters. De meetkunde is begonnen met landmeetkunde en bouwkunde. De eigenlijke wiskunde dagteekent waarschijnlijk eerst van Thales en Pythogoras, in de zesde eeuw vóór Christus, als uitbreiding <pb n=660 id=pb660>der rekenkunde en meetkunde van de Egyptenaren. De meetkunde, als wetenschap, als verzameling van onwederlegbare stellingen, dagteekent eerst van Euclides en Archimedes; de kennis der kegelsneden dagteekent eerst van Apollonius, de algebra is begonnen met Diophantes, de sterrenkunde met Hipparchus en Ptolemaeus, de kennis van den bouw van het zonnestelsel met Copernicus, de kennis van de beweging der hemellichamen met Kepler, en van de wetten dier beweging met Newton; de natuurkundige sterrenkunde is door Galileï gegrondvest door de uitvinding van den verrekijker, de toepassing van de algebra op de meetkunde door Descartes, de logarithmen door Neper, de differentiaal-rekening door Leibnitz, de integraal-rekening door Euler en Bernouilli; de toepassing dier wetenschappen op de sterrenkunde is de vrucht van de studie van Lambert, d&apos;Alembert, Lagrange, Laplace, Gauss en anderen. Dat alles dagteekent eerst van gisteren. Zoo ziet men, hoe men stap voor stap de ontwikkeling van den menschelijken geest volgen kan. Wat wij zooeven gezegd hebben van de wis- en sterrenkunde, geldt evenzeer voor de natuurkunde, de scheikunde, in één woord, voor alle kunsten en wetenschappen, voor alle werken des geestes. Wel is niet altijd de vooruitgang even duidelijk, wel is, zooals b.v. bij de beeldhouwkunst en de schilderkunst, somtijds in tweeduizend jaren geene ontwikkeling te bespeuren; doch men vergete niet, dat tweeduizend jaren slechts een dag zijn in de geschiedenis der aarde. Voor hem, die tot den oorsprong weet op te klimmen, en die zich niet door vooroordeelen laat leiden, is het duidelijk, hoe alles, wat thans den mensen zijne groote waarde geeft, geleidelijk in den loop der eeuwen door voortdurende inspanning verworven is. Zelfs in de nieuwste wetenschappen, in de nieuwste ontdekkingen, in de scherpzinnigste toepassingen, schept de grootste reuzengeest niets nieuws: hij maakt gebruik van de gegevens, hem door de wetenschap verschaft, om haar een stap verder te brengen. Dat is steeds de gang der ontwikkeling geweest.
+<p>De geestelijke karaktertrek, die den mensch kenmerkt, is zijn vermogen om <hi>afgetrokken begrippen te vormen</hi>. Neem dat vermogen weg, en de mensch valt weder in den dierlijken toestand terug. Doch dat vermogen is nog betrekkelijk jong, en wij kunnen de verschillende phrasen van de ontwikkeling van dat vermogen volgen. De wiskunde wordt b.v. terecht beschouwd als de schoonste openbaring van den menschelijken geest, vooral in hare toepassing op de diepzinnigste vraagstukken der sterrenkunde; het is niet moeilijk hare ontwikkeling na te gaan. Men is begonnen met het gewone tellen tot tien, op de vingers der hand: dit is de oorsprong van het tientallig stelsel. Voor lengtematen heeft men den voet, den elleboog, de schrede genomen, voor dieptemetingen den vadem; al die afmetingen zijn aan het menschelijke lichaam ontleend. In het wigvormig schrift der Chaldeën worden de getallen eenvoudig voorgesteld door gaten. Bij de Grieken zijn de cijfers niets anders dan de letters van het alphabet met een accent er boven: &alpha;&prime; = 1, &beta;&prime; = 2, enz. tot 20; grootere getallen worden voorgesteld door verbindingen van letters. De meetkunde is begonnen met landmeetkunde en bouwkunde. De eigenlijke wiskunde dagteekent waarschijnlijk eerst van Thales en Pythogoras, in de zesde eeuw vóór Christus, als uitbreiding <pb n=660 id=pb660>der rekenkunde en meetkunde van de Egyptenaren. De meetkunde, als wetenschap, als verzameling van onwederlegbare stellingen, dagteekent eerst van Euclides en Archimedes; de kennis der kegelsneden dagteekent eerst van Apollonius, de algebra is begonnen met Diophantes, de sterrenkunde met Hipparchus en Ptolemaeus, de kennis van den bouw van het zonnestelsel met Copernicus, de kennis van de beweging der hemellichamen met Kepler, en van de wetten dier beweging met Newton; de natuurkundige sterrenkunde is door Galileï gegrondvest door de uitvinding van den verrekijker, de toepassing van de algebra op de meetkunde door Descartes, de logarithmen door Neper, de differentiaal-rekening door Leibnitz, de integraal-rekening door Euler en Bernouilli; de toepassing dier wetenschappen op de sterrenkunde is de vrucht van de studie van Lambert, d&apos;Alembert, Lagrange, Laplace, Gauss en anderen. Dat alles dagteekent eerst van gisteren. Zoo ziet men, hoe men stap voor stap de ontwikkeling van den menschelijken geest volgen kan. Wat wij zooeven gezegd hebben van de wis- en sterrenkunde, geldt evenzeer voor de natuurkunde, de scheikunde, in één woord, voor alle kunsten en wetenschappen, voor alle werken des geestes. Wel is niet altijd de vooruitgang even duidelijk, wel is, zooals b.v. bij de beeldhouwkunst en de schilderkunst, somtijds in tweeduizend jaren geene ontwikkeling te bespeuren; doch men vergete niet, dat tweeduizend jaren slechts een dag zijn in de geschiedenis der aarde. Voor hem, die tot den oorsprong weet op te klimmen, en die zich niet door vooroordeelen laat leiden, is het duidelijk, hoe alles, wat thans den mensch zijne groote waarde geeft, geleidelijk in den loop der eeuwen door voortdurende inspanning verworven is. Zelfs in de nieuwste wetenschappen, in de nieuwste ontdekkingen, in de scherpzinnigste toepassingen, schept de grootste reuzengeest niets nieuws: hij maakt gebruik van de gegevens, hem door de wetenschap verschaft, om haar een stap verder te brengen. Dat is steeds de gang der ontwikkeling geweest.
 
 
 <pb n=661 id=pb661><p><figure id=fig332>
@@ -5685,7 +5728,7 @@ Az.   Camb.
 </figure>
 
 
-<pb n=662 id=pb662><p>Wel is de tegenwoordige menschheid nog niet volmaakt. Nog is de eeuw der rede niet aangebroken. Zoolang nog de kracht het recht beheerscht; zoolang nog staande legers noodig schijnen te zijn; zoolang er nog armoede en onwetendheid, diefstal en moord bestaat, zóólang kunnen wij ons nog niet beroemen op den naam van een verstandig ras. Doch de geleidelijke vooruitgang in het verleden is een waarborg voor de toekomst; de wereld gaat vooruit. Kunsten en wetenschappen, goede smaak, letterkunde en zedelijkheid, alles verheft zich. Het gevoel voor het goede en ware ontwikkelt zich; deugd en kennis veredelen en reinigen den mensen. Met vertrouwen mogen wij de toekomst tegemoet gaan. Want de menschheid, bevrijd uit de knellende banden van haren dierlijken oorsprong, beheerscht de wereld in haar streven naar voortdurende ontwikkeling.
+<pb n=662 id=pb662><p>Wel is de tegenwoordige menschheid nog niet volmaakt. Nog is de eeuw der rede niet aangebroken. Zoolang nog de kracht het recht beheerscht; zoolang nog staande legers noodig schijnen te zijn; zoolang er nog armoede en onwetendheid, diefstal en moord bestaat, zóólang kunnen wij ons nog niet beroemen op den naam van een verstandig ras. Doch de geleidelijke vooruitgang in het verleden is een waarborg voor de toekomst; de wereld gaat vooruit. Kunsten en wetenschappen, goede smaak, letterkunde en zedelijkheid, alles verheft zich. Het gevoel voor het goede en ware ontwikkelt zich; deugd en kennis veredelen en reinigen den mensch. Met vertrouwen mogen wij de toekomst tegemoet gaan. Want de menschheid, bevrijd uit de knellende banden van haren dierlijken oorsprong, beheerscht de wereld in haar streven naar voortdurende ontwikkeling.
 
 <p>Zoo zal dan een volgend menschengeslacht, steunende op de onderzoekingen van voorgaande eeuwen, weer nieuwe feiten verzamelen, nieuwe ontdekkingen doen, nieuwe gezichtspunten openen; totdat na verloop van honderden en honderden eeuwen een hooger ontwikkeld, een beter en reiner menschengeslacht onze plaats zal innemen.
 
