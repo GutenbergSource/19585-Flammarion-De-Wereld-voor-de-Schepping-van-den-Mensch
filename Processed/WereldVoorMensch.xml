@@ -8,7 +8,7 @@
 
  </p><p>In een aantal gevallen waren de kopjes bij figuren voor meer dan een figuur samengenomen. Dit is in deze editie ongedaan gemaakt.
 
- </p></encodingDesc><profileDesc><langUsage lang="nl" xml:lang="nl"><language id="grc">Grieks</language><language id="grc-Latn">Grieks (Transcriptie)</language><language id="en">Engels</language><language id="fr">Frans</language><language id="la">Latijn</language><language id="nl">Nederlands</language><language id="nl-1900">Nederlands (Spelling De Vries-Te Winkel)</language></langUsage><textClass><keywords><list><item>Paleontology</item><item>Human beings - Origin</item><item>Earth</item></list></keywords></textClass></profileDesc><revisionDesc><list><item>2006-09-01 Begonnen.     </item><item>2010-06-18 Aanpassingen voor ePub.     </item><item>2013-09-04 Fix tabel 4, en vermeld oorspronkelijk jaar van uitgave in Colofon. </item></list></revisionDesc></teiHeader><text rend="stylesheet(style/classic.css, style/garamond.css)"><front id="frontmatter"><div1 id="cover" type="Cover"><p><figure id="cover-image" rend="image(images/cover.jpg)"><figDesc>Oorspronkelijke voorkant.</figDesc></figure>
+ </p></encodingDesc><profileDesc><langUsage lang="nl" xml:lang="nl"><language id="grc">Grieks</language><language id="grc-Latn">Grieks (Transcriptie)</language><language id="en">Engels</language><language id="fr">Frans</language><language id="la">Latijn</language><language id="nl">Nederlands</language><language id="nl-1900">Nederlands (Spelling De Vries-Te Winkel)</language></langUsage><textClass><keywords><list><item>Paleontology</item><item>Human beings - Origin</item><item>Earth</item></list></keywords></textClass></profileDesc><revisionDesc><list><item>2006-09-01 Begonnen.     </item><item>2010-06-18 Aanpassingen voor ePub.     </item><item>2013-09-04 Fix tabel 4, en vermeld oorspronkelijk jaar van uitgave in Colofon.     </item><item>2025-05-19 Hogere resolutie afbeeldingen plus scan van titelpagina. </item></list></revisionDesc></teiHeader><text rend="stylesheet(style/classic.css, style/garamond.css)"><front id="frontmatter"><div1 id="cover" type="Cover"><p><figure id="cover-image" rend="image(images/cover.jpg)"><figDesc>Oorspronkelijke voorkant.</figDesc></figure>
 
 
 
@@ -16,7 +16,13 @@
 
 
 
- <pb/> </p></div1><titlePage><docTitle><titlePart type="main">DE WERELD
+ <pb/> </p></div1><div1 id="titlepage" type="TitlePage"><p><figure id="titlepage-image" rend="image(images/titlepage.png)"><figDesc>Oorspronkelijke titelpagina.</figDesc></figure>
+
+
+
+
+
+ </p></div1><titlePage><docTitle><titlePart type="main">DE WERELD
 
  <lb/>V&#211;&#211;R DE SCHEPPING VAN DEN MENSCH.</titlePart></docTitle><byline>NAAR <docAuthor>FLAMMARION</docAuthor>
 
@@ -3369,7 +3375,7 @@
 
  </p><p>Dat krijt met micrasters is het hoofdbestanddeel der rotsen van Dieppe.
 
- </p><p>Al die krijtlagen vormen in het bekken van Parijs, om de tertiaire lagen, die in het middelpunt gelegen zijn, eene uitgestrekte, golvende, hoefijzervormige vlakte, waarvan de beide beenen op de Normandische kust uitkomen, het &#233;&#233;ne tusschen Dieppe en Tr&#233;port, het andere tusschen Boulogne en Calais. Die twee krijtstrooken zetten zich door het Kanaal voort, en komen weer op de Engelsche kust voor den dag, waar zij de witte krijtrotsen vormen, aan weerszijden van Dover. Engeland draagt daarom den naam van Albion. Het krijt wordt daar ook gevonden rondom de tertiaire lagen, waarop Londen gelegen is, en vormt daar eene heuvelenrij, die den naam van Downs draagt. Al die streken, Orleans, Parijs, Dieppe, Londen, waren dus in dien tijd onder water bedolven. In de omstreken van Parijs, te Meudon, vindt men, boven het witte krijt, eene gele kalksteen, bestaande uit kleine, ronde korrels en overblijfselen van fossielen, bekend onder den naam van pisolithische steen; die steen, die het bovenste bezinksel is der krijtperiode, bevat een mengsel van stoffen uit de krijtformatie en de tertiaire formatie. Men vindt daar onder andere, ananchiten<note id="n452.1" n="1">Soorten van zee&#235;gels.</note>, cerithiden<note n="1" sameAs="n452.1"/>, die vergeleken kunnen worden met het cerithium<note n="1" sameAs="n452.1"/> gigant&#235;um, <pb id="pb453" n="453"/>dat in de Parijsche tertiaire formatie in groote hoeveelheden voorkomt.
+ </p><p>Al die krijtlagen vormen in het bekken van Parijs, om de tertiaire lagen, die in het middelpunt gelegen zijn, eene uitgestrekte, golvende, hoefijzervormige vlakte, waarvan de beide beenen op de Normandische kust uitkomen, het &#233;&#233;ne tusschen Dieppe en Tr&#233;port, het andere tusschen Boulogne en Calais. Die twee krijtstrooken zetten zich door het Kanaal voort, en komen weer op de Engelsche kust voor den dag, waar zij de witte krijtrotsen vormen, aan weerszijden van Dover. Engeland draagt daarom den naam van Albion. Het krijt wordt daar ook gevonden rondom de tertiaire lagen, waarop Londen gelegen is, en vormt daar eene heuvelenrij, die den naam van Downs draagt. Al die streken, Orleans, Parijs, Dieppe, Londen, waren dus in dien tijd onder water bedolven. In de omstreken van Parijs, te Meudon, vindt men, boven het witte krijt, eene gele kalksteen, bestaande uit kleine, ronde korrels en overblijfselen van fossielen, bekend onder den naam van pisolithische steen; die steen, die het bovenste bezinksel is der krijtperiode, bevat een mengsel van stoffen uit de krijtformatie en de tertiaire formatie. Men vindt daar onder andere, ananchiten<note id="n452.1" n="1">Soorten van zee&#235;gels.</note>, cerithiden<note sameAs="n452.1" n="1"/>, die vergeleken kunnen worden met het cerithium<note sameAs="n452.1" n="1"/> gigant&#235;um, <pb id="pb453" n="453"/>dat in de Parijsche tertiaire formatie in groote hoeveelheden voorkomt.
 
  </p><p>Men vindt diezelfde formatie in losse brokken tegen het krijt aan op verschillende punten van de omstreken van Parijs. Zij heeft duidelijk het karakter eener kustformatie, en wijst door hare verdeeling op eene belangrijke verandering, die heeft plaats gehad in den toestand van het Parijsche bekken, dat eerst door de zee bedekt was. Die zee, van het noorden komende, is geleidelijk teruggeweken, zoodat al die krijtmassa&#8217;s, die wij besproken hebben, bij het terugwijken de &#233;&#233;ne op de andere is afgezet. Na het afzetten der pisolithische kalksteen, die slechts over eene kleine uitgestrektheid beperkt is, was het geheele noordelijke deel van Frankrijk boven water gekomen.
 

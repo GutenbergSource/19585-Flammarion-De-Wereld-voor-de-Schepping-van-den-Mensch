@@ -105,6 +105,7 @@
     <item>2006-09-01 Begonnen.
     <item>2010-06-18 Aanpassingen voor ePub.
     <item>2013-09-04 Fix tabel 4, en vermeld oorspronkelijk jaar van uitgave in Colofon.
+    <item>2025-05-19 Hogere resolutie afbeeldingen plus scan van titelpagina.
 </list>
 </revisionDesc>
 </teiHeader>
@@ -130,6 +131,15 @@
 
 
 <pb>
+<div1 id=titlepage type=TitlePage>
+
+
+<p><figure id=titlepage-image rend="image(images/titlepage.png)">
+<figDesc>Oorspronkelijke titelpagina.</figDesc>
+</figure>
+
+
+
 <titlePage>
 <docTitle><titlePart>DE WERELD
 
